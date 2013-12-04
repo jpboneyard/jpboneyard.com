@@ -1,0 +1,267 @@
+/* ## Bring in all Compass Helpers */ 
+@import "partials/base";
+
+/* ## Base CSS */
+// @import "project/type";
+// @import "project/forms";
+// @import "project/tables";
+// @import "project/lists";
+
+/* ## Components */
+// @import "project/buttons";
+// @import "project/dropdowns";
+// @import "project/tabs";
+// @import "project/modals";
+// @import "project/tooltips";
+
+
+  
+/* ============================================= */
+/*	Universal						   			 */ 
+/* ============================================= */
+
+a 		{ 	text-decoration: none; color: inherit; }
+strong	{	font-weight: bold;	}
+em   	{	font-style: italic;	}
+
+h3 {
+	font-size: 30px;
+}
+ 
+/* ============================================= */
+/*	Header							   			 */ 
+/* ============================================= */
+
+header {
+	margin-bottom: 54px;
+}
+
+.hdr-mod {
+	background-color: #fff;
+	height: 55px;
+	width: 100%;
+	padding: 16px 52px;
+	position: fixed;
+	top: 0px;
+}
+
+.nav-logo-txt {
+	display: inline;
+	float: left;
+	font: 600 17px/140%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-indent: -20000px;	
+}
+
+.nav-logo-mod {
+	float: left;
+	img {
+		max-width: 150px;
+		width: 100%;
+	}
+}
+
+.nav-link-mod {
+	float: right;
+	padding-top: 3px;
+}
+
+.nav-link-item {
+	display: inline;
+	margin-right: 15px;
+	font-size: 16px;
+	@include trans;
+
+	a {
+		&:hover { 
+			color: #22ABA1;
+			@include trans;
+		}
+	}
+
+	&:last-child {
+		margin-right: 0px;
+	}
+}
+
+/* ============================================= */
+/*	Featured Project							 */ 
+/* ============================================= */
+
+.feat-project-mod {
+	img {
+		width: 100%;
+	}
+}
+
+/* ============================================= */
+/*	Project Tiles								 */ 
+/* ============================================= */
+
+.projects-mod {
+	padding: 32px 32px;
+	@include pie-clearfix;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FAFBFB;
+
+	@media (min-width: 600px) {
+		padding: 52px 52px;
+	}//mq
+}
+
+
+.grid-item {
+	display: block;
+	position: relative;
+	width: 95%;
+	margin: 0 auto 19px;
+	> a {
+		display: block;
+		}
+	img {
+		width: 100%;
+		}
+}
+
+@media screen and (min-width: 420px) and (max-width: 1000px) {
+	.grid-item {
+		float: left;
+		width: 46%;
+		margin-right: 4%;
+		margin-bottom: 3%;
+	}	
+}
+
+@media screen and (min-width: 1000px) {
+	.grid-item {
+		float: left;
+		width: 31.6%;
+		margin-right: 2.6%;
+		margin-bottom: 2%;
+	}
+
+	.grid-item:nth-child(3n){
+		margin-right: 0px;
+	}
+	
+}
+
+@media screen and (min-width: 1020px) {
+	.grid-item {
+		float: left;
+		width: 31.6%;
+		margin-right: 2.6%;
+	}
+
+	.grid-item:nth-child(3n){
+		margin-right: 0px;
+	}
+}
+
+.grid-item .top {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	@include trans(.7s, opacity);
+}
+
+.grid-item img.top:hover {
+	@include opacity(0);
+	@include trans(.2s, opacity);
+}
+
+
+/* ============================================= */
+/*	Project	Page								 */ 
+/* ============================================= */
+
+.project-page-mod {
+	background-color: #fff;
+	padding: 52px 52px;
+	max-width: 720px;
+	margin: 0 auto;
+
+	img {
+		width: 100%;
+	}
+
+	p {
+		margin-bottom: 22px;
+		font-size: 17px;
+		line-height: 160%;
+	}
+}
+
+
+/* ============================================= */
+/*	Footer										 */ 
+/* ============================================= */
+
+.ftr-lead-mod {
+	background-color: #FAFBFB;
+	padding: 52px;
+	text-align: center;
+}
+
+footer {
+	background-color: #fff;
+	padding-bottom: 50px;
+}
+
+.ftr-logo-mod {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: -40px;
+
+	img {
+		max-width: 92px;
+	}
+}
+
+.social-list {
+	margin: 10px 0px 20px 0px;
+	text-align: center;
+}
+
+.social-item {
+	display: inline;
+	margin-right: 15px;
+	@include opacity(.7);
+	@include trans;
+
+	&:last-child {
+		margin-right: 0px;
+	}//lc
+
+	&:hover {
+		@include trans;
+		@include opacity(1);
+	}//hover
+}//social-item
+
+.social-item-img {
+	max-width: 27px;
+	width: 100%;
+}
+
+.copyright {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 8px;
+	text-align: center;	
+}
+
+/* ============================================= */
+/*	Print Styles							     
+	Inline to avoid required HTTP connection     */
+/* ============================================= */
+
+// Import Print Styles
+@import "project/print";
+
+
+
