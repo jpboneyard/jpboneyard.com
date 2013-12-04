@@ -43,6 +43,7 @@ header {
 	padding: 16px 52px;
 	position: fixed;
 	top: 0px;
+	@include opacity (0.9);
 }
 
 .nav-logo-txt {
@@ -95,6 +96,13 @@ header {
 	}
 }
 
+.feat-inside {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 2%;
+}
+
 /* ============================================= */
 /*	Project Tiles								 */ 
 /* ============================================= */
@@ -102,7 +110,6 @@ header {
 .projects-mod {
 	padding: 32px 32px;
 	@include pie-clearfix;
-	max-width: 1200px;
 	margin: 0 auto;
 	text-align: center;
 	background-color: #FAFBFB;
@@ -112,6 +119,11 @@ header {
 	}//mq
 }
 
+.project-tiles {
+	max-width: 1200px;
+	margin: 0 auto;
+	@include pie-clearfix;
+}
 
 .grid-item {
 	display: block;
@@ -187,6 +199,7 @@ header {
 
 	img {
 		width: 100%;
+		margin-bottom: 25px;
 	}
 
 	p {
@@ -196,16 +209,21 @@ header {
 		font-family: $serif;
 		color: #555;
 		font-weight: 400;
+
+		&:last-child {
+			margin-bottom: 0px;
+		}
 	}
 
 	h3 {
-		margin-bottom: 22px;
+		margin-bottom: 25px;
 		font-size: 26px;
 		line-height: 180%;
 		font-family: $sans-title;
 		color: #222;
 		font-weight: 700;
 	}
+
 }
 
 

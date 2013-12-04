@@ -380,6 +380,8 @@ header {
   padding: 16px 52px;
   position: fixed;
   top: 0px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
 }
 
 .nav-logo-txt {
@@ -431,13 +433,19 @@ header {
   width: 100%;
 }
 
+.feat-inside {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
 /* ============================================= */
 /*	Project Tiles								 */
 /* ============================================= */
 .projects-mod {
   padding: 32px 32px;
   *zoom: 1;
-  max-width: 1200px;
   margin: 0 auto;
   text-align: center;
   background-color: #FAFBFB;
@@ -451,6 +459,17 @@ header {
   .projects-mod {
     padding: 52px 52px;
   }
+}
+
+.project-tiles {
+  max-width: 1200px;
+  margin: 0 auto;
+  *zoom: 1;
+}
+.project-tiles:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .grid-item {
@@ -528,6 +547,7 @@ header {
 }
 .project-page-mod img {
   width: 100%;
+  margin-bottom: 25px;
 }
 .project-page-mod p {
   margin-bottom: 22px;
@@ -537,8 +557,11 @@ header {
   color: #555;
   font-weight: 400;
 }
+.project-page-mod p:last-child {
+  margin-bottom: 0px;
+}
 .project-page-mod h3 {
-  margin-bottom: 22px;
+  margin-bottom: 25px;
   font-size: 26px;
   line-height: 180%;
   font-family: "Montserrat", sans-serif;
