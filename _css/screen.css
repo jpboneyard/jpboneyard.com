@@ -531,8 +531,11 @@ header {
 }
 .project-page-mod p {
   margin-bottom: 22px;
-  font-size: 17px;
-  line-height: 160%;
+  font-size: 19px;
+  line-height: 180%;
+  font-family: "schoolbook-web", Georgia, Times, Times New Roman, serif;
+  color: #555;
+  font-weight: 400;
 }
 
 /* ============================================= */
