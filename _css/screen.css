@@ -366,11 +366,18 @@ h3 {
   font-size: 30px;
 }
 
+h4 {
+  font: 400 22px/140% "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 .overline {
   text-transform: uppercase;
   letter-spacing: 3px;
   font: 400 11px/130% "Montserrat", sans-serif;
   color: #22aba1;
+  margin-bottom: 8px;
 }
 
 /* ============================================= */
@@ -526,12 +533,13 @@ header {
 .tile-detail-mod {
   position: absolute;
   bottom: 0px;
-  padding: 4%;
+  padding: 17% 5%;
   /*	background-color: #66A6AE;*/
   background-color: #fff;
   *zoom: 1;
   width: 100%;
-  height: 25%;
+  /*height: 25%;*/
+  height: 100%;
   -webkit-transition: opacity 0.7s ease-in;
   -moz-transition: opacity 0.7s ease-in;
   -o-transition: opacity 0.7s ease-in;
