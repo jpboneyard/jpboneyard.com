@@ -39,9 +39,9 @@
 		<header>
 			<div class="hdr-mod">
 				<div class="nav-logo-mod">
-					<a href="index.html"><img src="_img/nav-logo-2.png"/></a>
+					<a href="index.php"><img src="_img/nav-logo-2.png"/></a>
 				</div> <!-- /nav-logo-mod -->	
-				<h1><a class="nav-logo-txt" href="index.html">JP Boneyard</a></h1>
+				<h1><a class="nav-logo-txt" href="index.php">JP Boneyard</a></h1>
 				<ul class="nav-link-mod">
 					<li class="nav-link-item"><a href="/about">About</a></li>
 					<li class="nav-link-item"><a href="/">Shop</a>
@@ -70,23 +70,23 @@
 					</div><!-- ./grid-1 -->
 					
 					<div class="grid-2 grid-item media-block">
-						<a href="/thankyou"> <img class="bottom" src="/_img/tiles/lululemon.jpg" alt="lululemon"/></a>
-						<div class="tile-detail-mod">
+						<img class="bottom" src="/_img/tiles/lululemon.jpg" alt="lululemon"/>
+						<a href="/thankyou"><div class="tile-detail-mod">
 							<div class="tile-details">
 								<div class="overline">Design & Printmaking</div>
 								<h4>LuluLemon</h4>
 							</div><!-- /tile-details -->
-						</div> <!-- /tile-detail-mod -->
+						</div></a> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-2 -->
 					
 					<div class="grid-3 grid-item media-block">
-						<a href="/pmc"> <img class="bottom" src="/_img/tiles/upstatement.jpg" alt="upstatement"/></a>
-						<div class="tile-detail-mod">
+						<img class="bottom" src="/_img/tiles/upstatement.jpg" alt="upstatement"/></a>
+						<a href="/pmc"> <div class="tile-detail-mod">
 							<div class="tile-details">
 								<div class="overline">Design & Code</div>
 								<h4>Upstatement</h4>
 							</div><!-- /tile-details -->
-						</div> <!-- /tile-detail-mod -->
+						</div></a> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-3 -->
 
 					 <!-- grid 4-6 --> 
@@ -101,13 +101,13 @@
 					</div><!-- ./grid-4 -->
 					
 					<div class="grid-5 grid-item media-block">
-						<a href="/letterproject"> <img class="bottom" src="/_img/tiles/letters.jpg" alt="letters"/></a>
-						<div class="tile-detail-mod">
+						<img class="bottom" src="/_img/tiles/letters.jpg" alt="letters"/></a>
+						<a href="/letterproject"><div class="tile-detail-mod">
 							<div class="tile-details">
 								<div class="overline">Design & Printmaking</div>
 								<h4>Letter Project</h4>
 							</div><!-- /tile-details -->
-						</div> <!-- /tile-detail-mod -->
+						</div></a> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-5 -->
 					
 					<div class="grid-6 grid-item media-block">

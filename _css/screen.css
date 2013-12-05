@@ -501,33 +501,54 @@ header {
 }
 
 .project-tiles {
-  /*	max-width: 1200px;
-  */
   margin: 0 auto;
   *zoom: 1;
-  margin-left: -20px;
-  *zoom: 1;
 }
 .project-tiles:after {
   content: "";
   display: table;
   clear: both;
 }
-.project-tiles:after {
-  content: "";
-  display: table;
-  clear: both;
+@media (min-width: 420px) and (max-width: 900px) {
+  .project-tiles {
+    margin-left: -20px;
+    *zoom: 1;
+  }
+  .project-tiles:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .project-tiles .media-block {
+    float: left;
+    padding-left: 20px;
+    width: 50%;
+  }
+  .project-tiles .media-block:nth-child(2n+3) {
+    clear: left;
+  }
 }
-.project-tiles .media-block {
-  float: left;
-  padding-left: 20px;
-  width: 33.3333%;
-}
-.project-tiles .media-block:nth-child(3n+4) {
-  clear: left;
-}
-.ie7 .project-tiles .media-block {
-  width: 33%;
+@media (min-width: 900px) {
+  .project-tiles {
+    margin-left: -20px;
+    *zoom: 1;
+  }
+  .project-tiles:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .project-tiles .media-block {
+    float: left;
+    padding-left: 20px;
+    width: 33.3333%;
+  }
+  .project-tiles .media-block:nth-child(3n+4) {
+    clear: left;
+  }
+  .ie7 .project-tiles .media-block {
+    width: 33%;
+  }
 }
 
 .tile-detail-mod {

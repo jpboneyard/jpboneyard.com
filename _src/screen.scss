@@ -151,10 +151,16 @@ header {
 }
 
 .project-tiles {
-/*	max-width: 1200px;
-*/	margin: 0 auto;
+	margin: 0 auto;
 	@include pie-clearfix;
-	@include media-grid(3, 20px);
+
+	@media (min-width:420px) and (max-width: 900px) {
+		@include media-grid(2, 20px);
+    }
+
+	@media (min-width: 900px) {
+		@include media-grid(3, 20px);
+    }
 
 }
 

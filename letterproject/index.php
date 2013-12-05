@@ -41,9 +41,9 @@
 		<header>
 			<div class="hdr-mod">
 				<div class="nav-logo-mod">
-					<a href="/index.html"><img src="/_img/nav-logo-2.png"/></a>
+					<a href="/index.php"><img src="/_img/nav-logo-2.png"/></a>
 				</div> <!-- /nav-logo-mod -->	
-				<h1><a class="nav-logo-txt" href="/index.html">JP Boneyard</a></h1>
+				<h1><a class="nav-logo-txt" href="/index.php">JP Boneyard</a></h1>
 				<ul class="nav-link-mod">
 					<li class="nav-link-item"><a href="/about">About</a></li>
 					<li class="nav-link-item"><a href="/">Shop</a>
@@ -77,40 +77,104 @@
 					<img class="feat-project-img" src="/_img/feat-project-npr-2.jpg" />
 				</div> <!-- /feat-project-mod -->
 
+				<div class="projects-mod">
 				<div class="project-tiles">
+					
 					<!-- grid 1-3 --> 
-					<div class="grid-1 grid-item">
-						<a href="/pmc"> <img class="bottom" src="/_img/tiles/pmc-on.jpg" alt="pmc-on"/>
-						<img class="top" src="/_img/tiles/pmc-on.jpg" alt="pmc-off"/></a>
+					<div class="grid-1 grid-item media-block">
+						<a href="/pmc"> <img class="bottom" src="/_img/tiles/npr.jpg" alt="npr"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								<div class="overline">Design & Event Production</div>
+								<h4>The National Poster Retrospecticus</h4>
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-1 -->
 					
-					<div class="grid-2 grid-item">
-						<a href="/thankyou"> <img class="bottom" src="/_img/tiles/lululemon-on.jpg" alt="lululemon"/>
-						<img class="top" src="/_img/tiles/lululemon-on.jpg" alt="lululemon"/></a>
+					<div class="grid-2 grid-item media-block">
+						<img class="bottom" src="/_img/tiles/lululemon.jpg" alt="lululemon"/>
+						<a href="/thankyou"><div class="tile-detail-mod">
+							<div class="tile-details">
+								<div class="overline">Design & Printmaking</div>
+								<h4>LuluLemon</h4>
+							</div><!-- /tile-details -->
+						</div></a> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-2 -->
 					
-					<div class="grid-3 grid-item">
-						<a href="/pmc"> <img class="bottom" src="/_img/tiles/pmc-on.jpg" alt="pmc-on"/>
-						<img class="top" src="/_img/tiles/pmc-on.jpg" alt="pmc-off"/></a>
+					<div class="grid-3 grid-item media-block">
+						<img class="bottom" src="/_img/tiles/upstatement.jpg" alt="upstatement"/></a>
+						<a href="/pmc"> <div class="tile-detail-mod">
+							<div class="tile-details">
+								<div class="overline">Design & Code</div>
+								<h4>Upstatement</h4>
+							</div><!-- /tile-details -->
+						</div></a> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-3 -->
 
 					 <!-- grid 4-6 --> 
-					<div class="grid-4 grid-item">
-						<a href="/diyshows"> <img class="bottom" src="/_img/tiles/diy-on.jpg" alt="diy-on"/>
-						<img class="top" src="/_img/tiles/diy-on.jpg" alt="diy-off"/></a>
+					<div class="grid-4 grid-item media-block">
+						<a href="/diyshows"> <img class="bottom" src="/_img/tiles/diy.jpg" alt="diy"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								<div class="overline">Event Production</div>
+								<h4>15 Years of DIY Shows</h4>
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-4 -->
 					
-					<div class="grid-5 grid-item">
-						<a href="/letterproject"> <img class="bottom" src="/_img/tiles/letters-on.jpg" alt="letters-on"/>
-						<img class="top" src="/_img/tiles/letters-on.jpg" alt="letters-off"/></a>
+					<div class="grid-5 grid-item media-block">
+						<img class="bottom" src="/_img/tiles/letters.jpg" alt="letters"/></a>
+						<a href="/letterproject"><div class="tile-detail-mod">
+							<div class="tile-details">
+								<div class="overline">Design & Printmaking</div>
+								<h4>Letter Project</h4>
+							</div><!-- /tile-details -->
+						</div></a> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-5 -->
 					
-					<div class="grid-6 grid-item">
-						<a href="/elephantsix"> <img class="bottom" src="/_img/tiles/esix-on.jpg" alt="esix-on"/>
-						<img class="top" src="/_img/tiles/esix-on.jpg" alt="esix-off"/></a>
+					<div class="grid-6 grid-item media-block">
+						<a href="/elephantsix"> <img class="bottom" src="/_img/tiles/boston-hoops.jpg" alt="boston hoops"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								<div class="overline">Design & Code</div>
+								<h4>Boston Hoops</h4>
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-6 -->
-				</div> <!-- /project-tiles -->		
-			</div> <!-- /project-mod -->	
+
+					<!-- grid 1-3 --> 
+					<div class="grid-1 grid-item media-block">
+						<a href="/pmc"> <img class="bottom" src="/_img/tiles/bikes-fight-cancer.jpg" alt="bikes fight cancer"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								<div class="overline">Design & Code</div>
+								<h4>Bikes Fight Cancer</h4>
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
+					</div><!-- ./grid-1 -->
+					
+					<div class="grid-2 grid-item media-block">
+						<a href="/thankyou"> <img class="bottom" src="/_img/tiles/gig-posters.jpg" alt="gig posters"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								<div class="overline">Design & Printmaking</div>
+								<h4>Gig Posters</h4>
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
+					</div><!-- ./grid-2 -->
+					
+					<div class="grid-3 grid-item media-block">
+						<a href="/pmc"> <img class="bottom" src="/_img/tiles/misc.jpg" alt="misc"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								<div class="overline">Swerve</div>
+								<h4>Misc Fun</h4>
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
+					</div><!-- ./grid-3 -->
+
+				</div> <!-- /project-tiles -->	
+			</div> <!-- /project-mod -->
 		</div> <!-- /main -->
 
 		<div class="ftr-logo-mod">
