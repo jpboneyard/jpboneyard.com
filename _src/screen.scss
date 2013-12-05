@@ -27,6 +27,13 @@ em   	{	font-style: italic;	}
 h3 {
 	font-size: 30px;
 }
+
+.overline {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font: 400 11px/130% $sans-title;
+	color: $site-spot;
+}
  
 /* ============================================= */
 /*	Header							   			 */ 
@@ -40,10 +47,15 @@ header {
 	background-color: #fff;
 	height: 55px;
 	width: 100%;
-	padding: 16px 52px;
+	padding: 16px 32px;
 	position: fixed;
 	top: 0px;
 	@include opacity (0.9);
+	z-index: 2;
+
+	@media (min-width: 900px) {
+		padding: 16px 72px;
+	}//mq
 }
 
 .nav-logo-txt {
@@ -71,8 +83,10 @@ header {
 .nav-link-item {
 	display: inline;
 	margin-right: 15px;
-	font-size: 16px;
+	font: 800 13px/140% $sans-title;
 	@include trans;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 
 	a {
 		&:hover { 
@@ -91,8 +105,11 @@ header {
 /* ============================================= */
 
 .feat-project-mod {
+	@include pie-clearfix;
+
 	img {
 		width: 100%;
+		position: fixed;
 	}
 }
 
@@ -114,16 +131,43 @@ header {
 	margin: 0 auto;
 	text-align: center;
 	background-color: #FAFBFB;
+	position: relative;
+	margin-top: 41%;
 
-	@media (min-width: 600px) {
-		padding: 52px 52px;
+	@media (min-width: 900px) {
+		padding: 52px 72px 72px 72px;
 	}//mq
+
+	@media (min-width: 1300px) {
+		padding: 52px 102px 72px 102px;
+	}
 }
 
 .project-tiles {
-	max-width: 1200px;
-	margin: 0 auto;
+/*	max-width: 1200px;
+*/	margin: 0 auto;
 	@include pie-clearfix;
+	@include media-grid(3, 20px);
+
+}
+
+.tile-detail-mod {
+	position: absolute;
+	bottom: 0px;
+	padding: 4%;
+/*	background-color: #66A6AE;*/	
+	background-color: #fff;
+	@include pie-clearfix;
+	width: 100%;
+	height: 25%;
+	@include trans(.7s, opacity);
+	@include opacity(0);
+}
+
+.tile-details {
+	margin: 0 auto;
+	text-align: center;
+	font: 800 13px/140% $sans-title;
 }
 
 .grid-item {
@@ -131,47 +175,19 @@ header {
 	position: relative;
 	width: 95%;
 	margin: 0 auto 19px;
+	@include opacity(1);
 	> a {
 		display: block;
 		}
 	img {
 		width: 100%;
 		}
-}
-
-@media screen and (min-width: 420px) and (max-width: 1000px) {
-	.grid-item {
-		float: left;
-		width: 46%;
-		margin-right: 4%;
-		margin-bottom: 3%;
+	&:hover {
+		.tile-detail-mod {
+			@include opacity(1);
+			@include trans(.2s, opacity);	
+		}
 	}	
-}
-
-@media screen and (min-width: 1000px) {
-	.grid-item {
-		float: left;
-		width: 31.6%;
-		margin-right: 2.6%;
-		margin-bottom: 2%;
-	}
-
-	.grid-item:nth-child(3n){
-		margin-right: 0px;
-	}
-	
-}
-
-@media screen and (min-width: 1020px) {
-	.grid-item {
-		float: left;
-		width: 31.6%;
-		margin-right: 2.6%;
-	}
-
-	.grid-item:nth-child(3n){
-		margin-right: 0px;
-	}
 }
 
 .grid-item .top {
@@ -180,11 +196,6 @@ header {
 	top: 0;
 	left: 0;
 	@include trans(.7s, opacity);
-}
-
-.grid-item img.top:hover {
-	@include opacity(0);
-	@include trans(.2s, opacity);
 }
 
 .more-work-mod {
@@ -210,7 +221,7 @@ header {
 
 	img {
 		width: 100%;
-		margin-bottom: 25px;
+		margin: 20px 0px 45px 0px;
 	}
 
 	p {
@@ -257,6 +268,8 @@ footer {
 	margin: 0 auto;
 	text-align: center;
 	margin-top: -40px;
+	position: relative;
+	z-index: 3;
 
 	img {
 		max-width: 92px;

@@ -6,8 +6,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  	<title>Favorite / Found Letter Project</title>
+  	<title>JP Boneyard Design: Graphic Design, Printingmaking  &amp; DIY Shows</title>
   	<meta name="description" content="Graphic Design, Printmaking, &amp; DIY Shows.">
   	<meta name="author" content="John Boilard, JP Boneyard, JPB">
   	<meta name="keywords" content="boston graphic design, graphic design, boston, jamaica plain, john boilard, jp boneyard, the old store, the shed, screen printing, printmaking, gig posters, print design, web design, front-end development, branding, JPB, DIY, punk, loves yerba mate">
@@ -22,12 +21,6 @@
 
 	<!-- Scripts -->
 	<script type="text/javascript" src="_js/libs/modernizr-2.6.1.min.js"></script>
-
-	<!-- Web Fonts -->
-	<script type="text/javascript" src="//use.typekit.net/ryd8oxh.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-	<link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
-
 </head>
 
 
@@ -41,7 +34,7 @@
 		<header>
 			<div class="hdr-mod">
 				<div class="nav-logo-mod">
-					<a href="index.html"><img src="/_img/nav-logo-2.png"/></a>
+					<a href="index.html"><img src="_img/nav-logo-2.png"/></a>
 				</div> <!-- /nav-logo-mod -->	
 				<h1><a class="nav-logo-txt" href="index.html">JP Boneyard</a></h1>
 				<ul class="nav-link-mod">
@@ -51,66 +44,101 @@
 				</ul> <!-- /nav-link-mod -->		
 			</div> <!-- /hdr-mod -->
 		</header>
+
 		<div id="main" role="main">
 			<div class="feat-project-mod">
-				<img class="feat-project-img" src="_img/letters-desk-jp-boneyard-1.jpg" />
+				<img class="feat-project-img" src="_img/feat-project-npr-2.jpg" />
 			</div> <!-- /feat-project-mod -->
 
-			<div class="project-page-mod">
-
-				<div class="overline">Design and Code</div>
-				<h3>Title Goes Here</h3>
-
-				<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete -- probably the most time I've spent on any one project to date!</p>
-
-				<img class="feat-project-img" src="_img/letters-desk-jp-boneyard-1.jpg" />
-
-				<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete -- probably the most time I've spent on any one project to date!</p>				
-			</div> <!-- /project-page-mod -->	
-
-			<div class="more-work-mod">
-				<img src="_img/more-work.png" />
-			</div> <!-- /more-work-mod -->
-
 			<div class="projects-mod">
-				<div class="feat-project-mod feat-inside">
-					<img class="feat-project-img" src="_img/feat-project-npr-2.jpg" />
-				</div> <!-- /feat-project-mod -->
-
 				<div class="project-tiles">
+					
 					<!-- grid 1-3 --> 
-					<div class="grid-1 grid-item">
-						<a href="/pmc"> <img class="bottom" src="/_img/tiles/pmc-on.jpg" alt="pmc-on"/>
-						<img class="top" src="/_img/tiles/pmc-on.jpg" alt="pmc-off"/></a>
+					<div class="grid-1 grid-item media-block">
+						<a href="/pmc"> <img class="bottom" src="/_img/tiles/pmc-on.jpg" alt="pmc-on"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								National Poster Retrospecticus
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-1 -->
 					
-					<div class="grid-2 grid-item">
-						<a href="/thankyou"> <img class="bottom" src="/_img/tiles/lululemon-on.jpg" alt="lululemon"/>
-						<img class="top" src="/_img/tiles/lululemon-on.jpg" alt="lululemon"/></a>
+					<div class="grid-2 grid-item media-block">
+						<a href="/thankyou"> <img class="bottom" src="/_img/tiles/lululemon-on.jpg" alt="lululemon"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								LuluLemon
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-2 -->
 					
-					<div class="grid-3 grid-item">
-						<a href="/pmc"> <img class="bottom" src="/_img/tiles/pmc-on.jpg" alt="pmc-on"/>
-						<img class="top" src="/_img/tiles/pmc-on.jpg" alt="pmc-off"/></a>
+					<div class="grid-3 grid-item media-block">
+						<a href="/pmc"> <img class="bottom" src="/_img/tiles/pmc-on.jpg" alt="pmc-on"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								Upstatement
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-3 -->
 
 					 <!-- grid 4-6 --> 
-					<div class="grid-4 grid-item">
-						<a href="/diyshows"> <img class="bottom" src="/_img/tiles/diy-on.jpg" alt="diy-on"/>
-						<img class="top" src="/_img/tiles/diy-on.jpg" alt="diy-off"/></a>
+					<div class="grid-4 grid-item media-block">
+						<a href="/diyshows"> <img class="bottom" src="/_img/tiles/diy-on.jpg" alt="diy-on"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								15 Years of DIY Shows
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-4 -->
 					
-					<div class="grid-5 grid-item">
-						<a href="/letterproject"> <img class="bottom" src="/_img/tiles/letters-on.jpg" alt="letters-on"/>
-						<img class="top" src="/_img/tiles/letters-on.jpg" alt="letters-off"/></a>
+					<div class="grid-5 grid-item media-block">
+						<a href="/letterproject"> <img class="bottom" src="/_img/tiles/letters-on.jpg" alt="letters-on"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								Letter Project
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-5 -->
 					
-					<div class="grid-6 grid-item">
-						<a href="/elephantsix"> <img class="bottom" src="/_img/tiles/esix-on.jpg" alt="esix-on"/>
-						<img class="top" src="/_img/tiles/esix-on.jpg" alt="esix-off"/></a>
+					<div class="grid-6 grid-item media-block">
+						<a href="/elephantsix"> <img class="bottom" src="/_img/tiles/esix-on.jpg" alt="esix-on"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								Boston Hoops
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
 					</div><!-- ./grid-6 -->
-				</div> <!-- /project-tiles -->		
-			</div> <!-- /project-mod -->	
+
+					<!-- grid 1-3 --> 
+					<div class="grid-1 grid-item media-block">
+						<a href="/pmc"> <img class="bottom" src="/_img/tiles/pmc-on.jpg" alt="pmc-on"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								Bikes Fight Cancer
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
+					</div><!-- ./grid-1 -->
+					
+					<div class="grid-2 grid-item media-block">
+						<a href="/thankyou"> <img class="bottom" src="/_img/tiles/lululemon-on.jpg" alt="lululemon"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								Gig Posters
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
+					</div><!-- ./grid-2 -->
+					
+					<div class="grid-3 grid-item media-block">
+						<a href="/pmc"> <img class="bottom" src="/_img/tiles/pmc-on.jpg" alt="pmc-on"/></a>
+						<div class="tile-detail-mod">
+							<div class="tile-details">
+								Misc Fun
+							</div><!-- /tile-details -->
+						</div> <!-- /tile-detail-mod -->
+					</div><!-- ./grid-3 -->
+
+				</div> <!-- /project-tiles -->	
+			</div> <!-- /project-mod -->
 		</div> <!-- /main -->
 
 		<div class="ftr-logo-mod">
