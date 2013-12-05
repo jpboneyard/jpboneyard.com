@@ -80,8 +80,8 @@
 					</div><!-- ./grid-2 -->
 					
 					<div class="grid-3 grid-item media-block">
-						<img class="bottom" src="/_img/tiles/upstatement.jpg" alt="upstatement"/></a>
-						<a href="/pmc"> <div class="tile-detail-mod">
+						<img  src="/_img/tiles/upstatement.jpg" alt="upstatement"/></a>
+						 <div class="tile-detail-mod">
 							<div class="tile-details">
 								<div class="overline">Design & Code</div>
 								<h4>Upstatement</h4>
