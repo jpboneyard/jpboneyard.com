@@ -58,12 +58,23 @@
 
 			<div class="project-page-mod">
 
-				<div class="overline">Design and Code</div>
+				<div class="overline">Design & Printmaking</div>
 				<h3>Title Goes Here</h3>
 
 				<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete -- probably the most time I've spent on any one project to date!</p>
 
-				<img class="feat-project-img" src="/_img/letters-desk-jp-boneyard-1.jpg" />
+				<img class="" src="/_img/letter_u_jp_boneyard.jpg" />
+
+				<img class="" src="/_img/letter_v_jp_boneyard.jpg" />
+
+				<img class="" src="/_img/letter_w_jp_boneyard.jpg" />
+
+				<img class="" src="/_img/letter_x_jp_boneyard.jpg" />
+
+				<img class="" src="/_img/letter_y_jp_boneyard.jpg" />
+
+				<img class="" src="/_img/letter_z_jp_boneyard.jpg" />
+
 
 				<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete -- probably the most time I've spent on any one project to date!</p>				
 			</div> <!-- /project-page-mod -->	
