@@ -72,12 +72,7 @@
 				<img src="/_img/more-work.png" />
 			</div> <!-- /more-work-mod -->
 
-			<div class="projects-mod">
-				<div class="feat-project-mod feat-inside">
-					<img class="feat-project-img" src="/_img/feat-project-npr-2.jpg" />
-				</div> <!-- /feat-project-mod -->
-
-				<div class="projects-mod">
+			<div class="projects-mod inside">
 				<div class="project-tiles">
 					
 					<!-- grid 1-3 --> 

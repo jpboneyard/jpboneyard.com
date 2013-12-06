@@ -52,7 +52,7 @@ header {
 
 .hdr-mod {
 	background-color: #fff;
-	height: 55px;
+	height: 70px;
 	width: 100%;
 	padding: 16px 32px;
 	position: fixed;
@@ -61,7 +61,7 @@ header {
 	z-index: 2;
 
 	@media (min-width: 900px) {
-		padding: 16px 72px;
+		padding: 22px 72px;
 	}//mq
 }
 
@@ -77,7 +77,7 @@ header {
 .nav-logo-mod {
 	float: left;
 	img {
-		max-width: 150px;
+		max-width: 160px;
 		width: 100%;
 	}
 }
@@ -89,7 +89,7 @@ header {
 
 .nav-link-item {
 	display: inline;
-	margin-right: 15px;
+	margin-right: 20px;
 	font: 800 13px/140% $sans-title;
 	@include trans;
 	text-transform: uppercase;
@@ -113,19 +113,23 @@ header {
 
 .feat-project-mod {
 	@include pie-clearfix;
+	position: relative;
+	height: 0;
+	padding-bottom: 43.5%;
+	overflow: hidden;
+	z-index: -1;
 
 	img {
 		width: 100%;
-		position: fixed;
 	}
 }
 
-.feat-inside {
-	max-width: 1200px;
-	width: 100%;
-	margin: 0 auto;
-	margin-bottom: 2%;
-	margin-top: 2%;
+.feat-project-img {
+	position: fixed;
+	top: 70px;
+	right: 0;
+	left: 0;
+	width: 110%;
 }
 
 /* ============================================= */
@@ -139,15 +143,18 @@ header {
 	text-align: center;
 	background-color: #FAFBFB;
 	position: relative;
-	margin-top: 41%;
 
 	@media (min-width: 900px) {
-		padding: 52px 72px 72px 72px;
+		padding: 62px 72px 72px 72px;
 	}//mq
 
 	@media (min-width: 1300px) {
-		padding: 52px 102px 72px 102px;
+		padding: 62px 102px 72px 102px;
 	}
+}
+
+.inside {
+	padding-top: 82px;
 }
 
 .project-tiles {
@@ -181,6 +188,14 @@ header {
 	margin: 0 auto;
 	text-align: center;
 	font: 800 13px/140% $sans-title;
+
+	h4 {
+		font-size: 15px;
+
+		@media (min-width:800px) {
+			font-size: 19px;
+		}//mq
+	}
 }
 
 .grid-item {
@@ -218,6 +233,8 @@ header {
 
 	img {
 		max-width: 92px;
+		position: relative;
+		z-index: 3;
 	}
 }
 
@@ -274,7 +291,9 @@ header {
 
 footer {
 	background-color: #fff;
-	padding-bottom: 50px;
+	height: 200px;
+	position: relative;
+	margin-top: -60px;
 }
 
 .ftr-logo-mod {
@@ -290,8 +309,9 @@ footer {
 }
 
 .social-list {
-	margin: 10px 0px 20px 0px;
+	margin: 0px 0px 20px 0px;
 	text-align: center;
+	padding-top: 70px;
 }
 
 .social-item {
