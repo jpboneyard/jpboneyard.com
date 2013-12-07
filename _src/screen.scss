@@ -24,6 +24,10 @@ a 		{ 	text-decoration: none; color: inherit; }
 strong	{	font-weight: bold;	}
 em   	{	font-style: italic;	}
 
+h1,h2,h3,h4,h5 {
+	-webkit-font-smoothing: antialiased;
+}
+
 h3 {
 	font-size: 30px;
 }
@@ -35,11 +39,18 @@ h4 {
 }
 
 .overline {
+	margin: 0 auto;
+	max-width: $standard-width;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font: 400 11px/170% $sans-title;
 	color: $site-spot;
 	margin-bottom: 8px;
+	-webkit-font-smoothing: antialiased;	
+}
+
+p {
+	-webkit-font-smoothing: antialiased;
 }
  
 /* ============================================= */
@@ -264,7 +275,6 @@ header {
 .project-page-content {
 	background-color: #fff;
 	padding: 52px 15px;
-	max-width: 720px;
 	margin: 0 auto;
 
 	@media (min-width:500px) {
@@ -272,33 +282,71 @@ header {
 	}
 
 	img {
-		width: 100%;
-		margin: 0px 0px 45px 0px;	
+		
 	}
 
 	p {
-		margin-bottom: 22px;
-		color: #555;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		color: #333332;;
 		font: 400 17px/180% $serif;
+		max-width: $standard-width;
 
 		@media (min-width: 500px) {
-			font-size: 19px;
+			font-size: 21px;
 		}
 
 		&:last-child {
 			margin-bottom: 0px;
 		}
+
+		&:first-child {
+			margin-bottom: 22px;
+		}
 	}
 
 	h3 {
+		margin: 0 auto;
 		margin-bottom: 15px;
-		font-size: 26px;
-		line-height: 180%;
-		font-family: $sans-title;
-		color: #222;
-		font-weight: 700;
+		color: #333332;
+		max-width: $standard-width;
+		font: 700 26px/180% $sans-title;
 	}
+}
 
+.img-sm {
+	max-width: $standard-width;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.img-med {
+	max-width: 1200px;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.img-full {
+	width: 110%;
+	margin-left: -5%;
+	margin-bottom: 30px;
+}
+
+.img-first {
+	margin-top: 30px;
+}
+
+.img-ftr-top {
+	margin-bottom: -100px;
+}
+
+.site-width-img {
+	width: 100%;
+	max-width: none;
 }
 
 .site-width-mod {

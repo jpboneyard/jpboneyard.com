@@ -362,6 +362,10 @@ em {
   font-style: italic;
 }
 
+h1, h2, h3, h4, h5 {
+  -webkit-font-smoothing: antialiased;
+}
+
 h3 {
   font-size: 30px;
 }
@@ -373,11 +377,18 @@ h4 {
 }
 
 .overline {
+  margin: 0 auto;
+  max-width: 620px;
   text-transform: uppercase;
   letter-spacing: 3px;
   font: 400 11px/170% "Montserrat", sans-serif;
   color: #22aba1;
   margin-bottom: 8px;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  -webkit-font-smoothing: antialiased;
 }
 
 /* ============================================= */
@@ -663,7 +674,6 @@ header {
 .project-page-content {
   background-color: #fff;
   padding: 52px 15px;
-  max-width: 720px;
   margin: 0 auto;
 }
 @media (min-width: 500px) {
@@ -671,30 +681,65 @@ header {
     padding: 52px 52px;
   }
 }
-.project-page-content img {
-  width: 100%;
-  margin: 0px 0px 45px 0px;
-}
 .project-page-content p {
-  margin-bottom: 22px;
-  color: #555;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  color: #333332;
   font: 400 17px/180% "schoolbook-web", Georgia, Times, Times New Roman, serif;
+  max-width: 620px;
 }
 @media (min-width: 500px) {
   .project-page-content p {
-    font-size: 19px;
+    font-size: 21px;
   }
 }
 .project-page-content p:last-child {
   margin-bottom: 0px;
 }
+.project-page-content p:first-child {
+  margin-bottom: 22px;
+}
 .project-page-content h3 {
+  margin: 0 auto;
   margin-bottom: 15px;
-  font-size: 26px;
-  line-height: 180%;
-  font-family: "Montserrat", sans-serif;
-  color: #222;
-  font-weight: 700;
+  color: #333332;
+  max-width: 620px;
+  font: 700 26px/180% "Montserrat", sans-serif;
+}
+
+.img-sm {
+  max-width: 620px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.img-med {
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.img-full {
+  width: 110%;
+  margin-left: -5%;
+  margin-bottom: 30px;
+}
+
+.img-first {
+  margin-top: 30px;
+}
+
+.img-ftr-top {
+  margin-bottom: -100px;
+}
+
+.site-width-img {
+  width: 100%;
+  max-width: none;
 }
 
 .site-width-mod {
