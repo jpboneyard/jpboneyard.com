@@ -37,7 +37,7 @@ h4 {
 .overline {
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	font: 400 11px/130% $sans-title;
+	font: 400 11px/170% $sans-title;
 	color: $site-spot;
 	margin-bottom: 8px;
 }
@@ -137,12 +137,16 @@ header {
 /* ============================================= */
 
 .projects-mod {
-	padding: 32px 32px;
+	padding: 15px 15px 62px 15px;
 	@include pie-clearfix;
 	margin: 0 auto;
 	text-align: center;
 	background-color: #FAFBFB;
 	position: relative;
+
+	@media (min-width: 500px) {
+		padding: 32px 32px 62px 32px;
+	}//mq	
 
 	@media (min-width: 900px) {
 		padding: 62px 72px 72px 72px;
@@ -155,6 +159,12 @@ header {
 
 .inside {
 	padding-top: 82px;
+}
+
+.inside-projects {
+	.projects-mod {
+		padding-top: 82px;
+	}
 }
 
 .project-tiles {
@@ -178,10 +188,13 @@ header {
 	background-color: #fff;
 	@include pie-clearfix;
 	width: 100%;
-	width: calc(100% - 19px);
 	height: 100%;
 	@include trans(.7s, opacity);
 	@include opacity(0);
+
+	@media (min-width: 500px) {
+		width: calc(100% - 19px);
+	}
 }
 
 .tile-details {
@@ -230,6 +243,7 @@ header {
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: -45px;
+	background-color: #fff;
 
 	img {
 		max-width: 92px;
@@ -243,24 +257,33 @@ header {
 /*	Project	Page								 */ 
 /* ============================================= */
 
-.project-page-mod {
+.project-page-mod{
 	background-color: #fff;
-	padding: 52px 52px;
+}
+
+.project-page-content {
+	background-color: #fff;
+	padding: 52px 15px;
 	max-width: 720px;
 	margin: 0 auto;
 
+	@media (min-width:500px) {
+		padding: 52px 52px;
+	}
+
 	img {
 		width: 100%;
-		margin: 20px 0px 45px 0px;
+		margin: 0px 0px 45px 0px;	
 	}
 
 	p {
 		margin-bottom: 22px;
-		font-size: 19px;
-		line-height: 180%;
-		font-family: $serif;
 		color: #555;
-		font-weight: 400;
+		font: 400 17px/180% $serif;
+
+		@media (min-width: 500px) {
+			font-size: 19px;
+		}
 
 		&:last-child {
 			margin-bottom: 0px;
@@ -268,7 +291,7 @@ header {
 	}
 
 	h3 {
-		margin-bottom: 25px;
+		margin-bottom: 15px;
 		font-size: 26px;
 		line-height: 180%;
 		font-family: $sans-title;
@@ -278,6 +301,17 @@ header {
 
 }
 
+.site-width-mod {
+	max-width: 200%;
+}
+
+.img-site-width {
+	max-width: 200%;
+
+	img {
+		width: 200%;
+	}
+}
 
 /* ============================================= */
 /*	Footer										 */ 

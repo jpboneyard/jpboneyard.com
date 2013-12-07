@@ -9,10 +9,15 @@
 	</div> <!-- /feat-project-mod -->
 
 	<div class="project-page-mod">
-		<div class="overline">About JPB</div>
-		<h3>Look Everyone, an Old Man is Talking</h3>
-		<p>John Boilard is a person from Boston, MA who designs, does front-end developement, produces art and music events and screenprints under the name JP Boneyard. John got his start setting up music events and screenprinting posters in his hometown of Palmer Massachusetts. A graduate from the Massachusetts College of Art and Design, John loves the creative problem solving that comes along with everything from coding a website to setting up a cross country art tour to screenprinting a poster. John is currently apart of the design team Upstatement where is known as the "winningest Blades of Steel player" and a "consummate crafstman".</p>
+		<div class="project-page-content">
+			<div class="overline">About JPB</div>
+			<h3>The "Matter of Fact Version"</h3>
+			<p>John Boilard is a person from Boston, MA who designs, does front-end developement, produces art and music events and screenprints under the name JP Boneyard. John got his start setting up music events and screenprinting posters in his hometown of Palmer Massachusetts. A graduate from the Massachusetts College of Art and Design, John loves the creative problem solving that comes along with everything from coding a website to setting up a cross country art tour to screenprinting a poster. John is currently apart of the design team Upstatement where is known as the "winningest Blades of Steel player" and a "consummate crafstman".</p>
 
+			<div class="overline">About JPB</div>
+			<h3>The "I'm Just a Dude in the World Version"</h3>
+			<p>I've always loved a good challenge. I take pride in my work ethic and my track record. I'm a firm believer that if you work hard, have faith in what you're doing and remain honest (with yourself and others) things tend to work out in the end. It's a bonus that you get there with your integrity intact. Calling this some sort of "design philosophy" sounds corny but the principles I bring with me in life certainly carry over to my work as well. In a team setting I'm more concerend with what I can do to help versus what I can do move myself up the ladder.</p>
+		</div> <!-- /project-page-content -->	
 	</div> <!-- /project-page-mod -->	
 
 
