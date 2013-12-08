@@ -68,7 +68,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>The NPR is one of the largest projects I've ever tackled. If not for the help, support and encouragement of the following people this ship wouldn't sail half as true. Big thanks go out to the following cats for pitching in and doing some heavy lifting at some point over the shows history!</p>
 
-					<ul>
+					<ul class="site-list">
 						<li>Michael Swiatlowski</li>
 						<li>Eric Hnatow</li>
 						<li>Lincoln Arts Project</li>
@@ -83,14 +83,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 						<li>James Weinberg</li>
 						<li>Upstatement</li>
 					</ul>
-
-					<img class="img-full" src="/_img/national-poster-retrospecticus-jp-boneyard-jpb-6.jpg" alt="lululemon wall art 1" />
-
-					<img class="img-med" src="/_img/lululemon-poster-jp-boneyard-jpb-2.jpg" alt="lululemon wall art 2" />
-					
-					<img class="img-med" src="/_img/lululemon-poster-jp-boneyard-jpb-3.jpg" alt="lululemon wall art 3" />
-
-					<img class="img-med" src="/_img/lululemon-poster-jp-boneyard-jpb-4.jpg" alt="lululemon wall art 4" />
 
 				</div> <!-- /project-page-content -->					
 
@@ -111,28 +103,5 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 	<!-- Page End -->
 	<?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-end.php"); ?>
 
-		 
-
-<a class="fancybox" rel="group" href="/_img/national-poster-retrospecticus-jp-boneyard-jpb.jpg"><img src="/_img/national-poster-retrospecticus-jp-boneyard-jpb.jpg" alt="NPR-lead" class="lead-img"/></a>
-			<a class="fancybox" rel="group" href="" alt="NPR-2"></a>
-			<a class="fancybox" rel="group" href="/_img/national-poster-retrospecticus-jp-boneyard-jpb-7.jpg" alt="NPR-3"></a>
-			<a class="fancybox" rel="group" href="/_img/national-poster-retrospecticus-jp-boneyard-jpb-2.jpg" alt="NPR-4"></a>
-			<a class="fancybox" rel="group" href="/_img/national-poster-retrospecticus-jp-boneyard-jpb-3.jpg" alt="NPR-5"></a>
-			<a class="fancybox" rel="group" href="/_img/national-poster-retrospecticus-lap-gallery-jpb-boneyard-jpb.jpg" alt="NPR-6"></a>
-			<a class="fancybox" rel="group" href="/_img/national-poster-retrospecticus-jp-boneyard-jpb-4.jpg" alt="NPR-7"></a>	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
  

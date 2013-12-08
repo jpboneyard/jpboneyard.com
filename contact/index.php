@@ -14,7 +14,7 @@
 			<h3>Getting in Touch is Fun and Easy to Do!</h3>
 			<p>Want to discuss your next project? Do you want to book a show or bring The National Poster Retrospecticus to your town? Maybe you'd just like to talk Basketball or printmaking? That's awesome, because I'd love to do the same!</p>
 
-			<ul class="">
+			<ul class="site-list">
 				<li class="">
 					Email: john @ jpboneyard.com
 				</li>
@@ -24,10 +24,13 @@
 				<li class="">
 					Smoke Signals: c/o jp boneyard
 				</li>
-			</ul>	
+			</ul> <!-- /contact-list -->	
 		</div> <!-- /project-page-content -->	
 	</div> <!-- /project-page-mod -->	
 
+	<div class="inside-projects">
+		<?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/project-tiles.php"); ?>
+	</div>	<!-- /inside-projects -->
 
 	<?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/footer.php"); ?>
 

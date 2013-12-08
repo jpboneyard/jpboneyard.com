@@ -12,15 +12,17 @@
     <meta name="keywords" content="boston graphic design, graphic design, boston, jamaica plain, john boilard, jp boneyard, the old store, the shed, screen printing, printmaking, gig posters, print design, web design, front-end development, branding, JPB, DIY, punk, loves yerba mate">
 
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
+  <link rel="image_src" href="http://boston.hoopsproject.net/_img/hoops/canonical-hoop.png"> <!-- update this -->
   
   <!-- Icons -->
   <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="/_css/screen.css?v=2">
 
   <!-- Scripts -->
-  <script type="text/javascript" src="_js/libs/modernizr-2.6.1.min.js"></script>
+  <script type="text/javascript" src="/_js/libs/modernizr-2.6.1.min.js"></script>
 
   <!-- Web Fonts -->
   <script type="text/javascript" src="//use.typekit.net/ryd8oxh.js"></script>

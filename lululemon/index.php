@@ -17,9 +17,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>In Winter of 2012 Lululemon got in touch about creating a unique piece of wall art for their new store in Boston Mass. The slogan came from lulu's mission statement and the overall aesthetic was inspired by Newbury Street and the new space itself. As a take-away to hand out at the opening, I also screen printed a short run of posters. Seaport Graphics did an amazing job turning an old 9'x9' barn door into a rad sign and Nathan Legsdin documented the project.</p>
 					
-					<img class="img-med img-first" src="/_img/lululemon-wall-art-jp-boneyard-jpb-1.jpg" alt="lululemon wall art 1" />
-
-					<img class="img-med" src="/_img/lululemon-wall-art-jp-boneyard-jpb-2.jpg" alt="lululemon wall art 2" />
+					<img class="img-full img-first" src="/_img/lululemon-wall-art-jp-boneyard-jpb-1.jpg" alt="lululemon wall art 1" />
 					
 					<img class="img-med" src="/_img/lululemon-wall-art-jp-boneyard-jpb-3.jpg" alt="lululemon wall art 3" />
 
@@ -35,8 +33,6 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<img class="img-med" src="/_img/lululemon-poster-jp-boneyard-jpb-2.jpg" alt="lululemon wall art 2" />
 					
-					<img class="img-med" src="/_img/lululemon-poster-jp-boneyard-jpb-3.jpg" alt="lululemon wall art 3" />
-
 					<img class="img-med" src="/_img/lululemon-poster-jp-boneyard-jpb-4.jpg" alt="lululemon wall art 4" />
 
 				</div> <!-- /project-page-content -->					

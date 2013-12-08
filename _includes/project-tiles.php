@@ -57,7 +57,7 @@
 			<a href="/bostonhoops"> <img class="bottom" src="/_img/tiles/boston-hoops.jpg" alt="boston hoops"/>
 			<div class="tile-detail-mod">
 				<div class="tile-details">
-					<div class="overline">Design & Code</div>
+					<div class="overline">Illustration & Code</div>
 					<h4>Boston Hoops</h4>
 				</div><!-- /tile-details -->
 			</div></a> <!-- /tile-detail-mod -->

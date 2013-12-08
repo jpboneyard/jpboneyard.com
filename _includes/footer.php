@@ -9,6 +9,6 @@
 		<li class="social-item"><a href="http://jpboneyard.tumblr.com/" target="_blank"><img class="social-item-img" src="/_img/_icons/social-tumblr.png"></li></a>
 	</ul> <!-- /social-mod -->
 
-	<div class="copyright">&copy; John P. Boilard <script>document.write(new Date().getFullYear())</script></div>
+	<div class="copyright"><p>&copy; John P. Boilard <script>document.write(new Date().getFullYear())</script></p></div>
 
 </footer>
