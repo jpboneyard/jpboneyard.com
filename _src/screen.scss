@@ -24,6 +24,10 @@ a 		{ 	text-decoration: none; color: inherit; }
 strong	{	font-weight: bold;	}
 em   	{	font-style: italic;	}
 
+body {
+	overflow: hidden;
+}
+
 h1,h2,h3,h4,h5 {
 	-webkit-font-smoothing: antialiased;
 }
@@ -43,10 +47,14 @@ h4 {
 	max-width: $standard-width;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	font: 400 11px/170% $sans-title;
+	font: 400 10px/170% $sans-title;
 	color: $site-spot;
 	margin-bottom: 8px;
-	-webkit-font-smoothing: antialiased;	
+	-webkit-font-smoothing: antialiased;
+
+	@media (min-width: 600px) {
+		font-size: 11px;
+	}//mq
 }
 
 p {
@@ -305,9 +313,21 @@ header {
 	@include pie-clearfix;
 	position: relative;
 	height: 0;
-	padding-bottom: 43.5%;
+	padding-bottom: 70.5%;
 	overflow: hidden;
 	z-index: -1;
+
+	@media (min-width: 400px) {
+		padding-bottom: 60.5%;
+	}
+
+	@media (min-width: 600px) {
+		padding-bottom: 50.5%;
+	}
+
+	@media (min-width: 1000px) {
+		padding-bottom: 43.5%;
+	}
 
 	img {
 		width: 100%;
@@ -362,11 +382,11 @@ header {
 	margin: 0 auto;
 	@include pie-clearfix;
 
-	@media (min-width:420px) and (max-width: 900px) {
+	@media (min-width:600px) and (max-width: 1000px) {
 		@include media-grid(2, 20px);
     }
 
-	@media (min-width: 900px) {
+	@media (min-width: 1000px) {
 		@include media-grid(3, 20px);
     }
 
@@ -394,7 +414,7 @@ header {
 	font: 800 13px/140% $sans-title;
 
 	h4 {
-		font-size: 15px;
+		font-size: 14px;
 
 		@media (min-width:800px) {
 			font-size: 19px;
@@ -454,7 +474,7 @@ header {
 
 .project-page-content {
 	background-color: #fff;
-	padding: 52px 15px;
+	padding: 32px 15px;
 	margin: 0 auto;
 
 	@media (min-width:500px) {
@@ -490,7 +510,7 @@ header {
 		margin-bottom: 15px;
 		color: #333332;
 		max-width: $standard-width;
-		font: 700 26px/180% $sans-title;
+		font: 700 26px/140% $sans-title;
 	}
 }
 
@@ -522,6 +542,10 @@ header {
 
 .img-ftr-top {
 	margin-bottom: -100px;
+}
+
+.section-end {
+	margin-bottom: 60px;
 }
 
 .site-width-img {

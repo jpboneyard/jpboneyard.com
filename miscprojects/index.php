@@ -14,27 +14,21 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">Design & a lot More!</div>
 					<h3>Been Everywhere Project</h3>
-					<p>Since 1999 I have helped organize and promote over 250 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international acts. People coming together through music and art is something I've always felt inspired by and love the sense of community that it brings. The shows we put together are all ages, bands receive 100% of the door money after venue costs, and we take nothing for ourselves I grew up in a small town without a lot to do by way of self expression and entertainment. Fortunately I was blessed to be surrounded by so many creative friends who were playing in bands (and needed a drummer, much like myself). Once the basement circuit rand its course we all need.</p>
+					<p>Designer Adrian Walsh curated a collaborative design project called "The Everywhere Project" that pays tribute to the classic folk song “I’ve Been Everywhere”. My birthplace of Springfield Mass is mentioned in the song and I was fortunate enough to represent the city and hang with pretty righteous group of contributors. Springfield is lovingly referred to as "The City of Firsts". I picked one of my favorites from that long list and illustrated it for my luggage label (sorry basketball, I didn't love you as much until a little later)—the Indian Motorcycle! </p>
 					
-					<img class="img-med" src="/_img/diy-shows-boston-jpb.jpg" alt="lululemon wall art 2" />
+					<img class="img-sm" src="/_img/JP-Boneyard-Springfield-Mass-Been-Everywhere-Project.jpg" alt="Been Everywhere Project" />
 					
-					<img class="img-med" src="/_img/diy-shows-2-photo-by-april-eve-images.jpg" alt="lululemon wall art 3" />
-
 
 					<h3>Spark Camp</h3>
-					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>
+					<p>Matt Thompson of NPR reached out to Upstatment about developing a simple web site and branding system that could be used for Spark Camp: a thing where people talk and stuff. Even though the project had a limited timeline I was able to jump in, establish a the brand elements and build out a site around this new visual language and Matt's content needs. We were fortunate to work with Matt and his appreciation of all the extra details (like building out a set of icons at our suggestion) ultimately led to NPR hiring Upstatement for several other larger projects.</p>	
 
+					<img class="img-sm" src="/_img/spark-camp-logo-jp-boneyard.jpg" alt="Spark Camp Logo" />
+					<img class="img-sm" src="/_img/spark-camp-icons-jp-boneyard.jpg" alt="Spark Camp Icons" />
 
-					<h3>Fuck Space</h3>
-					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>	
-				
-
+	
 					<h3>Drinks at Upstatement Microsite</h3>
 					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>
 
-
-					<h3>Thank You Card</h3>
-					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>
 
 				</div> <!-- /project-page-content -->					
 

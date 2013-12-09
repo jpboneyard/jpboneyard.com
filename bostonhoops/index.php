@@ -15,26 +15,19 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<div class="overline">Illustration & Code</div>
 					<h3>Boston Hoops</h3>
 
-					<p>Since 1999 I have helped organize and promote over 250 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international acts. People coming together through music and art is something I've always felt inspired by and love the sense of community that it brings. The shows we put together are all ages, bands receive 100% of the door money after venue costs, and we take nothing for ourselves I grew up in a small town without a lot to do by way of self expression and entertainment. Fortunately I was blessed to be surrounded by so many creative friends who were playing in bands (and needed a drummer, much like myself). Once the basement circuit rand its course we all need.</p>
+					<p>Somehow a basketball never really ended up in my hands until the Spring of 2013—at least that's when it stuck. My interest in the game peaked around 2011 while watching the Celtics when. Once I was all in the next logical step felt like getting on the court myself. I didn't have much of a shot but a few blocks, some decent passing and a ton of rebounds made me feel like I had something to contribute. Where else were games going on in the city? Were other spots more or less active? Are there righteous spots to play at night under the lights? I wanted to answer these questions by visiting new parts of town and documenting all of the awesome spots to ball. In the process I'd get to work on a fun illustration and web project and have something to share with other enthusiasts.</p>
 					
-					<img class="img-med" src="/_img/diy-shows-boston-jpb.jpg" alt="lululemon wall art 2" />
-					
-					<img class="img-med" src="/_img/diy-shows-2-photo-by-april-eve-images.jpg" alt="lululemon wall art 3" />
+					<img class="img-sm" src="/_img/diy-shows-boston-jpb.jpg" alt="lululemon wall art 2" />
 
-
-					<h3>My Love of Basketball</h3>
-
-					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>	
-				
-
+		
 					<h3>Documenting The Courts</h3>
 
-					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>
+					<p>Research was the first step. I got on my bike and criss crossed the city of Boston shooting hoops at over twenty different courts. Even though all of the details didn't make it into version one of Boston Hoops I was taking into account things like court conditions, ease of access and perks to the facilities. Extra attention was paid to the different components of each hoop as well. So far no two hoops are exactly alike which seems fitting since each court definitely has its own unique personality.</p>
 
 
 					<h3>Process</h3>
 
-					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>
+					<p>After getting my notes and doing some field research I had enough to start illustrating the hoops. All of the scuffs on the backboard are included, the different details of the rim are accounted for, the types of nets and backboards are considered too. A considerable amount of time was spent designing a simple web site to easily browse through the different hoops and catalog their locations. I also spent time getting the color palette just right. I needed something that felt cohesive, expansive and flexible.</p>
 
 				</div> <!-- /project-page-content -->					
 

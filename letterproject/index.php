@@ -14,8 +14,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">Design & Printmaking</div>
 					<h3>Favorite and Found Letter Project</h3>
-
-					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>
+					<p>Combines screen printing and typography just for the fun of it? Count me in! The goal of the project was to gain more experience drawing letter forms and experiment with screen printing techiniques—both things I've wanted to do for a while but hadn't been able to put the time aside for. To prepare for the project I collected 945 letters as research which meant frequent trips to local libraries, antique shops, junk yards around Massachusetts. I also built a new screen printing set up that would allow me to print twice as large as in the past.</p>
 					
 					<img class="img-sm img-first" src="/_img/letter_a_jp_boneyard.jpg" />
 
@@ -70,12 +69,10 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<img class="img-sm" src="/_img/letter_z_jp_boneyard.jpg" />
 
 					<h3>The Process</h3>
-
-					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>	
-
-					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>
+					<p>After I'd done a few weeks of research and built my new printing setup type was redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. Several characters were inspired by my research and I came out with something completely new. From start to finish this project took 200+ hours to complete and I found that once carved out the time to spend experimenting I couldn't put the project down.</p>	
 
 					<img class="img-full" src="/_img/letters_project_process_jp_boneyard-2.jpg" />
+					
 					<img class="img-full img-ftr-top" src="/_img/letters_framed_jp_boneyard.jpg" />
 
 				</div> <!-- /project-page-content -->	

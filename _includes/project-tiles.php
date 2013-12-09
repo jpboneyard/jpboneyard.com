@@ -6,8 +6,8 @@
 			<a href="/nationalposterretrospecticus"> <img class="bottom" src="/_img/tiles/npr.jpg" alt="npr"/>
 			<div class="tile-detail-mod">
 				<div class="tile-details">
-					<div class="overline">Design & Event Production</div>
-					<h4>The National Poster Retrospecticus</h4>
+					<div class="overline">Design & Production</div>
+					<h4>The NPR</h4>
 				</div><!-- /tile-details -->
 			</div></a> <!-- /tile-detail-mod -->
 		</div><!-- ./grid-1 -->
@@ -65,11 +65,11 @@
 
 		<!-- grid 1-3 --> 
 		<div class="grid-1 grid-item media-block">
-			<a href="/bikesfightcancer"> <img class="bottom" src="/_img/tiles/bikes-fight-cancer.jpg" alt="bikes fight cancer"/>
+			<a href="/bikesfightcancer"> <img class="bottom" src="/_img/tiles/spark-camp.jpg" alt="Spark Camp"/>
 			<div class="tile-detail-mod">
 				<div class="tile-details">
-					<div class="overline">Design & Code</div>
-					<h4>Bikes Fight Cancer</h4>
+					<div class="overline">Branding & Code</div>
+					<h4>Spark Camp</h4>
 				</div><!-- /tile-details -->
 			</div></a> <!-- /tile-detail-mod -->
 		</div><!-- ./grid-1 -->
@@ -88,7 +88,7 @@
 			<a href="/miscprojects"> <img class="bottom" src="/_img/tiles/misc.jpg" alt="misc"/>
 			<div class="tile-detail-mod">
 				<div class="tile-details">
-					<div class="overline">Swerve</div>
+					<div class="overline">Grab Bag</div>
 					<h4>Misc Fun</h4>
 				</div><!-- /tile-details -->
 			</div></a> <!-- /tile-detail-mod -->

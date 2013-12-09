@@ -13,9 +13,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				<div class="project-page-content">
 
 					<div class="overline">Environmental Design & Printmaking</div>
-					<h3>LuluLemon Wall Art</h3>
-
-					<p>In Winter of 2012 Lululemon got in touch about creating a unique piece of wall art for their new store in Boston Mass. The slogan came from lulu's mission statement and the overall aesthetic was inspired by Newbury Street and the new space itself. As a take-away to hand out at the opening, I also screen printed a short run of posters. Seaport Graphics did an amazing job turning an old 9'x9' barn door into a rad sign and Nathan Legsdin documented the project.</p>
+					<h3>LuluLemon Wall Installation</h3>
+					<p>I was stoked when Lululemon reached out about creating a unique piece of art for a new store in Boston Mass. The slogan came from lulu's mission statement and the overall aesthetic was inspired by Newbury Street and the new space itself. We worked with Seaport Graphics in Boston to fabricate the final piece. The crew at Seaport did an amazing job scouting out the wood (seriously, this was once an old 9'x9' barn door!), rope and other supplies we had requested to produce the installation. It's always a joy working with three-dimensional type. Nothing beats the physicality involved with setting 7" pieces of machined type by hand.</p>
 					
 					<img class="img-full img-first" src="/_img/lululemon-wall-art-jp-boneyard-jpb-1.jpg" alt="lululemon wall art 1" />
 					
@@ -25,9 +24,9 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<img class="img-med" src="/_img/lululemon-wall-art-jp-boneyard-jpb-5.jpg" alt="lululemon wall art 5" />
 
-					<h3>Commemorative Poster</h3>
 
-					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>	
+					<h3>Commemorative Poster</h3>
+					<p>A cool bonus to this project was the opportunity to make a commeorative poster to celebrate the grand opening of the new store. I screen printed a short run of posters as a take away for those present at the reception. It was a lot of fun to first imagine this installation in three dimensions and then simplify it back to something that more resembles the original renderings.</p>	
 
 					<img class="img-full" src="/_img/lululemon-poster-jp-boneyard-jpb-1.jpg" alt="lululemon wall art 1" />
 
