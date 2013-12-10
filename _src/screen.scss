@@ -352,7 +352,8 @@ header {
 	@include pie-clearfix;
 	margin: 0 auto;
 	text-align: center;
-	background-color: #FAFBFB;
+	// background-color: #FAFBFB;
+	background-color: #f7f7f7;
 	position: relative;
 
 	@media (min-width: 500px) {

@@ -703,7 +703,7 @@ header {
   *zoom: 1;
   margin: 0 auto;
   text-align: center;
-  background-color: #FAFBFB;
+  background-color: #f7f7f7;
   position: relative;
 }
 .projects-mod:after {
