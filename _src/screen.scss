@@ -313,20 +313,20 @@ header {
 	@include pie-clearfix;
 	position: relative;
 	height: 0;
-	padding-bottom: 70.5%;
+	padding-bottom: 74.5%;
 	overflow: hidden;
 	z-index: -1;
 
 	@media (min-width: 400px) {
-		padding-bottom: 60.5%;
+		padding-bottom: 67.5%;
 	}
 
 	@media (min-width: 600px) {
-		padding-bottom: 50.5%;
+		padding-bottom: 60.5%;
 	}
 
 	@media (min-width: 1000px) {
-		padding-bottom: 43.5%;
+		padding-bottom: 56.5%;
 	}
 
 	img {
@@ -512,6 +512,10 @@ header {
 		max-width: $standard-width;
 		font: 700 26px/140% $sans-title;
 	}
+}
+
+.img-set {
+	@include media-grid(2, 50px);
 }
 
 .img-sm {

@@ -6,7 +6,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="feat-project-mod">
-				<img class="feat-project-img" src="/_img/letters-desk-jp-boneyard-1.jpg" />
+				<img class="feat-project-img" src="/_img/letter-project-topper.jpg" />
 			</div> <!-- /feat-project-mod -->
 
 			<div class="project-page-mod">
@@ -66,14 +66,14 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<img class="img-sm" src="/_img/letter_y_jp_boneyard.jpg" />
 
-					<img class="img-sm" src="/_img/letter_z_jp_boneyard.jpg" />
+					<img class="img-sm section-end" src="/_img/letter_z_jp_boneyard.jpg" />
 
 					<h3>The Process</h3>
 					<p>After I'd done a few weeks of research and built my new printing setup type was redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. Several characters were inspired by my research and I came out with something completely new. From start to finish this project took 200+ hours to complete and I found that once carved out the time to spend experimenting I couldn't put the project down.</p>	
 
 					<img class="img-full" src="/_img/letters_project_process_jp_boneyard-2.jpg" />
-					
-					<img class="img-full img-ftr-top" src="/_img/letters_framed_jp_boneyard.jpg" />
+
+					<img class="img-full img-ftr-top" src="/_img/letter-project-jp-boneyard-frames.jpg" />
 
 				</div> <!-- /project-page-content -->	
 			</div> <!-- /project-page-mod -->

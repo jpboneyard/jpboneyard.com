@@ -6,7 +6,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="feat-project-mod">
-				<img class="feat-project-img" src="/_img/lululemon-wall-art-jp-boneyard-jpb-5.jpg" alt="Lululemon Lead" />
+				<img class="feat-project-img" src="/_img/lululemon-wall-art-jp-boneyard-jpb-topper.jpg" alt="Lululemon Lead" />
 			</div> <!-- /feat-project-mod -->
 
 			<div class="project-page-mod">
@@ -16,23 +16,18 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<h3>LuluLemon Wall Installation</h3>
 					<p>I was stoked when Lululemon reached out about creating a unique piece of art for a new store in Boston Mass. The slogan came from lulu's mission statement and the overall aesthetic was inspired by Newbury Street and the new space itself. We worked with Seaport Graphics in Boston to fabricate the final piece. The crew at Seaport did an amazing job scouting out the wood (seriously, this was once an old 9'x9' barn door!), rope and other supplies we had requested to produce the installation. It's always a joy working with three-dimensional type. Nothing beats the physicality involved with setting 7" pieces of machined type by hand.</p>
 					
-					<img class="img-full img-first" src="/_img/lululemon-wall-art-jp-boneyard-jpb-1.jpg" alt="lululemon wall art 1" />
+					<img class="img-full img-first" src="/_img/lululemon-installation-jp-boneyard.jpg" alt="lululemon wall art 1" />
 					
-					<img class="img-med" src="/_img/lululemon-wall-art-jp-boneyard-jpb-3.jpg" alt="lululemon wall art 3" />
-
-					<img class="img-med" src="/_img/lululemon-wall-art-jp-boneyard-jpb-4.jpg" alt="lululemon wall art 4" />
-
-					<img class="img-med" src="/_img/lululemon-wall-art-jp-boneyard-jpb-5.jpg" alt="lululemon wall art 5" />
+					<img class="img-full section-end" src="/_img/lululemon-sign-detail-2-jp-boneyard.jpg" alt="lululemon wall art 3" />
 
 
 					<h3>Commemorative Poster</h3>
 					<p>A cool bonus to this project was the opportunity to make a commeorative poster to celebrate the grand opening of the new store. I screen printed a short run of posters as a take away for those present at the reception. It was a lot of fun to first imagine this installation in three dimensions and then simplify it back to something that more resembles the original renderings.</p>	
 
-					<img class="img-full" src="/_img/lululemon-poster-jp-boneyard-jpb-1.jpg" alt="lululemon wall art 1" />
+					<img class="img-full" src="/_img/lululemon-poster-full-jp-boneyard.jpg" alt="lululemon wall art 1" />
 
-					<img class="img-med" src="/_img/lululemon-poster-jp-boneyard-jpb-2.jpg" alt="lululemon wall art 2" />
+					<img class="img-full" src="/_img/lululemon-poster-detail-set-jp-boneyard.jpg" alt="lululemon wall art 2" />
 					
-					<img class="img-med" src="/_img/lululemon-poster-jp-boneyard-jpb-4.jpg" alt="lululemon wall art 4" />
 
 				</div> <!-- /project-page-content -->					
 

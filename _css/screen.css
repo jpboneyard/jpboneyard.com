@@ -382,7 +382,7 @@ h4 {
 
 .overline {
   margin: 0 auto;
-  max-width: 620px;
+  max-width: 650px;
   text-transform: uppercase;
   letter-spacing: 3px;
   font: 400 10px/170% "Montserrat", sans-serif;
@@ -401,7 +401,7 @@ p {
 }
 
 .site-list {
-  max-width: 620px;
+  max-width: 650px;
   margin: 0 auto;
   font: 400 18px/170% "Montserrat", sans-serif;
 }
@@ -659,7 +659,7 @@ header {
   *zoom: 1;
   position: relative;
   height: 0;
-  padding-bottom: 70.5%;
+  padding-bottom: 74.5%;
   overflow: hidden;
   z-index: -1;
 }
@@ -670,17 +670,17 @@ header {
 }
 @media (min-width: 400px) {
   .feat-project-mod {
-    padding-bottom: 60.5%;
+    padding-bottom: 67.5%;
   }
 }
 @media (min-width: 600px) {
   .feat-project-mod {
-    padding-bottom: 50.5%;
+    padding-bottom: 60.5%;
   }
 }
 @media (min-width: 1000px) {
   .feat-project-mod {
-    padding-bottom: 43.5%;
+    padding-bottom: 56.5%;
   }
 }
 .feat-project-mod img {
@@ -894,7 +894,7 @@ header {
   margin-bottom: 30px;
   color: #333332;
   font: 400 17px/180% "schoolbook-web", Georgia, Times, Times New Roman, serif;
-  max-width: 620px;
+  max-width: 650px;
 }
 @media (min-width: 500px) {
   .project-page-content p {
@@ -911,12 +911,30 @@ header {
   margin: 0 auto;
   margin-bottom: 15px;
   color: #333332;
-  max-width: 620px;
+  max-width: 650px;
   font: 700 26px/140% "Montserrat", sans-serif;
 }
 
+.img-set {
+  margin-left: -50px;
+  *zoom: 1;
+}
+.img-set:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.img-set .media-block {
+  float: left;
+  padding-left: 50px;
+  width: 50%;
+}
+.img-set .media-block:nth-child(2n+3) {
+  clear: left;
+}
+
 .img-sm {
-  max-width: 620px;
+  max-width: 650px;
   display: block;
   margin: 0 auto;
   width: 100%;

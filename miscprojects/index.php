@@ -6,24 +6,24 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="feat-project-mod">
-				<img class="feat-project-img" src="/_img/diy-shows-2-photo-by-april-eve-images.jpg" alt="Lululemon Lead" />
+				<img class="feat-project-img" src="/_img/wordcamp-topper.jpg" alt="Lululemon Lead" />
 			</div> <!-- /feat-project-mod -->
 
 			<div class="project-page-mod">
 				<div class="project-page-content">
 
-					<div class="overline">Design & a lot More!</div>
+					<div class="overline">Grab Bag of Fun</div>
 					<h3>Been Everywhere Project</h3>
 					<p>Designer Adrian Walsh curated a collaborative design project called "The Everywhere Project" that pays tribute to the classic folk song “I’ve Been Everywhere”. My birthplace of Springfield Mass is mentioned in the song and I was fortunate enough to represent the city and hang with pretty righteous group of contributors. Springfield is lovingly referred to as "The City of Firsts". I picked one of my favorites from that long list and illustrated it for my luggage label (sorry basketball, I didn't love you as much until a little later)—the Indian Motorcycle! </p>
 					
-					<img class="img-sm" src="/_img/JP-Boneyard-Springfield-Mass-Been-Everywhere-Project.jpg" alt="Been Everywhere Project" />
+					<img class="img-sm section-end" src="/_img/JP-Boneyard-Springfield-Mass-Been-Everywhere-Project.jpg" alt="Been Everywhere Project" />
 					
 
-					<h3>Spark Camp</h3>
+					<h3>Bikes Fight Cancer</h3>
 					<p>Matt Thompson of NPR reached out to Upstatment about developing a simple web site and branding system that could be used for Spark Camp: a thing where people talk and stuff. Even though the project had a limited timeline I was able to jump in, establish a the brand elements and build out a site around this new visual language and Matt's content needs. We were fortunate to work with Matt and his appreciation of all the extra details (like building out a set of icons at our suggestion) ultimately led to NPR hiring Upstatement for several other larger projects.</p>	
 
 					<img class="img-sm" src="/_img/spark-camp-logo-jp-boneyard.jpg" alt="Spark Camp Logo" />
-					<img class="img-sm" src="/_img/spark-camp-icons-jp-boneyard.jpg" alt="Spark Camp Icons" />
+					<img class="img-sm section-end" src="/_img/spark-camp-icons-jp-boneyard.jpg" alt="Spark Camp Icons" />
 
 	
 					<h3>Drinks at Upstatement Microsite</h3>
