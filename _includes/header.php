@@ -1,7 +1,7 @@
 <header>
 	<div class="nav-chrome">
 		<div class="nav-logo-mod">
-			<a href="index.php"><img src="/_img/nav-logo-2.png"/></a>
+			<a href="/"><img src="/_img/nav-logo-2.png"/></a>
 		</div> <!-- /nav-logo-mod -->	
 		<h1><a class="nav-logo-txt" href="/index.php">JP Boneyard</a></h1>
 		<a class="m-nav-toggle" href="#"></a>

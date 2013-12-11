@@ -18,7 +18,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>Since 1999 I have helped organize and promote over 250 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international artists. Facilitating these community minded art and music events is something that I always felt passionately about even back when I started helping out with and setting up my own shows in high school. I'm thankful for growing up in a small mill town without a lot to do because this challenged friends and myself to make our own fun and to do something positive in our community. This is where I got my start in designing and printing show posters and album art for bands.</p>
 					
-					<img class="img-full" src="/_img/diy-shows-northampton-wools.jpg" alt="lululemon wall art 2" />
+					<img class="img-full section-end" src="/_img/diy-shows-northampton-wools.jpg" alt="lululemon wall art 2" />
 
 
 

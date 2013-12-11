@@ -33,7 +33,15 @@ h1,h2,h3,h4,h5 {
 }
 
 h3 {
-	font-size: 30px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	color: #333332;
+	max-width: $standard-width;
+	font: 700 27px/140% $sans-title;
+
+	@media (min-width: 700px) {
+		font-size: 30px;
+	}
 }
 
 h4 {
@@ -329,6 +337,14 @@ header {
 		padding-bottom: 56.5%;
 	}
 
+	@media (min-width: 1200px) {
+		padding-bottom: 48.5%;
+	}
+
+	@media (min-width: 1400px) {
+		padding-bottom: 42.5%;
+	}
+
 	img {
 		width: 100%;
 	}
@@ -340,6 +356,10 @@ header {
 	right: 0;
 	left: 0;
 	width: 110%;
+
+	/*@media (min-width: 1400px) {
+		top: -70px;
+	}*/
 }
 
 
@@ -506,13 +526,6 @@ header {
 		}
 	}
 
-	h3 {
-		margin: 0 auto;
-		margin-bottom: 15px;
-		color: #333332;
-		max-width: $standard-width;
-		font: 700 26px/140% $sans-title;
-	}
 }
 
 .img-set {
@@ -550,7 +563,11 @@ header {
 }
 
 .section-end {
-	margin-bottom: 60px;
+	margin-bottom: 45px;
+
+	@media (min-width: 700px) {
+		margin-bottom: 60px;
+	}
 }
 
 .site-width-img {

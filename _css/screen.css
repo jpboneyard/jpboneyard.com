@@ -371,7 +371,16 @@ h1, h2, h3, h4, h5 {
 }
 
 h3 {
-  font-size: 30px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  color: #333332;
+  max-width: 650px;
+  font: 700 27px/140% "Montserrat", sans-serif;
+}
+@media (min-width: 700px) {
+  h3 {
+    font-size: 30px;
+  }
 }
 
 h4 {
@@ -683,6 +692,16 @@ header {
     padding-bottom: 56.5%;
   }
 }
+@media (min-width: 1200px) {
+  .feat-project-mod {
+    padding-bottom: 48.5%;
+  }
+}
+@media (min-width: 1400px) {
+  .feat-project-mod {
+    padding-bottom: 42.5%;
+  }
+}
 .feat-project-mod img {
   width: 100%;
 }
@@ -693,6 +712,9 @@ header {
   right: 0;
   left: 0;
   width: 110%;
+  /*@media (min-width: 1400px) {
+  	top: -70px;
+  }*/
 }
 
 /* ============================================= */
@@ -907,13 +929,6 @@ header {
 .project-page-content p:first-child {
   margin-bottom: 22px;
 }
-.project-page-content h3 {
-  margin: 0 auto;
-  margin-bottom: 15px;
-  color: #333332;
-  max-width: 650px;
-  font: 700 26px/140% "Montserrat", sans-serif;
-}
 
 .img-set {
   margin-left: -50px;
@@ -964,7 +979,12 @@ header {
 }
 
 .section-end {
-  margin-bottom: 60px;
+  margin-bottom: 45px;
+}
+@media (min-width: 700px) {
+  .section-end {
+    margin-bottom: 60px;
+  }
 }
 
 .site-width-img {

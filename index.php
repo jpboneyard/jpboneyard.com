@@ -14,7 +14,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="feat-project-mod">
-				<img class="feat-project-img" src="_img/feat-project-npr-2.jpg" />
+				<img class="feat-project-img" src="_img/home-topper.jpg" />
 			</div> <!-- /feat-project-mod -->
 
 			<?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/project-tiles.php"); ?>
