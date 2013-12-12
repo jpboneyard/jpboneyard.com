@@ -405,6 +405,22 @@ h4 {
   }
 }
 
+.intro-overline {
+  margin: 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font: 400 10px/170% "Montserrat", sans-serif;
+  color: #22aba1;
+  margin-bottom: 8px;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  .intro-overline {
+    font-size: 11px;
+  }
+}
+
 p {
   -webkit-font-smoothing: antialiased;
 }
@@ -661,6 +677,22 @@ header {
 		display: block;
 	}
 }*/
+/* ============================================= */
+/*	Home										 */
+/* ============================================= */
+.home-intro {
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+.home-intro h2 {
+  margin: 0 auto;
+  text-align: center;
+  font: 400 21px/140% "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 /* ============================================= */
 /*	Featured Project							 */
 /* ============================================= */
@@ -970,6 +1002,17 @@ header {
   margin-bottom: 30px;
 }
 
+.full-m {
+  width: 140%;
+  margin-left: -20%;
+}
+@media (min-width: 600px) {
+  .full-m {
+    width: 110%;
+    margin-left: -5%;
+  }
+}
+
 .img-first {
   margin-top: 30px;
 }
@@ -987,6 +1030,15 @@ header {
   }
 }
 
+.section-start {
+  margin-top: 45px;
+}
+@media (min-width: 700px) {
+  .section-start {
+    margin-top: 60px;
+  }
+}
+
 .site-width-img {
   width: 100%;
   max-width: none;
@@ -1001,6 +1053,13 @@ header {
 }
 .img-site-width img {
   width: 200%;
+}
+
+.project-details {
+  max-width: 650px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 /* ============================================= */

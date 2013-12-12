@@ -17,6 +17,11 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				<img class="feat-project-img" src="_img/home-topper.jpg" />
 			</div> <!-- /feat-project-mod -->
 
+			<div class="home-intro">
+				<div class="intro-overline">The Big Three</div>
+				<h2>Design, Code, Art & Music Events</h2>
+			</div> <!-- /home-intro -->	
+
 			<?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/project-tiles.php"); ?>
 
 		</div> <!-- /main -->

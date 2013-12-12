@@ -65,6 +65,21 @@ h4 {
 	}//mq
 }
 
+.intro-overline {
+	margin: 0 auto;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font: 400 10px/170% $sans-title;
+	color: $site-spot;
+	margin-bottom: 8px;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+
+	@media (min-width: 600px) {
+		font-size: 11px;
+	}//mq
+}
+
 p {
 	-webkit-font-smoothing: antialiased;
 }
@@ -314,6 +329,27 @@ header {
 }*/
 
 /* ============================================= */
+/*	Home										 */ 
+/* ============================================= */
+
+.home-intro {
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 30px 0px; 
+
+	h2 {
+		margin: 0 auto;
+		text-align: center;
+		font: 400 21px/140% $sans-title;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+}
+
+
+
+
+/* ============================================= */
 /*	Featured Project							 */ 
 /* ============================================= */
 
@@ -554,6 +590,16 @@ header {
 	margin-bottom: 30px;
 }
 
+.full-m {
+	width: 140%;
+	margin-left: -20%;
+
+	@media (min-width: 600px) {
+		width: 110%;
+		margin-left: -5%;
+	}
+}
+
 .img-first {
 	margin-top: 30px;
 }
@@ -567,6 +613,14 @@ header {
 
 	@media (min-width: 700px) {
 		margin-bottom: 60px;
+	}
+}
+
+.section-start {
+	margin-top: 45px;
+
+	@media (min-width: 700px) {
+		margin-top: 60px;
 	}
 }
 
@@ -585,6 +639,13 @@ header {
 	img {
 		width: 200%;
 	}
+}
+
+.project-details {
+	max-width: $standard-width;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
 }
 
 /* ============================================= */
