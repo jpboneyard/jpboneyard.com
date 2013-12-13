@@ -35,9 +35,10 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<p>This is where the heavy lifting comes in. Booking a cross-country art tour isn't standard fare—especially for one-night-only events. I've found that my previous experience booking bands came in handy. The logistical puzzle of booking consecutive shows, promoting each event across the net and in all of the local news and art publications can get heavy but I love digging into complex problems like this!</p>
 
 
-					<img class="img-full img-ftr-top" src="/_img/national-poster-retrospecticus-crowd.jpg" alt="lululemon wall art 1" />
+					<img class="img-sm section-start" src="/_img/national-poster-retrospecticus-banner-jp-boneyard.jpg" alt="lululemon wall art 4" />
 
-			<!-- 		<h3>Extended Family</h3>
+				
+					<h3>Extended Family</h3>
 					<p>The NPR is one of the largest projects I've ever tackled. If not for the help, support and encouragement of the following people this ship wouldn't sail half as true. Big thanks go out to the following cats for pitching in and doing some heavy lifting at some point over the shows history!</p>
 
 					<ul class="site-list">
@@ -48,13 +49,17 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 						<li>John-Paul Jimenez</li>
 						<li>Andrew Kokoszka</li>
 						<li>Brian French</li>
-						<li>Christopher</li>
+						<li>Christopher Everhart</li>
 						<li>Garry Spence</li>
-						<li>Nick P</li>
+						<li>Nick Prestileo</li>
 						<li>Julie Manzi</li>
 						<li>James Weinberg</li>
 						<li>Upstatement</li>
-					</ul> -->
+					</ul>
+
+
+					<img class="img-full img-ftr-top" src="/_img/national-poster-retrospecticus-crowd.jpg" alt="lululemon wall art 1" />
+
 
 				</div> <!-- /project-page-content -->					
 
