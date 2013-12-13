@@ -1,4 +1,4 @@
-<div class="projects-mod">
+<div class="projects-mod home-topper">
 	<div class="project-tiles">
 		
 		<!-- grid 1-3 --> 

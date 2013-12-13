@@ -71,7 +71,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<h3>The Process</h3>
 					<p>After I'd done a few weeks of research and built my new printing setup type was redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. Several characters were inspired by my research and I came out with something completely new. From start to finish this project took 200+ hours to complete and I found that once carved out the time to spend experimenting I couldn't put the project down.</p>	
 
-					<img class="img-full" src="/_img/letters_project_process_jp_boneyard-2.jpg" />
+					<img class="img-sm" src="/_img/letters_project_process_jp_boneyard-2.jpg" />
 
 					<img class="img-full img-ftr-top" src="/_img/letter-project-jp-boneyard-frames.jpg" />
 

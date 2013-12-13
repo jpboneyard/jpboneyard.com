@@ -398,6 +398,22 @@ header {
 	}*/
 }
 
+.home-topper {
+	animation: fadein 3.55s;	
+	-webkit-animation:fadein 3.55s;	
+}
+@-webkit-keyframes fadein {
+  0%   { @include opacity(0); }
+  10%   { @include opacity(0); } 
+  100% { @include opacity(1); }
+}
+
+@-moz-keyframes fadein {
+  0%   { @include opacity(0); }
+  10%   { @include opacity(0); } 
+  100% { @include opacity(1); }
+}
+
 
 /* ============================================= */
 /*	Project Tiles								 */ 

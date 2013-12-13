@@ -14,10 +14,10 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="feat-project-mod">
-				<img class="feat-project-img" src="_img/home-topper.jpg" />
+				<img class="feat-project-img home-topper" src="_img/home-topper.jpg" />
 			</div> <!-- /feat-project-mod -->
 
-			<div class="home-intro">
+			<div class="home-intro home-topper">
 				<div class="intro-overline">The Big Three</div>
 				<h2>Design, Code, Art & Music Events</h2>
 			</div> <!-- /home-intro -->	

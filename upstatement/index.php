@@ -16,11 +16,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<h3>Designer at Upstatement</h3>
 
 					<p>Since 1999 I have helped organize and promote over 250 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international acts. People coming together through music and art is something I've always felt inspired by and love the sense of community that it brings. The shows we put together are all ages, bands receive 100% of the door money after venue costs, and we take nothing for ourselves I grew up in a small town without a lot to do by way of self expression and entertainment. Fortunately I was blessed to be surrounded by so many creative friends who were playing in bands (and needed a drummer, much like myself). Once the basement circuit rand its course we all need.</p>
-					
-					<img class="img-med" src="/_img/diy-shows-boston-jpb.jpg" alt="lululemon wall art 2" />
-					
-					<img class="img-med" src="/_img/diy-shows-2-photo-by-april-eve-images.jpg" alt="lululemon wall art 3" />
-
+				
 
 					<h3>Design for the Web</h3>
 
