@@ -29,36 +29,46 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<p>The design for the website has evolved right along with the needs of the website. My first pass was just something to announce and document the first show in Boston. The second, third and fourth passes were ways to document the show, do a little lifting in the marketing department and do a better job of explaning what the heck this crazy show is all about.</p>
 
 
-					<img class="img-med" src="/_img/national-poster-retrospecticus-touring-sign.png" alt="lululemon wall art 4" />
+					<div class="hdr-sign-container section-start">
+						<img class="hdr-pin" src="/_img/hdr-pin.png">
+						<div class="hdr-sign swing animated">
+							<img class="hdr-slide-img" src="/_img/hdr-sign.png">
+						</div> <!-- /hdr-sign -->	
+					</div> <!-- /hdr-sign-container -->	
 
 					<h3>Booking & Promotion</h3>
 					<p>This is where the heavy lifting comes in. Booking a cross-country art tour isn't standard fare—especially for one-night-only events. I've found that my previous experience booking bands came in handy. The logistical puzzle of booking consecutive shows, promoting each event across the net and in all of the local news and art publications can get heavy but I love digging into complex problems like this!</p>
 
 
-					<img class="img-sm section-start" src="/_img/national-poster-retrospecticus-banner-jp-boneyard.jpg" alt="lululemon wall art 4" />
+					<img class="img-full section-start" src="/_img/national-poster-retrospecticus-banner-jp-boneyard.jpg" alt="lululemon wall art 4" />
 
 				
 					<h3>Extended Family</h3>
 					<p>The NPR is one of the largest projects I've ever tackled. If not for the help, support and encouragement of the following people this ship wouldn't sail half as true. Big thanks go out to the following cats for pitching in and doing some heavy lifting at some point over the shows history!</p>
 
-					<ul class="site-list">
-						<li>Michael Swiatlowski</li>
-						<li>Eric Hnatow</li>
-						<li>Lincoln Arts Project</li>
-						<li>Daniel Danger</li>
-						<li>John-Paul Jimenez</li>
-						<li>Andrew Kokoszka</li>
-						<li>Brian French</li>
-						<li>Christopher Everhart</li>
-						<li>Garry Spence</li>
-						<li>Nick Prestileo</li>
-						<li>Julie Manzi</li>
-						<li>James Weinberg</li>
-						<li>Upstatement</li>
-					</ul>
+					<div class="site-list">
+						<ul class="npr-list">
+							<li><a href="http://www.theoldstore.org" target="_blank">Michael Swiatlowski</a></li>
+							<li><a href="http://home-body.bandcamp.com/" target="_blank">Eric Hnatow</a></li>
+							<li><a href="http://www.lincolnartsproject.com/" target="_blank">Lincoln Arts Project</a></li>
+							<li><a href="http://tinymediaempire.com/" target="_blank">Daniel Danger</a></li>
+							<li><a href="http://www.johnpauljimenez.com/" target="_blank">John-Paul Jimenez</a></li>
+							<li>Andrew Kokoszka</li>
+						</ul>
+
+						<ul class="npr-list last">
+							<li><a href="http://www.frenchpaper.com/" target="_blank">Brian French</a></li>
+							<li><a href="http://www.thesilentgiants.com/" target="_blank">Christopher Everhart</a></li>
+							<li><a href="http://insidetherockposterframe.blogspot.com/" target="_blank">Gary Spence</a></li>
+							<li><a href="http://www.nickprestileo.com/" target="_blank">Nick Prestileo</a></li>
+							<li><a href="http://www.behance.net/julie_manzi" target="_blank">Julie Manzi</a></li>
+							<li><a href="http://weinbergdesign.com/" target="_blank">James Weinberg</a></li>
+							<li><a href="http://upstatement.com/" target="_blank">Upstatement</a></li>
+						</ul>
+					</div>	
 
 
-					<img class="img-full img-ftr-top" src="/_img/national-poster-retrospecticus-crowd.jpg" alt="lululemon wall art 1" />
+					<img class="img-full img-ftr-top section-start" src="/_img/national-poster-retrospecticus-crowd.jpg" alt="lululemon wall art 1" />
 
 
 				</div> <!-- /project-page-content -->					

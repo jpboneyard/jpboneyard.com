@@ -93,6 +93,23 @@ p {
 		margin-bottom: 10px;
 	}
 }
+
+.npr-list {
+	width: 75%;
+	margin-right: 0px;
+
+	@media (min-width: 600px) {
+		display: inline-block;
+		margin-right: 52px;
+		max-width: 500px;
+		width: 44%;
+		vertical-align: top;
+	}
+}
+
+.npr-list.last {
+	margin-right: 0px;
+}
  
 /* ============================================= */
 /*	Header							   			 */ 
@@ -727,6 +744,130 @@ footer {
 	text-align: center;	
 	color: #222;
 }
+
+/* ============================================= */
+/*	NPR Project Page							 */ 
+/* ============================================= */
+
+
+.hdr-img {
+	max-width: 225px;
+	margin-right: 20%;
+	margin-bottom: 10px;;
+	width: 100%;
+
+	@media (min-width: 399px) {
+		width: 80%;
+		max-width: 600px;
+		margin-bottom: 15px;
+		margin-right: 30px;
+	}//mq	
+
+	@media (min-width: 1002px) {
+		width: 100%;
+		max-width: 787px;
+		margin-bottom: 15px;
+		margin-right: 0px;
+	}//mq	
+}
+
+.hdr-img-container {
+	margin: 0 auto;
+	display: block;
+	max-width: 800px;
+	width: 100%;
+}
+
+.hdr-sign-container {
+	position: relative;
+	display: block;
+}
+
+.hdr-pin {
+	position: absolute;
+	float: left;
+	height: 100%;
+	top: -2px;
+	margin-left: 4px;
+	text-align: center;
+	z-index: 2;
+}
+
+.hdr-sign {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+
+.hdr-slide-img {
+	width: 100%;
+}
+
+.animated {
+
+
+}
+
+@-webkit-keyframes swing {
+	20%, 40%, 60%, 80%, 100% { -webkit-transform-origin: top center; }
+	20% { -webkit-transform: rotate(10deg); }	
+	40% { -webkit-transform: rotate(-10deg); }
+	60% { -webkit-transform: rotate(5deg); }	
+	80% { -webkit-transform: rotate(-5deg); }	
+	100% { -webkit-transform: rotate(0deg); }
+}
+
+@-moz-keyframes swing {
+	20% { -moz-transform: rotate(10deg); }	
+	40% { -moz-transform: rotate(-10deg); }
+	60% { -moz-transform: rotate(5deg); }	
+	80% { -moz-transform: rotate(-5deg); }	
+	100% { -moz-transform: rotate(0deg); }
+}
+
+@-o-keyframes swing {
+	20% { -o-transform: rotate(10deg); }	
+	40% { -o-transform: rotate(-10deg); }
+	60% { -o-transform: rotate(5deg); }	
+	80% { -o-transform: rotate(-5deg); }	
+	100% { -o-transform: rotate(0deg); }
+}
+
+@keyframes swing {
+	20% { transform: rotate(10deg); }	
+	40% { transform: rotate(-10deg); }
+	60% { transform: rotate(5deg); }	
+	80% { transform: rotate(-5deg); }	
+	100% { transform: rotate(0deg); }
+}
+
+.swing {
+	-webkit-transform-origin: top center;
+	-moz-transform-origin: top center;
+	-o-transform-origin: top center;
+	transform-origin: top center;
+	-webkit-animation-name: swing;
+	-moz-animation-name: swing;
+	-o-animation-name: swing;
+	animation-name: swing;
+
+	-webkit-animation-fill-mode: both;
+	-moz-animation-fill-mode: both;
+	-ms-animation-fill-mode: both;
+	-o-animation-fill-mode: both;
+	animation-fill-mode: both;
+
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-ms-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	animation-duration: 3s;
+	/* -moz-animation: 3s ease 0s normal none infinite swing;
+    -moz-transform-origin: center top;
+    -webkit-animation:swing 3s infinite;
+    -webkit-transform-origin:top;*/
+}
+
 
 /* ============================================= */
 /*	Print Styles							     
