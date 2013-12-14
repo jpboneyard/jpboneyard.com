@@ -34,7 +34,7 @@
 
 		 <!-- grid 4-6 --> 
 		<div class="grid-4 grid-item media-block">
-			<a href="/diyshows"> <img class="bottom" src="/_img/tiles/diy.jpg" alt="diy"/>
+			<a href="/diyshows"> <img class="bottom" src="/_img/tiles/diy.jpg" alt="diy shows"/>
 			<div class="tile-detail-mod">
 				<div class="tile-details">
 					<div class="overline">Event Production</div>
@@ -75,7 +75,7 @@
 		</div><!-- ./grid-1 -->
 		
 		<div class="grid-2 grid-item media-block">
-			<a href="/gigposters"> <img class="bottom" src="/_img/tiles/gig-posters.jpg" alt="gig posters"/>
+			<a href="/gigposters"> <img class="bottom" src="/_img/tiles/gig-posters.jpg" alt="Gig Posters"/>
 			<div class="tile-detail-mod">
 				<div class="tile-details">
 					<div class="overline">Design & Printmaking</div>
@@ -85,7 +85,7 @@
 		</div><!-- ./grid-2 -->
 		
 		<div class="grid-3 grid-item media-block">
-			<a href="/miscprojects"> <img class="bottom" src="/_img/tiles/misc.jpg" alt="misc"/>
+			<a href="/miscprojects"> <img class="bottom" src="/_img/tiles/misc.jpg" alt="Misc"/>
 			<div class="tile-detail-mod">
 				<div class="tile-details">
 					<div class="overline">Grab Bag</div>

@@ -17,22 +17,22 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>Over 100 Artists! More than 300 Posters! More than 10 cities around the country! The National Poster Retrospecticus is the project I've put everything into since it took off in 2013. With origins that go back as far as 2006 followed up by a rebirth in 2012 The NPR is show that celebrates the made-by-hand aesthetic and the art of the hand-made poster.</p>
 					
-					<img class="img-full" src="/_img/national-poster-retrospecticus-poster-jp-boneyard.jpg" alt="lululemon wall art 2" />
+					<img class="img-full" src="/_img/national-poster-retrospecticus-poster-jp-boneyard.jpg" alt="National Poster Retrospecticus Poster" />
 
 					<h3>Branding</h3>
 					<p>Branding for The NPR was inspired by the nonsensical "retrospecitcus". The translation comes out to something along the lines of "to look forward" and "to look backward". Combine that with imagery from early american lore and we have the all seeing eye of providence. </p>
 
 
-					<img class="img-med section-start" src="/_img/national-poster-retrospecticus-web.jpg" alt="lululemon wall art 4" />
+					<img class="img-med section-start" src="/_img/national-poster-retrospecticus-web.jpg" alt="National Poster Retrospecticus Web Site" />
 					
 					<h3>The Web</h3>
 					<p>The design for the website has evolved right along with the needs of the website. My first pass was just something to announce and document the first show in Boston. The second, third and fourth passes were ways to document the show, do a little lifting in the marketing department and do a better job of explaning what the heck this crazy show is all about.</p>
 
 
 					<div class="hdr-sign-container section-start">
-						<img class="hdr-pin" src="/_img/hdr-pin.png">
+						<img class="hdr-pin" src="/_img/hdr-pin.png" alt="pin" />
 						<div class="hdr-sign swing animated">
-							<img class="hdr-slide-img" src="/_img/hdr-sign.png">
+							<img class="hdr-slide-img" src="/_img/hdr-sign.png" alt="Tour Sign" />
 						</div> <!-- /hdr-sign -->	
 					</div> <!-- /hdr-sign-container -->	
 
@@ -40,7 +40,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<p>This is where the heavy lifting comes in. Booking a cross-country art tour isn't standard fare—especially for one-night-only events. I've found that my previous experience booking bands came in handy. The logistical puzzle of booking consecutive shows, promoting each event across the net and in all of the local news and art publications can get heavy but I love digging into complex problems like this!</p>
 
 
-					<img class="img-full section-start" src="/_img/national-poster-retrospecticus-banner-jp-boneyard.jpg" alt="lululemon wall art 4" />
+					<img class="img-full section-start" src="/_img/national-poster-retrospecticus-banner-jp-boneyard.jpg" alt="National Poster Retrospecticus Branding" />
 
 				
 					<h3>Extended Family</h3>
@@ -68,7 +68,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					</div>	
 
 
-					<img class="img-full img-ftr-top section-start" src="/_img/national-poster-retrospecticus-crowd.jpg" alt="lululemon wall art 1" />
+					<img class="img-full img-ftr-top section-start" src="/_img/national-poster-retrospecticus-crowd.jpg" alt="National Poster Retrospecticus Photo of Boston Show" />
 
 
 				</div> <!-- /project-page-content -->					

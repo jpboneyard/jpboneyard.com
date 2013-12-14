@@ -362,6 +362,21 @@ em {
   font-style: italic;
 }
 
+a {
+  color: #22aba1;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+a:hover {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  color: #666666;
+}
+
 body {
   overflow: hidden;
 }
@@ -428,7 +443,7 @@ p {
 .site-list {
   max-width: 650px;
   margin: 0 auto;
-  font: 400 18px/170% "Montserrat", sans-serif;
+  font: 400 16px/170% "Montserrat", sans-serif;
 }
 .site-list li {
   margin-bottom: 10px;
@@ -549,7 +564,7 @@ header {
   }
 }
 .nav-link-item a:hover {
-  color: #22ABA1;
+  color: #666666;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -718,36 +733,60 @@ header {
   *zoom: 1;
   position: relative;
   height: 0;
-  padding-bottom: 74.5%;
+  padding-bottom: 70.5%;
   overflow: hidden;
   z-index: -1;
+  /*	@media (min-width: 400px) and (max-height: 1200px)  {
+  		padding-bottom: 67.5%;
+  	}
+  
+  	@media (min-width: 600px) {
+  		padding-bottom: 60.5%;
+  	}
+  
+  	@media (min-width: 1000px) {
+  		padding-bottom: 56.5%;
+  	}
+  
+  	@media (min-width: 1200px) {
+  		padding-bottom: 48.5%;
+  	}
+  
+  	@media (min-width: 1400px) {
+  		padding-bottom: 42.5%;
+  	}*/
 }
 .feat-project-mod:after {
   content: "";
   display: table;
   clear: both;
 }
-@media (min-width: 400px) {
+@media (min-width: 400px) and (max-height: 1200px) {
   .feat-project-mod {
-    padding-bottom: 67.5%;
+    padding-bottom: 65.5%;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 500px) {
   .feat-project-mod {
     padding-bottom: 60.5%;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1000px) and (max-height: 1400px) {
   .feat-project-mod {
     padding-bottom: 56.5%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-height: 1100px) {
   .feat-project-mod {
     padding-bottom: 48.5%;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1400px) and (max-height: 1300px) {
+  .feat-project-mod {
+    padding-bottom: 56.5%;
+  }
+}
+@media (min-width: 1400px) and (max-height: 1400px) {
   .feat-project-mod {
     padding-bottom: 42.5%;
   }

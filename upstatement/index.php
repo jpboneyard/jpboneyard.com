@@ -24,7 +24,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				
 
 
-					<img class="img-full section-start" src="/_img/wordcamp-poster-upstatement-jp-boneyard.jpg" alt="Lululemon Lead" />
+					<img class="img-full section-start" src="/_img/wordcamp-poster-upstatement-jp-boneyard.jpg" alt="Word Camp Poster" />
 
 					<h3>Design for Print</h3>
 

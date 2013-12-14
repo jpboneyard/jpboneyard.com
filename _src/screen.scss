@@ -24,6 +24,16 @@ a 		{ 	text-decoration: none; color: inherit; }
 strong	{	font-weight: bold;	}
 em   	{	font-style: italic;	}
 
+a {
+	color: $site-spot;
+	@include trans;
+
+	&:hover {
+		@include trans;
+		color: $site-black;
+	}
+}
+
 body {
 	overflow: hidden;
 }
@@ -87,7 +97,7 @@ p {
 .site-list {
 	max-width: $standard-width;
 	margin: 0 auto;
-	font: 400 18px/170% $sans-title;
+	font: 400 16px/170% $sans-title;
 
 	li {
 		margin-bottom: 10px;
@@ -201,7 +211,7 @@ header {
 
 	a {
 		&:hover { 
-			color: #22ABA1;
+			color: $site-black;
 			@include trans;
 			background-color: #ddd;
 
@@ -374,11 +384,11 @@ header {
 	@include pie-clearfix;
 	position: relative;
 	height: 0;
-	padding-bottom: 74.5%;
+	padding-bottom: 70.5%;
 	overflow: hidden;
 	z-index: -1;
 
-	@media (min-width: 400px) {
+/*	@media (min-width: 400px) and (max-height: 1200px)  {
 		padding-bottom: 67.5%;
 	}
 
@@ -396,7 +406,35 @@ header {
 
 	@media (min-width: 1400px) {
 		padding-bottom: 42.5%;
+	}*/
+
+	@media (min-width: 400px) and (max-height: 1200px)  {
+		padding-bottom: 65.5%;
 	}
+
+	@media (min-width: 500px) {
+		padding-bottom: 60.5%;
+	}
+
+	@media (min-width: 1000px) and (max-height: 1400px) {
+		padding-bottom: 56.5%;
+	}
+
+	@media (min-width: 1200px) and (max-height: 1100px) {
+		padding-bottom: 48.5%;
+	}
+
+	@media (min-width: 1400px) and (max-height: 1300px) {
+		padding-bottom: 56.5%;
+	}
+
+	@media (min-width: 1400px) and (max-height: 1400px) {
+		padding-bottom: 42.5%;
+	}
+
+
+
+
 
 	img {
 		width: 100%;

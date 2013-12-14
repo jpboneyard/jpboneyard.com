@@ -11,7 +11,6 @@
 		<ul class="nav-link-mod">
 			<li class="nav-link-item"><a href="/about">About</a></li>
 			<li class="nav-link-item"><a href="/contact">Contact</a></li>
-			<li class="nav-link-item"><a href="http://supermarkethq.com/designer/57478/products" target="_blank">Shop</a>
 			<li class="nav-link-item"><a href="http://jpboneyard.tumblr.com/" target="_blank">Blog</a>
 		</ul> <!-- /nav-link-mod -->
 		</nav>		

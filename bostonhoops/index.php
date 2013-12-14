@@ -6,7 +6,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="feat-project-mod">
-				<img class="feat-project-img" src="/_img/hoop-3-2.gif" alt="Lululemon Lead" />
+				<img class="feat-project-img" src="/_img/hoop-3-2.gif" alt="Boston Hoops Topper Image" />
 			</div> <!-- /feat-project-mod -->
 
 			<div class="project-page-mod">
@@ -17,14 +17,14 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>Somehow a basketball never really ended up in my hands until the Spring of 2013—at least that's when it stuck. My interest in the game peaked around 2011 while watching the Celtics when. Once I was all in the next logical step felt like getting on the court myself. I didn't have much of a shot but a few blocks, some decent passing and a ton of rebounds made me feel like I had something to contribute. Where else were games going on in the city? Were other spots more or less active? Are there righteous spots to play at night under the lights? I wanted to answer these questions by visiting new parts of town and documenting all of the awesome spots to ball. In the process I'd get to work on a fun illustration and web project and have something to share with other enthusiasts.</p>
 					
-					<img class="img-sm section-end" src="/_img/boston-hoops-site.jpg" alt="lululemon wall art 2" />
+					<img class="img-sm section-end" src="/_img/boston-hoops-site.jpg" alt="Boston Hoops Web Site Image" />
 
 		
 					<h3>Documenting The Courts</h3>
 
 					<p>Research was the first step. I got on my bike and criss crossed the city of Boston shooting hoops at over twenty different courts. Even though all of the details didn't make it into version one of Boston Hoops I was taking into account things like court conditions, ease of access and perks to the facilities. Extra attention was paid to the different components of each hoop as well. So far no two hoops are exactly alike which seems fitting since each court definitely has its own unique personality.</p>
 
-					<img class="img-sm" src="/_img/hoops-process.gif" alt="lululemon wall art 2" />
+					<img class="img-sm" src="/_img/hoops-process.gif" alt="Boston Hoops Court Gif" />
 
 
 
