@@ -23,16 +23,24 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<p>Branding for The NPR was inspired by the nonsensical "retrospecitcus". The translation comes out to something along the lines of "to look forward" and "to look backward". Combine that with imagery from early american lore and we have the all seeing eye of providence. </p>
 
 
-					<img class="img-med section-start" src="/_img/national-poster-retrospecticus-web.jpg" alt="National Poster Retrospecticus Web Site" />
-					
+<!-- 					<img class="img-med section-start" src="/_img/national-poster-retrospecticus-web.jpg" alt="National Poster Retrospecticus Web Site" />
+ -->					
+					<video class="img-med section-start npr-site" autoplay loop>
+					  	<source src="/_img/video/npr-site.mp4" type="video/mp4">
+						<source src="/_img/video/npr-site.ogg" type="video/ogg">
+						Your browser does not support the video tag.
+					</video> 
+
 					<h3>The Web</h3>
 					<p>The design for the website has evolved right along with the needs of the website. My first pass was just something to announce and document the first show in Boston. The second, third and fourth passes were ways to document the show, do a little lifting in the marketing department and do a better job of explaning what the heck this crazy show is all about.</p>
 
+					<btn class="btn-submit btn-txt"> <a href="http://www.nationalposterretrospecticus.com" target="_blank">Launch The Site</a></btn>
+
 
 					<div class="hdr-sign-container section-start">
-						<img class="hdr-pin" src="/_img/hdr-pin.png" alt="pin" />
+						<img class="hdr-pin" src="/_img/hdr-pin-2.png" alt="pin" />
 						<div class="hdr-sign swing animated">
-							<img class="hdr-slide-img" src="/_img/hdr-sign.png" alt="Tour Sign" />
+							<img class="hdr-slide-img" src="/_img/hdr-sign-2.png" alt="Tour Sign" />
 						</div> <!-- /hdr-sign -->	
 					</div> <!-- /hdr-sign-container -->	
 
@@ -53,7 +61,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 							<li><a href="http://www.lincolnartsproject.com/" target="_blank">Lincoln Arts Project</a></li>
 							<li><a href="http://tinymediaempire.com/" target="_blank">Daniel Danger</a></li>
 							<li><a href="http://www.johnpauljimenez.com/" target="_blank">John-Paul Jimenez</a></li>
-							<li>Andrew Kokoszka</li>
+							<li><a href="www.linkedin.com/pub/andy-kokoszka/8/355/184" target="_blank">Andrew Kokoszka</a></li>
 						</ul>
 
 						<ul class="npr-list last">

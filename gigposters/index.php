@@ -35,7 +35,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<p>Who's that creep in the backyard? Or is someone returning home after a weird walk in the woods? This show provided an opportunity to make something with less of an exuberant vibe compared to my other poster work. The source of inspiration was the darker, loungey, introspective themes provided by the bands on the bill. That and channeling my inner goth / watching 48 hours worth of film noir flicks. Also worth noting, this poster glows in the dork.</p>
 				
 
-					<img class="img-full full-m section-start" src="/_img/bikes-fight-cancer-jp-boneyard.jpg" alt="Bikes Fight Cancer Poster" />
+					<img class="img-full full-m section-start" src="/_img/bikes-fight-cancer-jp-boneyard-2.jpg" alt="Bikes Fight Cancer Poster" />
 
 					<h3>Bikes Fight Cancer</h3>
 
@@ -71,7 +71,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<p>Monsters, skateboarding and a healthy green glow. These are the things that come to mind when Oneida, Big Digits, Golden Girls, and Dom are put into a room together. The show was awesome and I hear one of these prints is hanging up in the corporate bathrooms of JP Licks, in Jamaica Plain, MA.</p>
 
 
-					<img class="img-full full-m section-start" src="/_img/mount-eerie-boston-jp-boneyard.jpg" alt="Mount Eerie Poster" />
+					<img class="img-full full-m section-start" src="/_img/mount-eerie-boston-jp-boneyard-2.jpg" alt="Mount Eerie Poster" />
 
 					<h3>Mount Eerie</h3>
 

@@ -18,21 +18,23 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<p>Matt Thompson of NPR reached out to Upstatment about developing a simple web site and branding system that could be used for Spark Camp: a thing where people talk and stuff. Even though the project had a limited timeline I was able to jump in, establish a the brand elements and build out a site around this new visual language and Matt's content needs. We were fortunate to work with Matt and his appreciation of all the extra details (like building out a set of icons at our suggestion) ultimately led to NPR hiring Upstatement for several other larger projects.</p>	
 					
 
+
+					<img class="img-sm section-start" src="/_img/spark-camp-identity-jp-boneyard-2.jpg" alt="Spark Camp Identity" />
+
 					<h3>Branding</h3>
 
 					<p>Matt Thompson of NPR reached out to Upstatment about developing a simple web site and branding system that could be used for Spark Camp: a thing where people talk and stuff. Even though the project had a limited timeline I was able to jump in, establish a the brand elements and build out a site around this new visual language and Matt's content needs. We were fortunate to work with Matt and his appreciation of all the extra details (like building out a set of icons at our suggestion) ultimately led to NPR hiring Upstatement for several other larger projects.</p>	
 
-					<img class="img-sm section-end" src="/_img/spark-camp-identity-jp-boneyard.jpg" alt="Spark Camp Identity" />
 
 
+					<img class="img-med section-start" src="/_img/spark-camp-web-site-2.jpg" alt="Spark Camp Web Site" />
 
 					<h3>Responsive Web Site</h3>
 
 					<p>Matt Thompson of NPR reached out to Upstatment about developing a simple web site and branding system that could be used for Spark Camp: a thing where people talk and stuff. Even though the project had a limited timeline I was able to jump in, establish a the brand elements and build out a site around this new visual language and Matt's content needs. We were fortunate to work with Matt and his appreciation of all the extra details (like building out a set of icons at our suggestion) ultimately led to NPR hiring Upstatement for several other larger projects.</p>
 
-					<img class="img-med" src="/_img/spark-camp-web-site-2.jpg" alt="Spark Camp Web Site" />
+					<btn class="btn-submit btn-txt"> <a href="http://www.sparkcamp.com" target="_blank">Launch The Site</a></btn>
 
-					
 
 				</div> <!-- /project-page-content -->					
 
