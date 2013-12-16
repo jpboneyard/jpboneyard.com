@@ -655,6 +655,7 @@ header {
 	width: 110%;
 	margin-left: -5%;
 	margin-bottom: 30px;
+
 }
 
 .full-m {
@@ -781,6 +782,60 @@ footer {
 }
 
 
+
+/* ============================================= */
+/*	Spark Camp Project Page				 		 */ 
+/* ============================================= */
+
+.spark-camp-site {
+	background: url(../_img/spark-camp-web-site.jpg) 50% 50% no-repeat;
+	background-size: 86%;
+
+}
+
+.spark-camp-web-mod {
+	position: relative;
+}
+
+.spark-camp-mobile {
+	position: absolute;
+	bottom: 0px;
+	right: 40px;
+	display: none;
+
+	@media (min-width: 900px) {
+		display: block;
+	}
+
+	img {
+		max-width: 160px;
+		width: 100%;
+	}
+}
+
+
+/* ============================================= */
+/*	Daily Orange Project Page				 	 */ 
+/* ============================================= */
+
+.do-site {
+	position: relative;
+}
+
+.do-blurb {
+	position: absolute;
+	top: 150px;
+	right: -80px;
+	max-width: 230px;
+	display: none;
+
+	@media (min-width: 900px) {
+		display: block;
+	}
+}
+
+
+
 /* ============================================= */
 /*	Hoops Project Page							 */ 
 /* ============================================= */
@@ -803,7 +858,6 @@ footer {
 .npr-site {
 	background: url(../_img/national-poster-retrospecticus-web.jpg) 50% 50% no-repeat;
 	background-size: 86%;
-
 }
 
 .hdr-img {

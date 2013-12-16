@@ -18,7 +18,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<p>Somehow a basketball never really ended up in my hands until the Spring of 2013—at least that's when it stuck. My interest in the game peaked around 2011 while watching the Celtics when. Once I was all in the next logical step felt like getting on the court myself. I didn't have much of a shot but a few blocks, some decent passing and a ton of rebounds made me feel like I had something to contribute. Where else were games going on in the city? Were other spots more or less active? Are there righteous spots to play at night under the lights? I wanted to answer these questions by visiting new parts of town and documenting all of the awesome spots to ball. In the process I'd get to work on a fun illustration and web project and have something to share with other enthusiasts.</p>
 					
 <!-- 					<img class="img-sm section-end" src="/_img/boston-hoops-site.jpg" alt="Boston Hoops Web Site Image" />
- -->				<video class="img-sm section-end" autoplay loop>
+ -->				<video class="img-sm section-start" autoplay loop>
 					  	<source src="/_img/video/hoops-scroll-src.mp4" type="video/mp4">
 						<source src="/_img/video/hoops-scroll-src.ogg" type="video/ogg">
 						Your browser does not support the video tag.
@@ -26,7 +26,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<btn class="btn-submit btn-txt"> <a href="http://www.hoopsproject.net" target="_blank">Launch The Site</a></btn>
 
-					<img class="img-full section-start" src="/_img/hoops-documentation.jpg" alt="Boston Hoops Documentation" />
+					<img class="img-sm section-start" src="/_img/hoops-documentation.jpg" alt="Boston Hoops Documentation" />
 
 					<h3>Documenting The Courts</h3>
 

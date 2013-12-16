@@ -17,22 +17,28 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>Since 1999 I have helped organize and promote over 250 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international acts. People coming together through music and art is something I've always felt inspired by and love the sense of community that it brings. The shows we put together are all ages, bands receive 100% of the door money after venue costs, and we take nothing for ourselves I grew up in a small town without a lot to do by way of self expression and entertainment. Fortunately I was blessed to be surrounded by so many creative friends who were playing in bands (and needed a drummer, much like myself). Once the basement circuit rand its course we all need.</p>
 				
+					<div class="do-site img-sm">
+						<img class="img-sm section-start" src="/_img/daily-orange-site-upstatement-jp-boneyard.jpg" alt="Daily Orange Dot Com" />
+						<img class="do-blurb" src="/_img/do-blurb.png" alt="Do Blurb" />
+					</div>	
 
 					<h3>Design for the Web</h3>
-
 					<p>Since 1999 I have helped organize and promote over 250 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international acts. People coming together through music and art is something I've always felt inspired by and love the sense of community that it brings. The shows we put together are all ages, bands receive 100% of the door money after venue costs, and we take nothing for ourselves I grew up in a small town without a lot to do by way of self expression and entertainment. Fortunately I was blessed to be surrounded by so many creative friends who were playing in bands (and needed a drummer, much like myself). Once the basement circuit rand its course we all need.</p>
 				
+
 
 
 					<img class="img-full section-start" src="/_img/wordcamp-poster-upstatement-jp-boneyard.jpg" alt="Word Camp Poster" />
 
 					<h3>Design for Print</h3>
-
 					<p>Since 1999 I have helped organize and promote over 250 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international acts. People coming together through music and art is something I've always felt inspired by and love the sense of community that it brings. The shows we put together are all ages, bands receive 100% of the door money after venue costs, and we take nothing for ourselves I grew up in a small town without a lot to do by way of self expression and entertainment. Fortunately I was blessed to be surrounded by so many creative friends who were playing in bands (and needed a drummer, much like myself). Once the basement circuit rand its course we all need.</p>
 			
+			
+
+
+					<img class="img-full section-start" src="/_img/upstatement-cards-jp-boneyard.jpg" alt="Upstatement Brand" />
 
 					<h3>Brand Manager</h3>
-
 					<p>Since 1999 I have helped organize and promote over 250 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international acts. People coming together through music and art is something I've always felt inspired by and love the sense of community that it brings. The shows we put together are all ages, bands receive 100% of the door money after venue costs, and we take nothing for ourselves I grew up in a small town without a lot to do by way of self expression and entertainment. Fortunately I was blessed to be surrounded by so many creative friends who were playing in bands (and needed a drummer, much like myself). Once the basement circuit rand its course we all need.</p>
 			
 

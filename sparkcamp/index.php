@@ -26,9 +26,20 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<p>Matt Thompson of NPR reached out to Upstatment about developing a simple web site and branding system that could be used for Spark Camp: a thing where people talk and stuff. Even though the project had a limited timeline I was able to jump in, establish a the brand elements and build out a site around this new visual language and Matt's content needs. We were fortunate to work with Matt and his appreciation of all the extra details (like building out a set of icons at our suggestion) ultimately led to NPR hiring Upstatement for several other larger projects.</p>	
 
 
+					<div class="spark-camp-web-mod img-med">
+						<video class="img-med section-start spark-camp-site" autoplay loop>
+						  	<source src="/_img/video/spark-camp-site.mp4" type="video/mp4">
+							<source src="/_img/video/spark-camp-site.ogg" type="video/ogg">
+							Your browser does not support the video tag.
+						</video> 
+						<div class="spark-camp-mobile">
+							<img class="img-small" src="/_img/spark-camp-site-mobile-jp-boneyard.png" alt="Spark Camp Web Site" />
+						</div>	
+					</div> <!-- /spark-camp-web-mod -->	
 
-					<img class="img-med section-start" src="/_img/spark-camp-web-site-2.jpg" alt="Spark Camp Web Site" />
 
+						
+					
 					<h3>Responsive Web Site</h3>
 
 					<p>Matt Thompson of NPR reached out to Upstatment about developing a simple web site and branding system that could be used for Spark Camp: a thing where people talk and stuff. Even though the project had a limited timeline I was able to jump in, establish a the brand elements and build out a site around this new visual language and Matt's content needs. We were fortunate to work with Matt and his appreciation of all the extra details (like building out a set of icons at our suggestion) ultimately led to NPR hiring Upstatement for several other larger projects.</p>
