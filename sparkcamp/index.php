@@ -29,7 +29,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<div class="spark-camp-web-mod img-med">
 						<video class="img-med section-start spark-camp-site" autoplay loop>
 						  	<source src="/_img/video/spark-camp-site.mp4" type="video/mp4">
-							<source src="/_img/video/spark-camp-site.ogg" type="video/ogg">
+							<source src="/_img/video/spark-camp-site-scroll.webm" type="video/webm">
+							<source src="/_img/video/spark-camp-site.ogv" type="video/ogg">
 							Your browser does not support the video tag.
 						</video> 
 						<div class="spark-camp-mobile">

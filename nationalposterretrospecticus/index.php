@@ -26,8 +26,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 <!-- 					<img class="img-med section-start" src="/_img/national-poster-retrospecticus-web.jpg" alt="National Poster Retrospecticus Web Site" />
  -->					
 					<video class="img-med section-start npr-site" autoplay loop>
-					  	<source src="/_img/video/npr-site.mp4" type="video/mp4">
-						<source src="/_img/video/npr-site.ogg" type="video/ogg">
+					  	<source src="/_img/video/npr-site-scroll.mp4" type="video/mp4">
+						<source src="/_img/video/npr-site-scroll.ogv" type="video/ogg">
 						Your browser does not support the video tag.
 					</video> 
 

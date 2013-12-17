@@ -154,10 +154,12 @@ header {
 	padding: 22px 10px;
 	position: fixed;
 	top: 0px;
-	z-index: 2;
+	z-index: 4;
+	background-color: #fff;
 
 	@media (min-width: 760px) {
 		padding: 22px 0px;
+		z-index: 2;
 	}
 }
 
@@ -189,11 +191,12 @@ header {
 
 .nav-link-mod {
 	float: right;
-	display: none;
+	display: block;
+	margin-top: -300px;
 
 	@media (min-width: 760px) {
-		display: block;
 		padding-top: 3px;
+		margin-top: 0px;
 	}
 }
 
@@ -250,7 +253,11 @@ header {
 	width: 100%;
 	position: relative;
 	z-index: 1;
-	top: 70px;
+	margin-top: 70px;
+	-webkit-transition: margin-top 0.3s ease-in-out;
+	-moz-transition: margin-top 0.3s ease-in-out;
+	-o-transition: margin-top 0.3s ease-in-out;
+	transition: margin-top 0.3s ease-in-out;
 
 	.nav-link-item {
 		display: block;
@@ -782,6 +789,17 @@ footer {
 }
 
 
+/* ============================================= */
+/*	404 Page				 					 */ 
+/* ============================================= */
+
+.error-video {
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background: url(polina.jpg) no-repeat;
+	background-size: cover;
+}
 
 /* ============================================= */
 /*	Spark Camp Project Page				 		 */ 
@@ -837,7 +855,7 @@ footer {
 
 
 /* ============================================= */
-/*	Hoops Project Page							 */ 
+/*	Boston Hoops Project Page					 */ 
 /* ============================================= */
 
 .hoops-ipad {
@@ -848,6 +866,16 @@ footer {
 	position: absolute;
 	display: block;
 	top: 0px;
+}
+
+.boston-hoops-web-mod {
+	position: relative;
+	@include pie-clearfix;
+}
+
+.boston-hoops-site {
+	background: url(../_img/boston-hoops-site.jpg) 50% 50% no-repeat;
+	background-size: 100% auto;
 }
 
 

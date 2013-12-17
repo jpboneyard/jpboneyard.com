@@ -23,7 +23,7 @@
 		</div><!-- ./grid-2 -->
 		
 		<div class="grid-3 grid-item media-block">
-			<a href="/upstatement"><img  src="/_img/tiles/upstatement.jpg" alt="upstatement"/>
+			<a href="/upstatement"><img  src="/_img/tiles/upstatement-2.jpg" alt="upstatement"/>
 			 <div class="tile-detail-mod">
 				<div class="tile-details">
 					<div class="overline">Design & Code</div>
@@ -65,7 +65,7 @@
 
 		<!-- grid 1-3 --> 
 		<div class="grid-1 grid-item media-block">
-			<a href="/sparkcamp"> <img class="bottom" src="/_img/tiles/spark-camp.jpg" alt="Spark Camp"/>
+			<a href="/sparkcamp"> <img class="bottom" src="/_img/tiles/spark-camp-2.jpg" alt="Spark Camp"/>
 			<div class="tile-detail-mod">
 				<div class="tile-details">
 					<div class="overline">Branding & Code</div>
