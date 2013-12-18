@@ -11,6 +11,8 @@
 <!--<script type="text/javascript" src="_js/up-base.js"></script>-->
 <script type="text/javascript" src="/_js/script.js"></script>
 
+<!-- Scrolling -->
+<script src="/_js/project/jquery.anchor.js"></script>
 
 <!-- Placeholder Polyfill -->
 <script src="/_js/libs/jquery.placeholder.min.js"></script>

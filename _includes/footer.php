@@ -3,7 +3,7 @@
 		<img class="" src="/_img/ftr-logo-2.png" />
 	</div>	
 	<div class="ftr-arrow">
-		<img class="" src="/_img/ftr-arrow.png" />
+		<a href="#top" class="anchorLink"><img class="" src="/_img/ftr-arrow.png" /></a>
 	</div>
 </div> <!-- /ftr-logo-mod -->
 
@@ -18,3 +18,4 @@
 	<div class="copyright"><p>&copy; John P. Boilard <script>document.write(new Date().getFullYear())</script></p></div>
 
 </footer>
+

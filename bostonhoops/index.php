@@ -5,7 +5,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 <?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/header.php"); ?>
 
 		<div id="main" role="main">
-			<div class="feat-project-mod">
+			<div class="feat-project-mod" id="top">
 				<img class="feat-project-img" src="/_img/boston-hoops-topper.jpg" alt="Boston Hoops Topper Image" />
 			</div> <!-- /feat-project-mod -->
 

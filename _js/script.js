@@ -7,11 +7,9 @@ $(document).ready(function() {
 		$(".nav-link-mod").toggleClass("visible");
 	});
 
+//Anchor Slide
+	$("a.anchorLink").anchorAnimate();
 });
-
-
-
-
 
 
 

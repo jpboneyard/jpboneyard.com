@@ -4,7 +4,7 @@
     
     <?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/header.php"); ?>
 
-	<div class="feat-project-mod">
+	<div class="feat-project-mod" id="top">
 		<img class="feat-project-img" src="/_img/jp-boneyard-john-boilard-2.jpg" />
 	</div> <!-- /feat-project-mod -->
 
