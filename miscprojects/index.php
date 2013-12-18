@@ -34,7 +34,14 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					
 
-					<img class="img-full section-start" src="/_img/drinks-at-upstatement-jp-boneyard-2.jpg" alt="Drinks at Upstatement Microsite" />
+					<div class="drinks-banner img-full section-start">
+						<div class="drinks-img-mod">
+							<img src="/_img/drinks-city.png" class="drinks-city" alt="drinks city skyline" />
+							<img src="/_img/drinks-neon-2.png" class="drinks-sign-neon" alt="drinks sign neon"/ >
+							<img src="/_img/drinks-neon-1.png" class="drinks-sign" alt="drinks sign" /> 
+						</div> <!-- /drinks-img-mod -->	
+					</div> <!-- /drinks-banner -->	
+
 					
 					<h3>Drinks at Upstatement Event & Microsite</h3>
 					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>

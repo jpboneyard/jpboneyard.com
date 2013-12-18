@@ -1,6 +1,12 @@
 <div class="ftr-logo-mod">
-	<img src="/_img/ftr-logo-2.png" />
+	<div class="ftr-logo">
+		<img class="" src="/_img/ftr-logo-2.png" />
+	</div>	
+	<div class="ftr-arrow">
+		<img class="" src="/_img/ftr-arrow.png" />
+	</div>
 </div> <!-- /ftr-logo-mod -->
+
 <footer>
 	<ul class="social-list">
 		<li class="social-item"><a href="http://dribbble.com/jpboneyard" target="_blank"><img class="social-item-img" src="/_img/_icons/social-dribbble.png"></li></a>	

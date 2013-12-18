@@ -501,6 +501,7 @@ header {
   padding: 22px 10px;
   position: fixed;
   top: 0px;
+  left: 0px;
   z-index: 4;
   background-color: #fff;
 }
@@ -508,6 +509,7 @@ header {
   .nav-chrome {
     padding: 22px 0px;
     z-index: 2;
+    left: auto;
   }
 }
 
@@ -694,29 +696,6 @@ header {
   }
 }
 
-/*.m-nav-mod {
-	float: right;
-	display: block;
-	padding-top: 5px;
-
-	@media (min-width: 760px) {
-		display: none;
-	}//mq
-}
-
-.visible {
-	display: block;
-	background-color: #eee;
-	position: absolute;
-	left: 0px;
-	top: 70px;
-	width: 100%;
-	@include opacity(1)
-
-	.nav-link-item {
-		display: block;
-	}
-}*/
 /* ============================================= */
 /*	Home										 */
 /* ============================================= */
@@ -731,6 +710,42 @@ header {
   font: 400 21px/140% "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.home-intro-slide {
+  -webkit-animation: slidedown 3s linear;
+  -moz-animation: slidedown 3s linear;
+  -o-animation: slidedown 3s linear;
+}
+
+@-webkit-keyframes slidedown {
+  0% {
+    margin-top: -1000px;
+  }
+
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@-moz-keyframes slidedown {
+  0% {
+    margin-top: -1000px;
+  }
+
+  100% {
+    margin-top: 0px;
+  }
+}
+
+@-o-keyframes slidedown {
+  0% {
+    margin-top: -1000px;
+  }
+
+  100% {
+    margin-top: 0px;
+  }
 }
 
 /* ============================================= */
@@ -813,45 +828,6 @@ header {
   }*/
 }
 
-.home-topper {
-  animation: fadein 3.55s;
-  -webkit-animation: fadein 3.55s;
-}
-
-@-webkit-keyframes fadein {
-  0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
-
-  10% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
-
-  100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadein {
-  0% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
-
-  10% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
-
-  100% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-    opacity: 1;
-  }
-}
-
 /* ============================================= */
 /*	Project Tiles								 */
 /* ============================================= */
@@ -875,12 +851,12 @@ header {
 }
 @media (min-width: 900px) {
   .projects-mod {
-    padding: 62px 72px 72px 72px;
+    padding: 62px 72px 62px 72px;
   }
 }
 @media (min-width: 1300px) {
   .projects-mod {
-    padding: 62px 102px 72px 102px;
+    padding: 62px 102px 62px 102px;
   }
 }
 
@@ -1178,18 +1154,45 @@ footer {
   background-color: #fff;
   height: 200px;
   position: relative;
-  margin-top: -60px;
 }
 
 .ftr-logo-mod {
   margin: 0 auto;
   text-align: center;
-  margin-top: -40px;
   position: relative;
   z-index: 3;
+  display: block;
+}
+.ftr-logo-mod:hover .ftr-arrow {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 .ftr-logo-mod img {
   max-width: 92px;
+}
+
+.ftr-arrow {
+  position: absolute;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  top: -40px;
+  left: 50%;
+  margin-left: -46px;
+}
+
+.ftr-logo {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  margin-left: -46px;
 }
 
 .social-list {
@@ -1275,6 +1278,80 @@ footer {
 .spark-camp-mobile img {
   max-width: 160px;
   width: 100%;
+}
+
+/* ============================================= */
+/*	Misc Page Projects Page				 	     */
+/* ============================================= */
+.drinks-banner {
+  position: relative;
+  height: 150px;
+  background: url(http://upstatement.upstatement12.netdna-cdn.com/wp-content/themes/blades/images/drink/star-bg.gif);
+  background-size: 85% 85%;
+}
+@media (min-width: 400px) {
+  .drinks-banner {
+    height: 200px;
+  }
+}
+@media (min-width: 600px) {
+  .drinks-banner {
+    height: 300px;
+  }
+}
+@media (min-width: 800px) {
+  .drinks-banner {
+    height: 450px;
+  }
+}
+@media (min-width: 1200px) {
+  .drinks-banner {
+    height: 650px;
+  }
+}
+@media (min-width: 1950px) {
+  .drinks-banner {
+    height: 1000px;
+  }
+}
+.drinks-banner:hover .drinks-sign-neon {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.drinks-img-mod {
+  margin: 0 auto;
+}
+
+.drinks-city {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.drinks-sign {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  z-index: 1;
+}
+
+.drinks-sign-neon {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  opacity: 0;
+  z-index: 2;
 }
 
 /* ============================================= */

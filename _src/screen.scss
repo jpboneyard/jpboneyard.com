@@ -129,6 +129,9 @@ header {
 	background-color: #fff;
 	position: relative;
 	z-index: 4;
+	height: 70px;
+	position: fixed;
+	width: 100%;
 
 	@media (min-width: 600px) {
 		padding: 22px 42px;
@@ -142,10 +145,6 @@ header {
 		padding: 22px 72px;
 
 	}//mq
-
-	height: 70px;
-	position: fixed;
-	width: 100%;
 }
 
 .nav-chrome {
@@ -154,12 +153,14 @@ header {
 	padding: 22px 10px;
 	position: fixed;
 	top: 0px;
+	left: 0px;
 	z-index: 4;
 	background-color: #fff;
 
 	@media (min-width: 760px) {
 		padding: 22px 0px;
 		z-index: 2;
+		left: auto;
 	}
 }
 
@@ -338,29 +339,6 @@ header {
 	}//menu-main-nav
 }//#access 
 
-/*.m-nav-mod {
-	float: right;
-	display: block;
-	padding-top: 5px;
-
-	@media (min-width: 760px) {
-		display: none;
-	}//mq
-}
-
-.visible {
-	display: block;
-	background-color: #eee;
-	position: absolute;
-	left: 0px;
-	top: 70px;
-	width: 100%;
-	@include opacity(1)
-
-	.nav-link-item {
-		display: block;
-	}
-}*/
 
 /* ============================================= */
 /*	Home										 */ 
@@ -380,8 +358,25 @@ header {
 	}
 }
 
+.home-intro-slide {
+	-webkit-animation: slidedown 3s linear;
+	-moz-animation: slidedown 3s linear;
+	-o-animation: slidedown 3s linear;
+}
 
 
+@-webkit-keyframes slidedown {
+	0% {margin-top: -1000px;}
+	100% {margin-top: 0px;}
+}
+@-moz-keyframes slidedown {
+	0% {margin-top: -1000px;}
+	100% {margin-top: 0px;}
+}
+@-o-keyframes slidedown {
+	0% {margin-top: -1000px;}
+	100% {margin-top: 0px;}
+}
 
 /* ============================================= */
 /*	Featured Project							 */ 
@@ -456,22 +451,6 @@ header {
 	}*/
 }
 
-.home-topper {
-	animation: fadein 3.55s;	
-	-webkit-animation:fadein 3.55s;	
-}
-@-webkit-keyframes fadein {
-  0%   { @include opacity(0); }
-  10%   { @include opacity(0); } 
-  100% { @include opacity(1); }
-}
-
-@-moz-keyframes fadein {
-  0%   { @include opacity(0); }
-  10%   { @include opacity(0); } 
-  100% { @include opacity(1); }
-}
-
 
 /* ============================================= */
 /*	Project Tiles								 */ 
@@ -491,11 +470,11 @@ header {
 	}//mq	
 
 	@media (min-width: 900px) {
-		padding: 62px 72px 72px 72px;
+		padding: 62px 72px 62px 72px;
 	}//mq
 
 	@media (min-width: 1300px) {
-		padding: 62px 102px 72px 102px;
+		padding: 62px 102px 62px 102px;
 	}
 }
 
@@ -738,20 +717,44 @@ footer {
 	background-color: #fff;
 	height: 200px;
 	position: relative;
-	margin-top: -60px;
 }
 
 .ftr-logo-mod {
 	margin: 0 auto;
 	text-align: center;
-	margin-top: -40px;
 	position: relative;
 	z-index: 3;
+	display: block;
+
+	&:hover {
+		.ftr-arrow {
+			@include opacity(1);
+			@include trans;
+		}	
+	}
 
 	img {
 		max-width: 92px;
 	}
 }
+
+.ftr-arrow {
+	position: absolute;
+	@include opacity(0);
+	@include trans;
+	top: -40px;
+	left: 50%;
+	margin-left: -46px;
+}
+
+.ftr-logo {
+	position: absolute;
+	top: -40px;
+	left: 50%;
+	margin-left: -46px;
+}
+
+
 
 .social-list {
 	margin: 0px 0px 20px 0px;
@@ -830,6 +833,79 @@ footer {
 		width: 100%;
 	}
 }
+
+
+
+/* ============================================= */
+/*	Misc Page Projects Page				 	     */ 
+/* ============================================= */
+
+
+
+.drinks-banner {
+	position: relative;
+	height: 150px;
+	background: url(http://upstatement.upstatement12.netdna-cdn.com/wp-content/themes/blades/images/drink/star-bg.gif);
+	background-size: 85% 85%;
+
+	@media (min-width: 400px) {
+		height: 200px;
+	}//mq800
+
+	@media (min-width: 600px) {
+		height: 300px;
+	}//mq800
+
+	@media (min-width: 800px) {
+		height: 450px;
+	}//mq800
+
+	@media (min-width: 1200px) {
+		height: 650px;
+	}//mq1000
+
+	@media (min-width: 1950px) {
+		height: 1000px;
+	}//mq1000
+
+	&:hover {
+		.drinks-sign-neon  {
+			opacity: 1;	
+			@include trans;
+		}//drinks-sign-neon
+	}//hover
+}
+
+.drinks-img-mod {
+	margin: 0 auto;
+}
+
+.drinks-city {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;	
+	width: 100%;
+}
+
+.drinks-sign {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+.drinks-sign-neon {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	@include trans;
+	opacity: 0;
+	z-index: 2;
+}
+
+
 
 
 /* ============================================= */
@@ -941,10 +1017,6 @@ footer {
 	width: 100%;
 }
 
-.animated {
-
-
-}
 
 @-webkit-keyframes swing {
 	20%, 40%, 60%, 80%, 100% { -webkit-transform-origin: top center; }
