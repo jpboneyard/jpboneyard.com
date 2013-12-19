@@ -5,9 +5,12 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 <?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/header.php"); ?>
 
 		<div id="main" role="main">
-			<div class="feat-project-mod" id="top">
-				<img class="feat-project-img" src="/_img/boston-hoops-topper.jpg" alt="Boston Hoops Topper Image" />
-			</div> <!-- /feat-project-mod -->
+	
+			<div class="feat-project-mod feat-project-mod-hoops" id="top">
+				<img class="blimp-animation blimp" src="/_img/hoops-blimp.png"/>
+				<img class="hoops-title" src="/_img/hoops-title.png"/>
+				<img class="hoops-city" src="/_img/hoops-city.png"/>
+			</div> <!-- /intro -->	
 
 			<div class="project-page-mod">
 				<div class="project-page-content">

@@ -474,7 +474,7 @@ header {
   background-color: #fff;
   position: relative;
   z-index: 4;
-  height: 70px;
+  height: 65px;
   position: fixed;
   width: 100%;
 }
@@ -496,7 +496,7 @@ header {
 }
 
 .nav-chrome {
-  height: 70px;
+  height: 65px;
   width: 100%;
   padding: 22px 10px;
   position: fixed;
@@ -536,7 +536,7 @@ header {
 }
 @media (min-width: 760px) {
   .nav-logo-mod img {
-    max-width: 160px;
+    max-width: 150px;
   }
 }
 
@@ -555,7 +555,7 @@ header {
 .nav-link-item {
   display: inline;
   margin-right: 20px;
-  font: 800 13px/140% "Montserrat", sans-serif;
+  font: 400 13px/140% "Montserrat", sans-serif;
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
@@ -608,7 +608,7 @@ header {
   width: 100%;
   position: relative;
   z-index: 1;
-  margin-top: 70px;
+  margin-top: 65px;
   -webkit-transition: margin-top 0.3s ease-in-out;
   -moz-transition: margin-top 0.3s ease-in-out;
   -o-transition: margin-top 0.3s ease-in-out;
@@ -819,7 +819,7 @@ header {
 
 .feat-project-img {
   position: fixed;
-  top: 70px;
+  top: 65px;
   right: 0;
   left: 0;
   width: 110%;
@@ -1377,6 +1377,34 @@ footer {
 /* ============================================= */
 /*	Boston Hoops Project Page					 */
 /* ============================================= */
+.feat-project-mod-hoops {
+  position: relative;
+  background-color: #14a798;
+}
+
+.blimp-animation {
+  z-index: 333;
+  margin-top: 10px;
+  max-width: 180px;
+  position: absolute;
+  top: 43%;
+}
+
+.hoops-city {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.hoops-title {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  z-index: 4;
+}
+
 .hoops-ipad {
   position: relative;
 }
@@ -1583,9 +1611,9 @@ footer {
 }
 
 .blimp-animation {
-  -webkit-animation: blimp 75s linear infinite;
-  -moz-animation: blimp 75s linear infinite;
-  -o-animation: blimp 75s linear infinite;
+  -webkit-animation: blimp 50s linear infinite;
+  -moz-animation: blimp 50s linear infinite;
+  -o-animation: blimp 50s linear infinite;
 }
 
 @-webkit-keyframes blimp {
