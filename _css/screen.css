@@ -516,15 +516,6 @@ header {
   }
 }
 
-.nav-logo-txt {
-  display: inline;
-  float: left;
-  font: 600 17px/140%;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-indent: -20000px;
-}
-
 .nav-logo-mod {
   float: left;
 }
@@ -541,6 +532,13 @@ header {
   .nav-logo-mod img {
     max-width: 150px;
   }
+}
+
+.nav-title {
+  float: left;
+  font: 200 1px/0%;
+  max-width: 1px;
+  text-indent: -20000px;
 }
 
 .nav-link-mod {
@@ -707,10 +705,15 @@ header {
   margin: 0 auto;
   padding: 30px 15px;
 }
+@media (min-width: 600px) {
+  .home-intro {
+    padding: 20px 15px;
+  }
+}
 .home-intro h2 {
   margin: 0 auto;
   text-align: center;
-  font: 400 35px/150% "schoolbook-web", Georgia, Times, Times New Roman, serif;
+  font: 400 26px/150% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   max-width: 860px;
 }
 .home-intro h2 a {
@@ -718,6 +721,11 @@ header {
 }
 .home-intro h2 a:hover {
   color: #22aba1;
+}
+@media (min-width: 600px) {
+  .home-intro h2 {
+    font-size: 35px;
+  }
 }
 .home-intro p {
   font: 400 20px/150% "Montserrat", sans-serif;

@@ -168,15 +168,6 @@ header {
 	}
 }
 
-.nav-logo-txt {
-	display: inline;
-	float: left;
-	font: 600 17px/140%;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	text-indent: -20000px;	
-}
-
 .nav-logo-mod {
 	float: left;
 
@@ -190,8 +181,16 @@ header {
 
 		@media (min-width: 760px) {
 			max-width: 150px;
-		}
-	}
+		}//mq
+	}//img
+}
+
+.nav-title {
+
+	float: left;
+	font: 200 1px/0%;
+	max-width: 1px;
+	text-indent: -20000px;	
 }
 
 .nav-link-mod {
@@ -353,10 +352,14 @@ header {
 	margin: 0 auto;
 	padding: 30px 15px; 
 
+	@media (min-width: 600px) {
+		padding: 20px 15px;
+	}
+
 	h2 {
 		margin: 0 auto;
 		text-align: center;
-		font: 400 35px/150% $serif;
+		font: 400 26px/150% $serif;
 		max-width: 860px;
 
 		a {
@@ -364,9 +367,13 @@ header {
 
 			&:hover { 
 				color: $site-spot;
-			}
-		}
-	}
+			}//hover
+		}//a
+
+		@media (min-width: 600px) {
+			font-size: 35px;
+		}//mq
+	}//h2
 
 	p {
 		font: 400 20px/150% $sans-title;

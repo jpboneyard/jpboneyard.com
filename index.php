@@ -15,7 +15,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 		<div id="main" role="main">
 			<div class="feat-project-mod" id="top">
 <!-- 				<img class="computron-topper" src="/_img/home-intro-computron.png" />
- -->				<img class="home-topper" src="_img/home-topper-3.jpg" />
+ -->				<a href="/nationalposterretrospecticus"><img class="home-topper" src="_img/home-topper-3.jpg" /></a>
 			</div> <!-- /feat-project-mod -->
 
 			<div class="home-intro">
