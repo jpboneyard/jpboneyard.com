@@ -13,7 +13,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				<div class="project-page-content">
 
 					<div class="overline">Design & Printmaking</div>
-					<h3>Favorite and Found Letter Project</h3>
+					<h1>Favorite and Found Letter Project</h1>
 					<p>Combines screen printing and typography just for the fun of it? Count me in! The goal of the project was to gain more experience drawing letter forms and experiment with screen printing techiniques—both things I've wanted to do for a while but hadn't been able to put the time aside for. To prepare for the project I collected 945 letters as research which meant frequent trips to local libraries, antique shops, junk yards around Massachusetts. I also built a new screen printing set up that would allow me to print twice as large as in the past.</p>
 					
 					<img class="img-sm img-first" src="/_img/letter-project-a-jp-boneyard.jpg" alt="Letter A" />

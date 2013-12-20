@@ -16,8 +16,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				<div class="project-page-content">
 
 					<div class="overline">Illustration & Code</div>
-					<h3>Boston Hoops</h3>
-
+					<h1>Boston Hoops</h1>
 					<p>Somehow a basketball never really ended up in my hands until the Spring of 2013—at least that's when it stuck. My interest in the game peaked around 2011 while watching the Celtics when. Once I was all in the next logical step felt like getting on the court myself. I didn't have much of a shot but a few blocks, some decent passing and a ton of rebounds made me feel like I had something to contribute. Where else were games going on in the city? Were other spots more or less active? Are there righteous spots to play at night under the lights? I wanted to answer these questions by visiting new parts of town and documenting all of the awesome spots to ball. In the process I'd get to work on a fun illustration and web project and have something to share with other enthusiasts.</p>
 					
 					<div class="boston-hoops-web-mod img-sm">

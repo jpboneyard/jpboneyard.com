@@ -14,12 +14,16 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="feat-project-mod" id="top">
-				<img class="feat-project-img home-topper home-intro-slide" src="_img/home-topper.jpg" />
+<!-- 				<img class="computron-topper" src="/_img/home-intro-computron.png" />
+ -->				<img class="home-topper" src="_img/home-topper-3.jpg" />
 			</div> <!-- /feat-project-mod -->
 
 			<div class="home-intro">
-				<div class="intro-overline">The Big Three</div>
-				<h2>Design, Code, Art & Music Events</h2>
+				<h2><a href="/nationalposterretrospecticus">The National Poster Retrospecticus</a></h2>
+				<div class="intro-overline">Featured Project</div>
+				<!-- <h2>Consumate Craftsman & Haver of Fun</h2>
+				<div class="intro-overline">Design, Code, Art & Music Events</div> -->
+ 				<!-- <p>JP Boneyard designs and codes websites, loves hand-printing posters and setting up art and music events that bring people together.</p> -->
 			</div> <!-- /home-intro -->	
 
 			<?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/project-tiles.php"); ?>

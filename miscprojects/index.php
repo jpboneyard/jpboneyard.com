@@ -14,7 +14,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 
 					<div class="overline">Grab Bag of Fun</div>
-					<h3>Misc Projects</h3>
+					<h1>Misc Projects</h1>
 					<p>Designer Adrian Walsh curated a collaborative design project called "The Everywhere Project" that pays tribute to the classic folk song “I’ve Been Everywhere”. My birthplace of Springfield Mass is mentioned in the song and I was fortunate enough to represent the city and hang with pretty righteous group of contributors. Springfield is lovingly referred to as "The City of Firsts". I picked one of my favorites from that long list and illustrated it for my luggage label (sorry basketball, I didn't love you as much until a little later)—the Indian Motorcycle! </p>
 
 

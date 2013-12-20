@@ -13,7 +13,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				<div class="project-page-content">
 
 					<div class="overline">Environmental Design & Printmaking</div>
-					<h3>LuluLemon Wall Installation</h3>
+					<h1>LuluLemon Wall Installation</h1>
 					<p>I was stoked when Lululemon reached out about creating a unique piece of art for a new store in Boston Mass. The slogan came from lulu's mission statement and the overall aesthetic was inspired by Newbury Street and the new space itself. We worked with Seaport Graphics in Boston to fabricate the final piece. The crew at Seaport did an amazing job scouting out the wood (seriously, this was once an old 9'x9' barn door!), rope and other supplies we had requested to produce the installation. It's always a joy working with three-dimensional type. Nothing beats the physicality involved with setting 7" pieces of machined type by hand.</p>
 					
 					<img class="img-full img-first" src="/_img/lululemon-installation-jp-boneyard.jpg" alt="Lululemon wall art 1" />

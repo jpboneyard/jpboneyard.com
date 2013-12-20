@@ -42,16 +42,20 @@ h1,h2,h3,h4,h5 {
 	-webkit-font-smoothing: antialiased;
 }
 
+h1 {
+	margin: 0 auto;
+	font: 400 45px/120% $serif;
+	max-width: $standard-width;
+	margin-bottom: 16px;
+	color: #333332
+}
+
 h3 {
 	margin: 0 auto;
 	margin-bottom: 15px;
 	color: #333332;
 	max-width: $standard-width;
 	font: 700 27px/140% $sans-title;
-
-	@media (min-width: 700px) {
-		font-size: 30px;
-	}
 }
 
 h4 {
@@ -347,15 +351,44 @@ header {
 .home-intro {
 	background-color: #fff;
 	margin: 0 auto;
-	padding: 30px 0px; 
+	padding: 30px 15px; 
 
 	h2 {
 		margin: 0 auto;
 		text-align: center;
-		font: 400 21px/140% $sans-title;
-		text-transform: uppercase;
-		letter-spacing: 2px;
+		font: 400 35px/150% $serif;
+		max-width: 860px;
+
+		a {
+			color: #333332;
+
+			&:hover { 
+				color: $site-spot;
+			}
+		}
 	}
+
+	p {
+		font: 400 20px/150% $sans-title;
+		max-width: 800px;
+		margin: 0 auto;
+		color: #666;
+		text-align: center;
+	}
+}
+
+.computron-topper {
+	position: absolute;
+	bottom: 0px;
+	z-index: 20;
+}
+
+.home-topper {
+	position: relative;
+	top: 65px;
+	right: 0;
+	left: 0;
+	width: 110%;
 }
 
 .home-intro-slide {
@@ -444,10 +477,6 @@ header {
 	right: 0;
 	left: 0;
 	width: 110%;
-
-	/*@media (min-width: 1400px) {
-		top: -70px;
-	}*/
 }
 
 
@@ -756,7 +785,7 @@ footer {
 .social-list {
 	margin: 0px 0px 20px 0px;
 	text-align: center;
-	padding-top: 70px;
+	padding-top: 60px;
 }
 
 .social-item {
@@ -776,7 +805,7 @@ footer {
 }//social-item
 
 .social-item-img {
-	max-width: 27px;
+	max-width: 25px;
 	width: 100%;
 }
 

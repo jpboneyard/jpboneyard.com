@@ -11,7 +11,7 @@
 	<div class="project-page-mod">
 		<div class="project-page-content">
 			<div class="overline">Contact</div>
-			<h3>Getting in Touch is Fun and Easy to Do!</h3>
+			<h1>Getting in Touch is Fun and Easy to Do!</h1>
 			<p>Want to discuss your next project? Do you want to book a show or bring The National Poster Retrospecticus to your town? Maybe you'd just like to talk Basketball or printmaking? That's awesome, because I'd love to do the same!</p>
 
 			<ul class="site-list">

@@ -13,7 +13,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				<div class="project-page-content">
 
 					<div class="overline">Event Production & Design</div>
-					<h3>The National Poster Retrospecticus</h3>
+					<h1>The National Poster Retrospecticus</h1>
 
 					<p>Over 100 Artists! More than 300 Posters! More than 10 cities around the country! The National Poster Retrospecticus is the project I've put everything into since it took off in 2013. With origins that go back as far as 2006 followed up by a rebirth in 2012 The NPR is show that celebrates the made-by-hand aesthetic and the art of the hand-made poster.</p>
 					
