@@ -1,6 +1,15 @@
 width: calc(100% - 19px);
 
 
+
+	<div class="topper-details-mod">
+				<div class="topper-details">
+						<h4>The NPR</h4>
+						<div class="overline">Design & Production</div>
+				</div> <!-- /topper-details -->		
+			</div> <!-- /topper-details-mod -->
+
+
 <!-- grid 1-3 --> 
 		<div class="grid-1 grid-item media-block">
 			<a href="/nationalposterretrospecticus"> <img class="bottom" src="/_img/tiles/npr.jpg" alt="npr"/>

@@ -64,7 +64,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 							<li><a href="http://www.lincolnartsproject.com/" target="_blank">Lincoln Arts Project</a></li>
 							<li><a href="http://tinymediaempire.com/" target="_blank">Daniel Danger</a></li>
 							<li><a href="http://www.johnpauljimenez.com/" target="_blank">John-Paul Jimenez</a></li>
-							<li><a href="www.linkedin.com/pub/andy-kokoszka/8/355/184" target="_blank">Andrew Kokoszka</a></li>
+							<li><a href="http://www.linkedin.com/pub/andy-kokoszka/8/355/184" target="_blank">Andrew Kokoszka</a></li>
 						</ul>
 
 						<ul class="npr-list last">

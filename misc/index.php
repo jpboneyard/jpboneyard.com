@@ -6,7 +6,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="feat-project-mod" id="top">
-				<img class="feat-project-img" src="/_img/wordcamp-topper.jpg" alt="Misc Projcets Topper" />
+				<img class="feat-project-img" src="/_img/misc-topper.jpg" alt="Misc Projcets Topper" />
 			</div> <!-- /feat-project-mod -->
 
 			<div class="project-page-mod">

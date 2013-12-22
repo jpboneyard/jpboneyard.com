@@ -21,12 +21,13 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<div class="do-site img-sm">
 						<img class="img-sm section-start" src="/_img/daily-orange-site-upstatement-jp-boneyard.jpg" alt="Daily Orange Dot Com" />
 						<img class="do-blurb" src="/_img/do-blurb.png" alt="Do Blurb" />
-					</div>	
+					</div> <!-- /do-site -->	
+
+
 
 					<h3>Responsive Design for the Web</h3>
 					<p>Upstatement is known for its work on responsive sites like BostonGlobe.com. Solving high-level content and organization problems and writing the best code possible is the Upstatement way. While I've worked on dozens of web projects during my time at Upstatement, the first client project that I was able to run, manage, design and do the front-end development for was Upstatement's Alma mater of sorts: Syracuse Universities Independent Student News Paper <a href="http://www.dailyoragen.com" target="_blank">The Daily Orange</a>. The site took visual inspiration from The D.O.'s physical newspaper and implemented a responsive design—something relatively new for college papers at the time. This redesign focused heavily on the backend; using a new CMS to make updaing the site a breeze, and on ad revenue opporunities through out the site. We were able to implement responsive ads, create new types of sponsorship opportunities and allow the paper to swap out house ads and paid ads with ease. In 2012 and again in 2013 our design helped this awesome publication win Best Student Newspaper Website in the world. We still can't beleive it!</p>
 				
-
 
 
 					<img class="img-full section-start" src="/_img/wordcamp-poster-upstatement-jp-boneyard.jpg" alt="Word Camp Poster" />

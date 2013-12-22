@@ -14,9 +14,8 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<a href="/nationalposterretrospecticus" display="block"><div class="feat-project-mod" id="top">
-<!-- 				<img class="computron-topper" src="/_img/home-intro-computron.png" />
- -->				<img class="home-topper" src="_img/home-topper-3.jpg" />
-			</div></a> <!-- /feat-project-mod -->
+				<img class="home-topper" src="_img/home-topper-3.jpg" />
+		</div></a> <!-- /feat-project-mod -->
 
 			<div class="home-intro">
 				<h1 class="nav-title">JP Boneyard</h1>

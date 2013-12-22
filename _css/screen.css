@@ -362,21 +362,6 @@ em {
   font-style: italic;
 }
 
-a {
-  color: #22aba1;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-}
-a:hover {
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  color: #666666;
-}
-
 body {
   overflow: hidden;
 }
@@ -443,6 +428,20 @@ h4 {
 
 p {
   -webkit-font-smoothing: antialiased;
+}
+p a {
+  color: #22aba1;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+p a:hover {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  color: #666666;
 }
 
 .site-list {
@@ -792,6 +791,28 @@ header {
 /* ============================================= */
 /*	Featured Project							 */
 /* ============================================= */
+.about-topper {
+  background: url(/_img/jp-boneyard-john-boilard-2.jpg) center center no-repeat;
+}
+
+.feat-mod-cover {
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  min-height: 75%;
+  width: 100%;
+  z-index: 66;
+  position: fixed;
+  *zoom: 1;
+}
+.feat-mod-cover:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .feat-project-mod {
   *zoom: 1;
   position: relative;
@@ -1029,8 +1050,6 @@ header {
 .tile-2 {
   animation: fadein 1.8s;
   -webkit-animation: fadein 1.8s;
-  /*	animation-delay: 2s;
-  	-webkit-animation-delay: 2s;*/
 }
 
 .tile-3 {
@@ -1041,8 +1060,6 @@ header {
 .tile-4 {
   animation: fadein 5.4s;
   -webkit-animation: fadein 5.4s;
-  /*	animation-delay: 2s;
-  	-webkit-animation-delay: 2s;*/
 }
 
 .tile-5 {
@@ -1053,8 +1070,6 @@ header {
 .tile-6 {
   animation: fadein 3.6s;
   -webkit-animation: fadein 3.6s;
-  /*	animation-delay: 2s;
-  	-webkit-animation-delay: 2s;*/
 }
 
 .tile-7 {
@@ -1065,15 +1080,22 @@ header {
 .tile-8 {
   animation: fadein 7.2s;
   -webkit-animation: fadein 7.2s;
-  /*	animation-delay: 2s;
-  	-webkit-animation-delay: 2s;*/
 }
 
 .tile-9 {
   animation: fadein 8.1s;
   -webkit-animation: fadein 8.1s;
-  /*	animation-delay: 2s;
-  	-webkit-animation-delay: 2s;*/
+  margin-left: 0px;
+}
+@media (min-width: 501px) {
+  .tile-9 {
+    margin-left: 25%;
+  }
+}
+@media (min-width: 1100px) {
+  .tile-9 {
+    margin-left: 0px;
+  }
 }
 
 @-webkit-keyframes fadein {
@@ -1120,12 +1142,22 @@ header {
 /* ============================================= */
 .project-page-mod {
   background-color: #fff;
+  z-index: 2;
+  position: relative;
+  display: block;
+  *zoom: 1;
+}
+.project-page-mod:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .project-page-content {
   background-color: #fff;
   padding: 32px 15px;
   margin: 0 auto;
+  display: block;
 }
 @media (min-width: 500px) {
   .project-page-content {
