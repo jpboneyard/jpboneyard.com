@@ -52,10 +52,12 @@ h1 {
 
 h3 {
 	margin: 0 auto;
-	margin-bottom: 15px;
-	color: #333332;
+	margin-bottom: 6px;
+	color: #333;
 	max-width: $standard-width;
-	font: 700 27px/140% $sans-title;
+	font: 700 24px/140% $sans-title;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 h4 {
@@ -186,7 +188,6 @@ header {
 }
 
 .nav-title {
-
 	float: left;
 	font: 200 1px/0%;
 	max-width: 1px;
@@ -361,6 +362,7 @@ header {
 		text-align: center;
 		font: 400 26px/150% $serif;
 		max-width: 860px;
+		margin-bottom: 10px;
 
 		a {
 			color: #333332;
@@ -371,7 +373,8 @@ header {
 		}//a
 
 		@media (min-width: 600px) {
-			font-size: 35px;
+			font-size: 41px;
+			line-height: 125%;
 		}//mq
 	}//h2
 
@@ -491,17 +494,16 @@ header {
 /*	Project Tiles								 */ 
 /* ============================================= */
 
-.projects-mod {
-	padding: 15px 15px 62px 15px;
+.tile-list-mod {
+	padding: 62px 15px 62px 15px;
 	@include pie-clearfix;
 	margin: 0 auto;
 	text-align: center;
-	// background-color: #FAFBFB;
 	background-color: #f7f7f7;
 	position: relative;
 
 	@media (min-width: 500px) {
-		padding: 32px 32px 62px 32px;
+		padding: 62px 32px 62px 32px;
 	}//mq	
 
 	@media (min-width: 900px) {
@@ -523,78 +525,6 @@ header {
 	}
 }
 
-.project-tiles {
-	margin: 0 auto;
-	@include pie-clearfix;
-
-	@media (min-width:600px) and (max-width: 1000px) {
-		@include media-grid(2, 20px);
-    }
-
-	@media (min-width: 1000px) {
-		@include media-grid(3, 20px);
-    }
-
-}
-
-.tile-detail-mod {
-	position: absolute;
-	bottom: 0px;
-	padding: 17% 5%;
-	background-color: #fff;
-	@include pie-clearfix;
-	width: 100%;
-	height: 100%;
-	@include trans(.7s, opacity);
-	@include opacity(0);
-
-	@media (min-width: 500px) {
-		width: calc(100% - 19px);
-	}
-}
-
-.tile-details {
-	margin: 0 auto;
-	text-align: center;
-	font: 800 13px/140% $sans-title;
-
-	h4 {
-		font-size: 14px;
-
-		@media (min-width:800px) {
-			font-size: 19px;
-		}//mq
-	}
-}
-
-.grid-item {
-	display: block;
-	position: relative;
-	width: 95%;
-	margin: 0 auto 19px;
-	@include opacity(1);
-	> a {
-		display: block;
-		}
-	img {
-		width: 100%;
-		}
-	&:hover {
-		.tile-detail-mod {
-			@include opacity(1);
-			@include trans(.2s, opacity);	
-		}
-	}	
-}
-
-.grid-item .top {
-	z-index: 10;
-	position: absolute;
-	top: 0;
-	left: 0;
-	@include trans(.7s, opacity);
-}
-
 .more-work-mod {
 	margin: 0 auto;
 	text-align: center;
@@ -605,8 +535,150 @@ header {
 		max-width: 92px;
 		position: relative;
 		z-index: 3;
+	}//img
+}//more-work-mod
+
+
+.tile-mod {
+
+	&:hover .tile-details {
+			@include trans(.2s, opacity);
+			@include opacity(1);
+	}//hover
+}
+
+.shows-mod {
+	margin: 0 auto;
+	@include pie-clearfix;
+}
+
+.tile-list {
+
+	@media (min-width: 501px) and (max-width: 1100px){		
+		@include media-grid(2, 20px);
+	}//mq
+
+	@media (min-width: 1100px) {
+		@include media-grid(3, 20px);
+		margin: 0 auto;
+	}//mq
+}
+
+.tile-item {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+	position: relative;
+	overflow: hidden;
+
+}//show-item
+
+.show-img-sm {
+	width: 100%;
+}
+
+.tile-details {
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	padding: 16% 2%;
+	left: 0;
+	bottom: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	font: 800 13px/140% $sans-title;
+	@include opacity(0);
+	@include trans(.7s, opacity);
+	border: 1px solid #fff;
+
+	h4 {
+		font-size: 14px;
+
+		@media (min-width:800px) {
+			font-size: 19px;
+		}//mq
+	}//h4
+}
+
+.tile-1 {
+	animation: fadein .9s;	
+	-webkit-animation:fadein .9s;		
+}
+
+.tile-2 {
+	animation: fadein 1.8s;	
+	-webkit-animation:fadein 1.8s;
+/*	animation-delay: 2s;
+	-webkit-animation-delay: 2s;*/		
+}
+
+.tile-3 {
+	animation: fadein 2.7s;	
+	-webkit-animation:fadein 2.7s;		
+}
+
+.tile-4 {
+	animation: fadein 5.4s;	
+	-webkit-animation:fadein 5.4s;
+/*	animation-delay: 2s;
+	-webkit-animation-delay: 2s;*/		
+}
+
+.tile-5 {
+	animation: fadein 4.5s;	
+	-webkit-animation:fadein 4.5s;		
+}
+
+.tile-6 {
+	animation: fadein 3.6s;	
+	-webkit-animation:fadein 3.6s;
+/*	animation-delay: 2s;
+	-webkit-animation-delay: 2s;*/		
+}
+
+.tile-7 {
+	animation: fadein 6.3s;	
+	-webkit-animation:fadein 6.3s;		
+}
+
+.tile-8 {
+	animation: fadein 7.2s;	
+	-webkit-animation:fadein 7.2s;
+/*	animation-delay: 2s;
+	-webkit-animation-delay: 2s;*/		
+}
+
+.tile-9 {
+	animation: fadein 8.1s;	
+	-webkit-animation:fadein 8.1s;
+/*	animation-delay: 2s;
+	-webkit-animation-delay: 2s;*/		
+}
+
+@-webkit-keyframes fadein {
+  0%   { @include opacity(0); }
+  50%   { @include opacity(0); } 
+  100% { @include opacity(1); }
+}
+
+@-moz-keyframes fadein {
+  0%   { @include opacity(0); }
+  50%   { @include opacity(0); } 
+  100% { @include opacity(1); }
+}  
+
+.inside-projects {
+	.tile-1,.tile-2,.tile-3,.tile-4,.tile-5,.tile-6,.tile-7,.tile-8,.tile-9 {
+		animation: fadein .1s;	
+		-webkit-animation:fadein .1s;
 	}
 }
+
+
+
+
 
 
 /* ============================================= */
@@ -634,7 +706,7 @@ header {
 		margin: 0 auto;
 		margin-bottom: 30px;
 		color: #333332;;
-		font: 400 17px/180% $serif;
+		font: 400 17px/176% $serif;
 		max-width: $standard-width;
 
 		@media (min-width: 500px) {
@@ -966,7 +1038,6 @@ footer {
 /* ============================================= */
 /*	Boston Hoops Project Page					 */ 
 /* ============================================= */
-
 
 .feat-project-mod-hoops {
 	position: relative;

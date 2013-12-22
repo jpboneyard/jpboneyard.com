@@ -13,9 +13,9 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				<div class="project-page-content">
 
 
-					<div class="overline">Grab Bag of Fun</div>
+					<div class="overline">Grab Bag</div>
 					<h1>Misc Projects</h1>
-					<p>Designer Adrian Walsh curated a collaborative design project called "The Everywhere Project" that pays tribute to the classic folk song “I’ve Been Everywhere”. My birthplace of Springfield Mass is mentioned in the song and I was fortunate enough to represent the city and hang with pretty righteous group of contributors. Springfield is lovingly referred to as "The City of Firsts". I picked one of my favorites from that long list and illustrated it for my luggage label (sorry basketball, I didn't love you as much until a little later)—the Indian Motorcycle! </p>
+					<p>Small side projects, freelance jobs or one-off pieces always find there way onto my radar in between working full time at Upstatement and running The National Poster Retrospecticus.</p>
 
 
 					<img class="img-sm section-start" src="/_img/JP-Boneyard-Springfield-Mass-Been-Everywhere-Project.jpg" alt="Been Everywhere Project" />
@@ -28,7 +28,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<img class="img-med section-start" src="/_img/bikes-fight-cancer-desktop-upstatement-jp-boneyard.jpg" alt="Bikes Fight Cancer Web Site" />
 
 					<h3>Bikes Fight Cancer</h3>
-					<p>Matt Thompson of NPR reached out to Upstatment about developing a simple web site and branding system that could be used for Spark Camp: a thing where people talk and stuff. Even though the project had a limited timeline I was able to jump in, establish a the brand elements and build out a site around this new visual language and Matt's content needs. We were fortunate to work with Matt and his appreciation of all the extra details (like building out a set of icons at our suggestion) ultimately led to NPR hiring Upstatement for several other larger projects.</p>	
+					<p>Bikes Fight Cancer is a cycling team dedicated to the fight against cancer. Over the last eight years the team has raised over $138,000 for cancer research via The Pan Mass Challenge. Sparing no expense on fund raising, team jerseys, and other shwag, the team recently decided to invest in their web presence as well. This redesign would focus on providing multiple ways to donate online and documenting all of the hard work these self-proclaimed knuckleheads have put into this noble adventure.</p>	
 					
 					<btn class="btn-submit btn-txt"> <a href="http://www.bikesfightcancer.org" target="_blank">Launch The Site</a></btn>
 
@@ -44,10 +44,18 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					
 					<h3>Drinks at Upstatement Event & Microsite</h3>
-					<p>This self initiated project took place during my last semester at Mass Art. The goal of the project was to gain more experience drawing letter forms and experiment with screen printing. To prepare for the project I collected 945 letters as research, and built a new screen printing set up that would allow me to print twice as large as in the past. Type was then redrawn from reference, from scratch or left as is because it was so unique, and then screen printed. From start to finish this project took 200+ hours to complete — probably the most time I've spent on any one project to date!</p>
+					<p>Upstatement is fortunate to make its home in historic Fort Point Channel. Our 100 year old building houses our studio in a massive, beatufitul space. We love hosting parties (everything from poster shows, to holiday parties to inviting the creative community over for drinks) and we love being able to catch up with friends, clients and our contemoraries in Boston. Every season I lead the charge in setting up our "Drinks Upstatement" event. I was also able to make this fun microsite and build out some custom type to help hype these happenings.</p>
 					
 					<btn class="btn-submit btn-txt"> <a href="http://www.upstatement.com/drinks" target="_blank">Launch The Site</a></btn>
 
+
+
+					<img class="img-full section-start" src="/_img/retrospecitcus-book.jpg" alt="National Poster Retrospecticus Book Cover" />
+
+					<h3>The NPR 2013 Tour Book</h3>
+					<p>Over its 30 pages this hardcover book documents the shows origins, each stop on our three-week-long tour across the country and covers some of our process as well.</p>
+
+					<img class="img-sm" src="/_img/npr-book-retrospecticus-2.jpg" alt="National Poster Retrospecticus Book" />
 
 				</div> <!-- /project-page-content -->					
 

@@ -14,8 +14,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">Design & Printmaking</div>
 					<h1>Gig Posters</h1>
-
-					<p>Since 1999 I have helped organize and promote over 250 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international acts. People coming together through music and art is something I've always felt inspired by and love the sense of community that it brings. The shows we put together are all ages, bands receive 100% of the door money after venue costs, and we take nothing for ourselves I grew up in a small town without a lot to do by way of self expression and entertainment. Fortunately I was blessed to be surrounded by so many creative friends who were playing in bands (and needed a drummer, much like myself). Once the basement circuit rand its course we all need.</p>
+					<p>I got my start in design by meticulously crafting flyers and simple two color screenprinted posters coming out of high school. Posters will always be near and dear to me and I'll never forget that feeling of excitement I'd get after finishing some of my first posters. It felt triumphant and I love the sense of active meditaion that would grip me as I essentially became aware of my passion for design. It was through the necessity to promote the DIY shows I was setting up in the late 90's that I made my introduction the world of gig posters.</p>
 										
 
 					<img class="img-full full-m section-start" src="/_img/elephant-six-jp-boneyard.jpg" alt="Elephant Six Poster" />
@@ -34,7 +33,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">15 x 23" one color screen print</div>
 
-					<p>Who's that creep in the backyard? Or is someone returning home after a weird walk in the woods? This show provided an opportunity to make something with less of an exuberant vibe compared to my other poster work. The source of inspiration was the darker, loungey, introspective themes provided by the bands on the bill. That and channeling my inner goth / watching 48 hours worth of film noir flicks. Also worth noting, this poster glows in the dork.</p>
+					<p>The unholy combination of Black Metal and Twin Peaks inspired the music that Mount Eerie was playing on this particular tour. The music was heavy, ominious and introspective. My goal for this print was to create the landscape that I pictured in my mind as these powerful tunes delighted my ears. This place lives in black and white with t.v. static in the sky.</p>
 				
 
 
@@ -64,7 +63,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">14 x 22" two color screen print</div>
 
-					<p>Free popsicles, summer heat and the month our nation was born. Such a fun show. After two previous versions involving cool summer treats, this is where the poster landed. Don't fight it, feel it!</p>
+					<p>Free popsicles, summer heat and the month our nation was born. Such a fun show. After two previous versions involving cool summer treats, this is where the poster landed. Don't fight it, feel it y'all!</p>
 
 
 

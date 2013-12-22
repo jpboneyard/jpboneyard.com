@@ -395,10 +395,12 @@ h1 {
 
 h3 {
   margin: 0 auto;
-  margin-bottom: 15px;
-  color: #333332;
+  margin-bottom: 6px;
+  color: #333;
   max-width: 650px;
-  font: 700 27px/140% "Montserrat", sans-serif;
+  font: 700 24px/140% "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h4 {
@@ -715,6 +717,7 @@ header {
   text-align: center;
   font: 400 26px/150% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   max-width: 860px;
+  margin-bottom: 10px;
 }
 .home-intro h2 a {
   color: #333332;
@@ -724,7 +727,8 @@ header {
 }
 @media (min-width: 600px) {
   .home-intro h2 {
-    font-size: 35px;
+    font-size: 41px;
+    line-height: 125%;
   }
 }
 .home-intro p {
@@ -865,31 +869,31 @@ header {
 /* ============================================= */
 /*	Project Tiles								 */
 /* ============================================= */
-.projects-mod {
-  padding: 15px 15px 62px 15px;
+.tile-list-mod {
+  padding: 62px 15px 62px 15px;
   *zoom: 1;
   margin: 0 auto;
   text-align: center;
   background-color: #f7f7f7;
   position: relative;
 }
-.projects-mod:after {
+.tile-list-mod:after {
   content: "";
   display: table;
   clear: both;
 }
 @media (min-width: 500px) {
-  .projects-mod {
-    padding: 32px 32px 62px 32px;
+  .tile-list-mod {
+    padding: 62px 32px 62px 32px;
   }
 }
 @media (min-width: 900px) {
-  .projects-mod {
+  .tile-list-mod {
     padding: 62px 72px 62px 72px;
   }
 }
 @media (min-width: 1300px) {
-  .projects-mod {
+  .tile-list-mod {
     padding: 62px 102px 62px 102px;
   }
 }
@@ -902,131 +906,6 @@ header {
   padding-top: 82px;
 }
 
-.project-tiles {
-  margin: 0 auto;
-  *zoom: 1;
-}
-.project-tiles:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media (min-width: 600px) and (max-width: 1000px) {
-  .project-tiles {
-    margin-left: -20px;
-    *zoom: 1;
-  }
-  .project-tiles:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .project-tiles .media-block {
-    float: left;
-    padding-left: 20px;
-    width: 50%;
-  }
-  .project-tiles .media-block:nth-child(2n+3) {
-    clear: left;
-  }
-}
-@media (min-width: 1000px) {
-  .project-tiles {
-    margin-left: -20px;
-    *zoom: 1;
-  }
-  .project-tiles:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .project-tiles .media-block {
-    float: left;
-    padding-left: 20px;
-    width: 33.3333%;
-  }
-  .project-tiles .media-block:nth-child(3n+4) {
-    clear: left;
-  }
-  .ie7 .project-tiles .media-block {
-    width: 33%;
-  }
-}
-
-.tile-detail-mod {
-  position: absolute;
-  bottom: 0px;
-  padding: 17% 5%;
-  background-color: #fff;
-  *zoom: 1;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: opacity 0.7s ease-in;
-  -moz-transition: opacity 0.7s ease-in;
-  -o-transition: opacity 0.7s ease-in;
-  transition: opacity 0.7s ease-in;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-}
-.tile-detail-mod:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media (min-width: 500px) {
-  .tile-detail-mod {
-    width: calc(100% - 19px);
-  }
-}
-
-.tile-details {
-  margin: 0 auto;
-  text-align: center;
-  font: 800 13px/140% "Montserrat", sans-serif;
-}
-.tile-details h4 {
-  font-size: 14px;
-}
-@media (min-width: 800px) {
-  .tile-details h4 {
-    font-size: 19px;
-  }
-}
-
-.grid-item {
-  display: block;
-  position: relative;
-  width: 95%;
-  margin: 0 auto 19px;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
-.grid-item > a {
-  display: block;
-}
-.grid-item img {
-  width: 100%;
-}
-.grid-item:hover .tile-detail-mod {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-  -webkit-transition: opacity 0.2s ease-in;
-  -moz-transition: opacity 0.2s ease-in;
-  -o-transition: opacity 0.2s ease-in;
-  transition: opacity 0.2s ease-in;
-}
-
-.grid-item .top {
-  z-index: 10;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-transition: opacity 0.7s ease-in;
-  -moz-transition: opacity 0.7s ease-in;
-  -o-transition: opacity 0.7s ease-in;
-  transition: opacity 0.7s ease-in;
-}
-
 .more-work-mod {
   margin: 0 auto;
   text-align: center;
@@ -1037,6 +916,203 @@ header {
   max-width: 92px;
   position: relative;
   z-index: 3;
+}
+
+.tile-mod:hover .tile-details {
+  -webkit-transition: opacity 0.2s ease-in;
+  -moz-transition: opacity 0.2s ease-in;
+  -o-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.shows-mod {
+  margin: 0 auto;
+  *zoom: 1;
+}
+.shows-mod:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 501px) and (max-width: 1100px) {
+  .tile-list {
+    margin-left: -20px;
+    *zoom: 1;
+  }
+  .tile-list:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .tile-list .media-block {
+    float: left;
+    padding-left: 20px;
+    width: 50%;
+  }
+  .tile-list .media-block:nth-child(2n+3) {
+    clear: left;
+  }
+}
+@media (min-width: 1100px) {
+  .tile-list {
+    margin-left: -20px;
+    *zoom: 1;
+    margin: 0 auto;
+  }
+  .tile-list:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .tile-list .media-block {
+    float: left;
+    padding-left: 20px;
+    width: 33.3333%;
+  }
+  .tile-list .media-block:nth-child(3n+4) {
+    clear: left;
+  }
+  .ie7 .tile-list .media-block {
+    width: 33%;
+  }
+}
+
+.tile-item {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.show-img-sm {
+  width: 100%;
+}
+
+.tile-details {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 16% 2%;
+  left: 0;
+  bottom: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  font: 800 13px/140% "Montserrat", sans-serif;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.7s ease-in;
+  -moz-transition: opacity 0.7s ease-in;
+  -o-transition: opacity 0.7s ease-in;
+  transition: opacity 0.7s ease-in;
+  border: 1px solid #fff;
+}
+.tile-details h4 {
+  font-size: 14px;
+}
+@media (min-width: 800px) {
+  .tile-details h4 {
+    font-size: 19px;
+  }
+}
+
+.tile-1 {
+  animation: fadein .9s;
+  -webkit-animation: fadein .9s;
+}
+
+.tile-2 {
+  animation: fadein 1.8s;
+  -webkit-animation: fadein 1.8s;
+  /*	animation-delay: 2s;
+  	-webkit-animation-delay: 2s;*/
+}
+
+.tile-3 {
+  animation: fadein 2.7s;
+  -webkit-animation: fadein 2.7s;
+}
+
+.tile-4 {
+  animation: fadein 5.4s;
+  -webkit-animation: fadein 5.4s;
+  /*	animation-delay: 2s;
+  	-webkit-animation-delay: 2s;*/
+}
+
+.tile-5 {
+  animation: fadein 4.5s;
+  -webkit-animation: fadein 4.5s;
+}
+
+.tile-6 {
+  animation: fadein 3.6s;
+  -webkit-animation: fadein 3.6s;
+  /*	animation-delay: 2s;
+  	-webkit-animation-delay: 2s;*/
+}
+
+.tile-7 {
+  animation: fadein 6.3s;
+  -webkit-animation: fadein 6.3s;
+}
+
+.tile-8 {
+  animation: fadein 7.2s;
+  -webkit-animation: fadein 7.2s;
+  /*	animation-delay: 2s;
+  	-webkit-animation-delay: 2s;*/
+}
+
+.tile-9 {
+  animation: fadein 8.1s;
+  -webkit-animation: fadein 8.1s;
+  /*	animation-delay: 2s;
+  	-webkit-animation-delay: 2s;*/
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+  }
+
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+  }
+
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  0% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+  }
+
+  50% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+  }
+
+  100% {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+  }
+}
+
+.inside-projects .tile-1, .inside-projects .tile-2, .inside-projects .tile-3, .inside-projects .tile-4, .inside-projects .tile-5, .inside-projects .tile-6, .inside-projects .tile-7, .inside-projects .tile-8, .inside-projects .tile-9 {
+  animation: fadein .1s;
+  -webkit-animation: fadein .1s;
 }
 
 /* ============================================= */
@@ -1060,7 +1136,7 @@ header {
   margin: 0 auto;
   margin-bottom: 30px;
   color: #333332;
-  font: 400 17px/180% "schoolbook-web", Georgia, Times, Times New Roman, serif;
+  font: 400 17px/176% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   max-width: 650px;
 }
 @media (min-width: 500px) {

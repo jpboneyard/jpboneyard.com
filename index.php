@@ -13,12 +13,13 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 		<?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/header.php"); ?>
 
 		<div id="main" role="main">
-			<div class="feat-project-mod" id="top">
+			<a href="/nationalposterretrospecticus" display="block"><div class="feat-project-mod" id="top">
 <!-- 				<img class="computron-topper" src="/_img/home-intro-computron.png" />
- -->				<a href="/nationalposterretrospecticus"><img class="home-topper" src="_img/home-topper-3.jpg" /></a>
-			</div> <!-- /feat-project-mod -->
+ -->				<img class="home-topper" src="_img/home-topper-3.jpg" />
+			</div></a> <!-- /feat-project-mod -->
 
 			<div class="home-intro">
+				<h1 class="nav-title">JP Boneyard</h1>
 				<h2><a href="/nationalposterretrospecticus">The National Poster Retrospecticus</a></h2>
 				<div class="intro-overline">Featured Project</div>
 				<!-- <h2>Consumate Craftsman & Haver of Fun</h2>
