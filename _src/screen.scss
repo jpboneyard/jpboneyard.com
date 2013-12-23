@@ -100,9 +100,21 @@ p {
 		&:hover {
 			@include trans;
 			color: $site-black;
-		}
-	}
-}
+		}//hover
+	}//a
+}//p
+
+li {
+	a {
+		color: $site-spot;
+		@include trans;
+
+		&:hover {
+			@include trans;
+			color: $site-black;
+		}//hover
+	}//a
+}//li
 
 .site-list {
 	max-width: $standard-width;

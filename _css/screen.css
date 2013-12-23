@@ -444,6 +444,21 @@ p a:hover {
   color: #666666;
 }
 
+li a {
+  color: #22aba1;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+li a:hover {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  color: #666666;
+}
+
 .site-list {
   max-width: 650px;
   margin: 0 auto;
