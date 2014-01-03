@@ -30,7 +30,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				
 
 
-					<img class="img-full section-start" src="/_img/wordcamp-poster-upstatement-jp-boneyard.jpg" alt="Word Camp Poster" />
+					<img class="img-full full-m section-start" src="/_img/wordcamp-poster-upstatement-jp-boneyard.jpg" alt="Word Camp Poster" />
 
 					<h3>Design for Print</h3>
 					<p>My first love was print design. As much as I love design for the web there's no changing who came first. I'm fortunate to get to use this muscle rather often at Upstatement wheither its designing and screenprinting our holiday cards, designing posters for Upstatement events or designing our business cards and stationary.</p>

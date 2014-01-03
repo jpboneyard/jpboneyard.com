@@ -20,7 +20,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					
 
 
-					<img class="img-full section-start" src="/_img/national-poster-retrospecticus-poster-jp-boneyard.jpg" alt="National Poster Retrospecticus Poster" />
+					<img class="img-full full-m section-start" src="/_img/national-poster-retrospecticus-poster-jp-boneyard.jpg" alt="National Poster Retrospecticus Poster" />
 
 					<h3>Branding</h3>
 					<p>Retrospecticus is a funny word. The translation comes out to something along the lines of "to look forward" and "to look backward". Combine that with imagery from early american lore and we have the all seeing eye of providence. The brand is flexible enough to fit the needs of a 1" button, an extensive website, a poster series or a giant banner.</p>
