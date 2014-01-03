@@ -26,8 +26,10 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
  				<!-- <p>JP Boneyard designs and codes websites, loves hand-printing posters and setting up art and music events that bring people together.</p> -->
 			</div> <!-- /home-intro -->	
 
-			<?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/project-tiles.php"); ?>
-
+			<div class="home-tiles">
+				<?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/project-tiles.php"); ?>
+			</div>	
+			
 		</div> <!-- /main -->
 
 		<!-- footer -->

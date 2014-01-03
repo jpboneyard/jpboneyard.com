@@ -38,10 +38,14 @@ h1,h2,h3,h4,h5 {
 
 h1 {
 	margin: 0 auto;
-	font: 400 45px/120% $serif;
+	font: 400 42px/120% $serif;
 	max-width: $standard-width;
 	margin-bottom: 16px;
-	color: #333332
+	color: #333332;
+
+	@media (min-width: 500px) {
+		font-size: 45px;
+	}//mq
 }
 
 h3 {
@@ -49,9 +53,14 @@ h3 {
 	margin-bottom: 6px;
 	color: #333;
 	max-width: $standard-width;
-	font: 700 24px/140% $sans-title;
+	font: 700 20px/140% $sans-title;
 	text-transform: uppercase;
 	letter-spacing: 1px;
+
+	@media (min-width: 500px) {
+		font: 700 24px/140% $sans-title;
+	}//mq
+
 }
 
 h4 {
@@ -70,7 +79,7 @@ h4 {
 	margin-bottom: 8px;
 	-webkit-font-smoothing: antialiased;
 
-	@media (min-width: 600px) {
+	@media (min-width: 500px) {
 		font-size: 11px;
 	}//mq
 }
@@ -155,10 +164,6 @@ header {
 	position: fixed;
 	width: 100%;
 
-	@media (min-width: 600px) {
-		padding: 22px 42px;
-	}//mq
-
 	@media (min-width: 760px) {
 		@include opacity (0.9);
 	}
@@ -172,7 +177,7 @@ header {
 .nav-chrome {
 	height: 65px;
 	width: 100%;
-	padding: 22px 10px;
+	padding: 22px 22px;
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -180,7 +185,7 @@ header {
 	background-color: #fff;
 
 	@media (min-width: 760px) {
-		padding: 22px 0px;
+		padding: 22px px;
 		z-index: 2;
 		left: auto;
 	}
@@ -304,6 +309,11 @@ header {
 	position: relative;
 	z-index: 2;
 
+	@media (min-width: 760px) and (max-width: 900px) {
+			padding: 20px 20px 0px 0px;
+
+	}
+
 	@media (min-width: 760px) {
 		float: right;
 		background-color: transparent;		
@@ -367,16 +377,23 @@ header {
 .home-intro {
 	background-color: #fff;
 	margin: 0 auto;
-	padding: 30px 15px; 
+	padding: 25px 15px; 
+	margin-top: -25px;
+	width: 90%;
 
 	@media (min-width: 600px) {
 		padding: 20px 15px;
 	}
 
+	@media (min-width: 700px) {
+		margin-top: 0px;
+		width: 100%;
+	}
+
 	h2 {
 		margin: 0 auto;
 		text-align: center;
-		font: 400 26px/150% $serif;
+		font: 400 23px/136% $serif;
 		max-width: 860px;
 		margin-bottom: 10px;
 
@@ -400,6 +417,16 @@ header {
 		margin: 0 auto;
 		color: #666;
 		text-align: center;
+	}
+}
+
+.home-tiles {
+	.tile-list-mod {
+		padding-top: 40px;
+
+		@media (min-width: 900px) {
+			padding-top: 50px;
+		}//mq
 	}
 }
 
@@ -563,11 +590,21 @@ header {
 	text-align: center;
 	margin-bottom: -45px;
 	background-color: #fff;
+	margin-top: 20px;
+
+	@media (min-width: 600px) {
+		margin-top: 0px;
+	}//mq
 
 	img {
-		max-width: 92px;
+		max-width: 75px;
 		position: relative;
 		z-index: 3;
+
+		@media (min-width: 760px) {
+			max-width: 92px;
+		}//mq
+
 	}//img
 }//more-work-mod
 
@@ -614,7 +651,7 @@ header {
 	background: #fff;
 	width: 100%;
 	height: 100%;
-	padding: 16% 2%;
+	padding: 18% 2%;
 	left: 0;
 	bottom: 0;
 	letter-spacing: 1px;
@@ -625,11 +662,19 @@ header {
 	@include trans(.7s, opacity);
 	border: 1px solid #fff;
 
-	h4 {
-		font-size: 14px;
+	.overline {
+		margin-bottom: 0px;
+	}
 
-		@media (min-width:800px) {
-			font-size: 19px;
+	h4 {
+		font-size: 17px;
+
+		@media (min-width: 800px) {
+			font-size: 20px;
+		}//mq
+
+		@media (min-width: 1300px) {
+			font-size: 23px;
 		}//mq
 	}//h4
 }

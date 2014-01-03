@@ -12,9 +12,9 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 			<div class="project-page-mod">
 				<div class="project-page-content">
 
-					<div class="overline">Sign Design & Printmaking</div>
+					<div class="overline">Design & Printmaking</div>
 					<h1>LuluLemon Wall Installation</h1>
-					<p>I was stoked when Lululemon reached out about creating a unique piece of art for a new store in Boston Mass. The slogan came from lulu's mission statement and the overall aesthetic was inspired by Newbury Street and the new space itself. We worked with Seaport Graphics in Boston to fabricate the final piece. The crew at Seaport did an amazing job scouting out the wood (seriously, this was once an old 9'x9' barn door!), rope and other supplies we had requested to produce the installation. A cool bonus was working with three-dimensional type—Nothing beats the physicality involved with setting 7" pieces of machined with your hands.</p>
+					<p>I was stoked when Lululemon reached out about creating a unique piece of art for a new store in Boston Mass. The slogan came from lulu's mission statement and the overall aesthetic was inspired by Newbury Street and the new space itself. We worked with Seaport Graphics in Boston to fabricate the final piece. The crew at Seaport did an amazing job scouting out the wood (seriously, this was once an old 9'x9' barn door!), rope and other supplies we had requested to produce the installation. A cool bonus was working with three-dimensional type—Nothing beats the physicality involved with setting 7" pieces of machined type with your hands.</p>
 					
 					<img class="img-full img-first" src="/_img/lululemon-installation-jp-boneyard.jpg" alt="Lululemon wall art 1" />
 					
@@ -22,7 +22,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 
 					<h3>Commemorative Poster</h3>
-					<p>A cool bonus to this project was the opportunity to make a commeorative poster to celebrate the grand opening of the new store. I screen printed a short run of posters as a take away for those present at the reception. It was fun to first imagine this installation in three dimensions and then simplify it back to something that more resembles the original 2D renderings.</p>	
+					<p>A cool bonus to this project was the opportunity to make a commeorative poster to celebrate the store's grand opening. I screen printed a short run of posters as a take away for those who made it to the reception. It was fun to first imagine this installation in three dimensions and then simplify it back to something that more closely resembles the original 2D renderings.</p>	
 
 					<img class="img-full" src="/_img/lululemon-poster-full-jp-boneyard.jpg" alt="Lululemon Poster 1" />
 

@@ -8,7 +8,7 @@
 					<img class="show-img-sm" src="/_img/tiles/npr.jpg" alt="The NPR"/>
 					<div class="tile-details">
 						<h4>The NPR</h4>
-						<div class="overline">Design & Production</div>
+						<div class="overline">Production & Design</div>
 					</div> <!-- /tile-details -->
 				</div> <!-- /tile-item -->	
 			</a> <!-- /tile-item-a -->	
@@ -20,7 +20,7 @@
 					<img class="show-img-sm" src="/_img/tiles/lululemon.jpg" alt="lululemon"/>
 					<div class="tile-details">
 						<h4>LuluLemon</h4>
-						<div class="overline">Sign Design & Printmaking</div>
+						<div class="overline">Design & Printmaking</div>
 					</div> <!-- /tile-details -->
 				</div> <!-- /tile-item -->	
 			</a> <!-- /tile-item-a -->	
@@ -45,7 +45,7 @@
 				<div class="tile-item">
 					<img class="show-img-sm" src="/_img/tiles/diy.jpg" alt="diy shows"/>
 					<div class="tile-details">
-						<h4>15 Years of DIY Shows</h4>
+						<h4>DIY Shows</h4>
 						<div class="overline">Event Production</div>
 					</div> <!-- /tile-details -->
 				</div> <!-- /tile-item -->	
