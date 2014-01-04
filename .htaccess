@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^johnboilard.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.johnboilard.com$
+RewriteRule ^/?$ "http\:\/\/jpboneyard\.com" [R=301,L]
+ErrorDocument 404 /404.php
