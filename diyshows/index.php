@@ -15,7 +15,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<div class="overline">Event Production</div>
 					<h1>15 Years of DIY Shows</h1>
 
-					<p>Since 1999 I have helped organize and promote over 250 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international artists. Facilitating these community minded art and music events is something that I always felt passionately about even back when I started helping out with and setting up my own shows in high school. I'm thankful for growing up in a small mill town without a lot to do because this challenged friends and myself to make our own fun and to do something positive in our community. This is where I got my start in designing and printing show posters and album art for bands.</p>
+					<p>Since 1999 I have helped organize and promote over 250 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international artists. Facilitating these community minded art and music events is something I've always felt passionately about, even as far back as high school. I'm thankful for growing up in a small mill town without a lot to do because this challenged friends and myself to make our own fun and to do something positive in our community. It was through these shows that I got my start designing and printing show posters and album art for bands.</p>
 					
 					<img class="img-full section-end" src="/_img/diy-shows-northampton-wools.jpg" alt="DIY Shows Northampton Wools" />
 
@@ -23,7 +23,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<h3>The Old Store</h3>
 
-					<p>Long time collaborator and my original design guru Mike Swiatlowski helped get the ball rolling in Palmer. His family owned a drug store for several generations and when the space went up for lease Mike was able to convince his folks to let the kids of Palmer get together for a show in the now empty space. This single show tunred into 38 other events until the space was eventually sold. Amazing bands from all over the country like Converge, Atom and His Package and XBXRX passed through our small town to play The Old Store.</p>	
+					<p>Long time collaborator and my original design guru Mike Swiatlowski got the ball rolling in Palmer. His family owned a drug store for several generations and when the space went up for lease Mike was able to convince his folks to let the kids of Palmer get together for a show in the now empty space. This single show turned into 38 other events until the space was eventually sold. Amazing bands from all over the country like Converge, Atom and His Package and XBXRX passed through our small town to play The Old Store.</p>	
 				
 					<img class="img-sm section-end" src="/_img/theoldstore.jpg" alt="The Old Store" />
 
@@ -37,7 +37,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<h3>The Recent Years</h3>
 
-					<p>After The Shed ran its course (time to give mom and the neighbors a break, I was gearing up to go back to college) shows happened between Boston and Palmer. Mass Art was our favorite all ages spot in Boston to host shows at and Diamond Junction Bowling Lanes in Palmer became a pretty righteous partnership as well. Somewhere along the way The National Poster Retorospecticus caught some momentum and that's where I've been putting most of my show production efforts these day.</p>
+					<p>Shows typically happen between Boston and Palmer. Miscellaneous all ages spaces in Boston are home to our shows and Diamond Junction Bowling Lanes in Palmer has become a pretty righteous partnership. Since 2013 shows have been happening all over the country since <a href="/nationalposterretrospecticus">The National Poster Retrospecticus</a> has caught some momentum.</p>
 
 					<img class="img-full img-ftr-top" src="/_img/diy-shows-magik-markers.jpg" alt="Magik Markers in Palmer" />
 

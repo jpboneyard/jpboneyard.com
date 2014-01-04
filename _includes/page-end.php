@@ -17,6 +17,9 @@
 <!-- Placeholder Polyfill -->
 <script src="/_js/libs/jquery.placeholder.min.js"></script>
 
+<!-- Inview -->
+<script src="/_js/project/jquery.inview.min.js"></script>
+
 <!-- end scripts-->
 
 

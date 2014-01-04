@@ -1,0 +1,108 @@
+
+width: calc(100% - 19px);
+
+
+	<p>It feels like the stars aligned when I first met Mike Swartz as my web design teacher in my final semester of Mass Art. Everyone around me was willing to bet that I'd end up doing a lot of branding, poster design, screenprinting and packaging after graduation. Web and interactive work was not in the cards for me. After wrapping up my portfolio site in Mikes Class he asked if I'd be working at <a href="http://www.upstatement.com" target="_blank">Upstatement</a>; a web consultancy here in Boston. The cool part about this invitation is that I'd get a wealth of new experience working on the web and running client projects but I'd also get to do my fair share of the branding, poster, packaging and printmaking work that was in my wheelhouse.</p>
+
+		<p>Upstatement is known for its work on responsive sites like BostonGlobe.com and NPR.org. Solving high-level content and organization problems takes precidence along with writing the best code possible. While I've worked on dozens of web projects during my time at Upstatement, the first client project that I was able to run, manage, design and do the front-end development for was Upstatement's Alma mater of sorts: Syracuse Universities Independent Student News Paper <a href="http://www.dailyoragen.com" target="_blank">The Daily Orange</a>. The site took visual inspiration from The D.O.'s physical newspaper and implemented a responsive design—something relatively new for college papers at the time. This redesign focused heavily on the backend; using a new CMS to make updaing the site a breeze, and on ad revenue opporunities through out the site. We were able to implement responsive ads, create new types of sponsorship opportunities and allow the paper to swap out house ads and paid ads with ease. In 2012 and again in 2013 our design helped this awesome publication win Best Student Newspaper Website in the world. We still can't beleive it!</p>
+
+	<div class="topper-details-mod">
+				<div class="topper-details">
+						<h4>The NPR</h4>
+						<div class="overline">Design & Production</div>
+				</div> <!-- /topper-details -->		
+			</div> <!-- /topper-details-mod -->
+
+
+<!-- grid 1-3 --> 
+		<div class="grid-1 grid-item media-block">
+			<a href="/nationalposterretrospecticus"> <img class="bottom" src="/_img/tiles/npr.jpg" alt="npr"/>
+			<div class="tile-detail-mod">
+				<div class="tile-details">
+					<h4>The NPR</h4>
+					<div class="overline">Design & Production</div>
+				</div><!-- /tile-details -->
+			</div></a> <!-- /tile-detail-mod -->
+		</div><!-- ./grid-1 -->
+		
+		<div class="grid-2 grid-item media-block">
+			<a href="/lululemon"><img class="bottom" src="/_img/tiles/lululemon.jpg" alt="lululemon"/>
+			<div class="tile-detail-mod">
+				<div class="tile-details">
+					<h4>LuluLemon</h4>
+					<div class="overline">Design & Printmaking</div>
+				</div><!-- /tile-details -->
+			</div></a> <!-- /tile-detail-mod -->
+		</div><!-- ./grid-2 -->
+		
+		<div class="grid-3 grid-item media-block">
+			<a href="/upstatement"><img  src="/_img/tiles/upstatement-2.jpg" alt="upstatement"/>
+			 <div class="tile-detail-mod">
+				<div class="tile-details">
+					<h4>Upstatement</h4>
+					<div class="overline">Design & Code</div>
+				</div><!-- /tile-details -->
+			</div></a> <!-- /tile-detail-mod -->
+		</div><!-- ./grid-3 -->
+
+		 <!-- grid 4-6 --> 
+		<div class="grid-4 grid-item media-block">
+			<a href="/diyshows"> <img class="bottom" src="/_img/tiles/diy.jpg" alt="diy shows"/>
+			<div class="tile-detail-mod">
+				<div class="tile-details">
+					<h4>15 Years of DIY Shows</h4>
+					<div class="overline">Event Production</div>
+				</div><!-- /tile-details -->
+			</div></a> <!-- /tile-detail-mod -->
+		</div><!-- ./grid-4 -->
+		
+		<div class="grid-5 grid-item media-block">
+			<a href="/letterproject"><img class="bottom" src="/_img/tiles/letters.jpg" alt="letters"/>
+			<div class="tile-detail-mod">
+				<div class="tile-details">
+					<h4>Letter Project</h4>
+					<div class="overline">Design & Printmaking</div>
+				</div><!-- /tile-details -->
+			</div></a> <!-- /tile-detail-mod -->
+		</div><!-- ./grid-5 -->
+		
+		<div class="grid-6 grid-item media-block">
+			<a href="/bostonhoops"> <img class="bottom" src="/_img/tiles/boston-hoops.jpg" alt="boston hoops"/>
+			<div class="tile-detail-mod">
+				<div class="tile-details">
+					<h4>Boston Hoops</h4>					
+					<div class="overline">Illustration & Code</div>
+				</div><!-- /tile-details -->
+			</div></a> <!-- /tile-detail-mod -->
+		</div><!-- ./grid-6 -->
+
+		<!-- grid 1-3 --> 
+		<div class="grid-1 grid-item media-block">
+			<a href="/sparkcamp"> <img class="bottom" src="/_img/tiles/spark-camp-2.jpg" alt="Spark Camp"/>
+			<div class="tile-detail-mod">
+				<div class="tile-details">
+					<h4>Spark Camp</h4>
+					<div class="overline">Branding & Code</div>
+				</div><!-- /tile-details -->
+			</div></a> <!-- /tile-detail-mod -->
+		</div><!-- ./grid-1 -->
+		
+		<div class="grid-2 grid-item media-block">
+			<a href="/gigposters"> <img class="bottom" src="/_img/tiles/gig-posters.jpg" alt="Gig Posters"/>
+			<div class="tile-detail-mod">
+				<div class="tile-details">
+					<h4>Gig Posters</h4>
+					<div class="overline">Design & Printmaking</div>
+				</div><!-- /tile-details -->
+			</div></a> <!-- /tile-detail-mod -->
+		</div><!-- ./grid-2 -->
+		
+		<div class="grid-3 grid-item media-block">
+			<a href="/miscprojects"> <img class="bottom" src="/_img/tiles/misc.jpg" alt="Misc"/>
+			<div class="tile-detail-mod">
+				<div class="tile-details">
+					<h4>Misc Fun</h4>
+					<div class="overline">Grab Bag</div>
+				</div><!-- /tile-details -->
+			</div></a> <!-- /tile-detail-mod -->
+		</div><!-- ./grid-3 -->
