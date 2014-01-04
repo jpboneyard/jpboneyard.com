@@ -590,7 +590,6 @@ header {
 	text-align: center;
 	margin-bottom: -40px;
 	background-color: #fff;
-	padding-top: 20px;
 
 	@media (min-width: 600px) {
 		margin-top: 0px;
@@ -775,7 +774,11 @@ header {
 	margin: 0 auto;
 	display: block;
 
-	@media (min-width:500px) {
+	@media (min-width: 450px) {
+		padding: 52px 25px;
+	}
+
+	@media (min-width: 960px) {
 		padding: 52px 52px;
 	}
 
@@ -783,7 +786,7 @@ header {
 		margin: 0 auto;
 		margin-bottom: 30px;
 		color: #333332;;
-		font: 400 17px/176% $serif;
+		font: 400 17px/177% $serif;
 		max-width: $standard-width;
 
 		@media (min-width: 500px) {
@@ -797,8 +800,7 @@ header {
 		&:first-child {
 			margin-bottom: 22px;
 		}
-	}
-
+	}//p
 }
 
 .img-set {
@@ -822,10 +824,9 @@ header {
 }
 
 .img-full {
-	width: 110%;
-	margin-left: -5%;
+	width: 112%;
+	margin-left: -6%;
 	margin-bottom: 30px;
-
 }
 
 .full-m {
@@ -843,7 +844,11 @@ header {
 }
 
 .img-ftr-top {
-	margin-bottom: -100px;
+	margin-bottom: -70px;
+
+	@media (min-width: 450px) {
+		margin-bottom: -100px;
+	}//mq
 }
 
 .section-end {
@@ -1088,6 +1093,15 @@ footer {
 }
 
 
+/* ============================================= */
+/*	Letter Project Page				 			 */ 
+/* ============================================= */
+
+.letters-mod {
+	img {
+		@include opacity(0);
+	}
+}
 
 
 /* ============================================= */

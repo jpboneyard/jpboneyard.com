@@ -14,7 +14,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">Design & Printmaking</div>
 					<h1>Gig Posters</h1>
-					<p>I got my start in design by meticulously crafting flyers and simple two color screenprinted posters coming out of high school. Posters will always be near and dear to me and I'll never forget that feeling of excitement I'd get after finishing some of my first posters. It felt triumphant and I love the sense of active meditaion that would grip me as I essentially became aware of my passion for design. It was through the necessity to promote the DIY shows I was setting up in the late 90's that I made my introduction the world of gig posters.</p>
+					<p>I got my start in design by meticulously crafting flyers and simple two color screenprinted posters while in high school. Posters will always be near and dear to me and I'll never forget that feeling of excitement I'd get after finishing some of my first posters. It felt triumphant and I love the sense of active meditation that would grip me as I became aware of my passion for design. It was through the necessity to promote the DIY shows I was setting up in the late 90's that I made my introduction the world of gig posters.</p>
 										
 
 					<img class="img-full full-m section-start" src="/_img/elephant-six-jp-boneyard.jpg" alt="Elephant Six Poster" />
@@ -23,7 +23,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">14 x 22" two color screen print</div>
 
-					<p>It's rare that a DIY show in Western Mass sells out, but it totally happened here, and just weeks after pre-sale tickets hit the interwebs. Clearly this event was going to be a good time. The Holiday Surprise tour happened in Spring of 2011 and was a celebration of sorts because some of these bands rarely tour and because the Spring thaw was upon us.</p>
+					<p>It's rare that a DIY show in Western Mass sells out but it totally happened here, and just weeks after pre-sale tickets hit the interwebs. Clearly this event was going to be a good time. The Holiday Surprise tour was a celebration of sorts because some of these bands rarely tour and because the Spring thaw was upon us.</p>
 
 
 
@@ -33,7 +33,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">15 x 23" one color screen print</div>
 
-					<p>The unholy combination of Black Metal and Twin Peaks inspired the music that Mount Eerie was playing on this particular tour. The music was heavy, ominious and introspective. My goal for this print was to create the landscape that I pictured in my mind as these powerful tunes delighted my ears. This place lives in black and white with t.v. static in the sky.</p>
+					<p>The unholy combination of Black Metal and Twin Peaks inspired the music that Mount Eerie was playing on this particular tour. The music was heavy, ominous and introspective. I sought out to create the landscape that I pictured in my mind as these powerful tunes delighted my ears. This place lives in a black and white world with t.v. static that fills the sky.</p>
 				
 
 
@@ -43,7 +43,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">15 x 22" two color screen print</div>
 
-					<p>Since 2006 Team Palmer Pedal Power has helped raise over $75,000 for the Jimmy Fund and put thousands of miles on their bicycles in the process. This poster took inspiration from their slogan, "bikes fight cancer".</p>
+					<p>Since 2006 Team Bikes Fight Cancer has helped raise over $138,000 for the Jimmy Fund and put thousands of miles on their bicycles in the process. This poster helped promote and celebrate a PMC fund-raiser and punk show that we put on in Palmer, MA.</p>
 
 
 
@@ -53,7 +53,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">13 x 19" one color screen print</div>
 
-					<p>Golden Girls and Truman Peyote—two of the more interesting names to put on a poster. Inspired by those names and their mixed and matched / misappropriated nature, scanning, cutting and collaging was the method of attack for this project.</p>
+					<p>Golden Girls and Truman Peyote—two interesting names to live together on a poster. Inspired by those names and their mixed and matched, f'd up and misappropriated nature, the plan of attack was scanning, cutting and collaging for this print.</p>
 
 
 
@@ -81,9 +81,9 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<h3>Mount Eerie</h3>
 
-					<div class="overline">15 x 23" one color screen print</div>
+					<div class="overline">15 x 23" three color screen print</div>
 
-					<p>Who's that creep in the backyard? Or is someone returning home after a weird walk in the woods? This show provided an opportunity to make something with less of an exuberant vibe compared to my other poster work. The source of inspiration was the darker, loungey, introspective themes provided by the bands on the bill. That and channeling my inner goth / watching 48 hours worth of film noir flicks. Also worth noting, this poster glows in the dork.</p>
+					<p>Who's that creep in the backyard? Or is someone returning home after a weird walk in the woods? I was stoked to make a poster that was a little less exuberant compared to some of my other work. The source of inspiration was the darker, loungey, introspective themes provided by the bands on the bill. Well, that and channeling my inner goth and watching 48 hours worth of film noir flicks. This poster glows in the dork.</p>
 
 				</div> <!-- /project-page-content -->					
 

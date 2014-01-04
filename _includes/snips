@@ -1,6 +1,10 @@
+
 width: calc(100% - 19px);
 
 
+	<p>It feels like the stars aligned when I first met Mike Swartz as my web design teacher in my final semester of Mass Art. Everyone around me was willing to bet that I'd end up doing a lot of branding, poster design, screenprinting and packaging after graduation. Web and interactive work was not in the cards for me. After wrapping up my portfolio site in Mikes Class he asked if I'd be working at <a href="http://www.upstatement.com" target="_blank">Upstatement</a>; a web consultancy here in Boston. The cool part about this invitation is that I'd get a wealth of new experience working on the web and running client projects but I'd also get to do my fair share of the branding, poster, packaging and printmaking work that was in my wheelhouse.</p>
+
+		<p>Upstatement is known for its work on responsive sites like BostonGlobe.com and NPR.org. Solving high-level content and organization problems takes precidence along with writing the best code possible. While I've worked on dozens of web projects during my time at Upstatement, the first client project that I was able to run, manage, design and do the front-end development for was Upstatement's Alma mater of sorts: Syracuse Universities Independent Student News Paper <a href="http://www.dailyoragen.com" target="_blank">The Daily Orange</a>. The site took visual inspiration from The D.O.'s physical newspaper and implemented a responsive design—something relatively new for college papers at the time. This redesign focused heavily on the backend; using a new CMS to make updaing the site a breeze, and on ad revenue opporunities through out the site. We were able to implement responsive ads, create new types of sponsorship opportunities and allow the paper to swap out house ads and paid ads with ease. In 2012 and again in 2013 our design helped this awesome publication win Best Student Newspaper Website in the world. We still can't beleive it!</p>
 
 	<div class="topper-details-mod">
 				<div class="topper-details">

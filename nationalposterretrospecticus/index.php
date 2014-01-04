@@ -23,18 +23,19 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<img class="img-full full-m section-start" src="/_img/national-poster-retrospecticus-poster-jp-boneyard.jpg" alt="National Poster Retrospecticus Poster" />
 
 					<h3>Branding</h3>
-					<p>Retrospecticus is a funny word. The translation comes out to something along the lines of "to look forward" and "to look backward". Combine that with imagery from early american lore and we have the all seeing eye of providence. The brand is flexible enough to fit the needs of a 1" button, an extensive website, a poster series or a giant banner.</p>
+					<p>Retrospecticus is a funny word. The translation comes out to something along the lines of "to look forward" and "to look backward". Combine that with imagery from early American lore and we have the all seeing eye of providence. The brand is flexible enough to fit the needs of a 1" button, an extensive website, a poster series or a giant banner.</p>
 
 
-
-					<video class="img-med section-start npr-site" autoplay loop>
-					  	<source src="/_img/video/npr-site-scroll.mp4" type="video/mp4">
-						<source src="/_img/video/npr-site-scroll.ogv" type="video/ogg">
-						Your browser does not support the video tag.
-					</video> 
+					<a href="http://www.nationalposterretrospecticus.com" target="_blank">
+						<video class="site-video img-med section-start npr-site" autoplay loop>
+						  	<source src="/_img/video/npr-site-scroll.mp4" type="video/mp4">
+							<source src="/_img/video/npr-site-scroll.ogv" type="video/ogg">
+							Your browser does not support the video tag.
+						</video> 
+					</a>	
 
 					<h3>The Web</h3>
-					<p>The design for the website has evolved right along with the needs of the site. My first pass was just something to announce and document the second coming of the show in 2012. The second, third and fourth passes were ways to document the tours, do a little lifting in the marketing department and do a better job of explaning what the heck this crazy show is all about.</p>
+					<p>The design for the website has evolved right along with the needs of the site. My first pass was just something to announce and document the second coming of the show in 2012. The second, third and fourth passes were ways to document the tours, do a little lifting in the marketing department and do a better job of explaining what the heck this crazy show is all about.</p>
 
 					<btn class="btn-submit btn-txt"> <a href="http://www.nationalposterretrospecticus.com" target="_blank">Launch The Site</a></btn>
 
@@ -42,7 +43,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="hdr-sign-container section-start">
 						<img class="hdr-pin" src="/_img/hdr-pin-2.png" alt="pin" />
-						<div class="hdr-sign swing animated">
+						<div class="hdr-sign">
 							<img class="hdr-slide-img" src="/_img/hdr-sign-2.png" alt="Tour Sign" />
 						</div> <!-- /hdr-sign -->	
 					</div> <!-- /hdr-sign-container -->	
@@ -80,8 +81,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 
 					<img class="img-full img-ftr-top section-start" src="/_img/national-poster-retrospecticus-crowd.jpg" alt="National Poster Retrospecticus Photo of Boston Show" />
-
-
+					
 				</div> <!-- /project-page-content -->					
 
 			</div> <!-- /project-page-mod -->

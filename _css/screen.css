@@ -974,7 +974,6 @@ header {
   text-align: center;
   margin-bottom: -40px;
   background-color: #fff;
-  padding-top: 20px;
 }
 @media (min-width: 600px) {
   .more-work-mod {
@@ -1220,7 +1219,12 @@ header {
   margin: 0 auto;
   display: block;
 }
-@media (min-width: 500px) {
+@media (min-width: 450px) {
+  .project-page-content {
+    padding: 52px 25px;
+  }
+}
+@media (min-width: 960px) {
   .project-page-content {
     padding: 52px 52px;
   }
@@ -1229,7 +1233,7 @@ header {
   margin: 0 auto;
   margin-bottom: 30px;
   color: #333332;
-  font: 400 17px/176% "schoolbook-web", Georgia, Times, Times New Roman, serif;
+  font: 400 17px/177% "schoolbook-web", Georgia, Times, Times New Roman, serif;
   max-width: 650px;
 }
 @media (min-width: 500px) {
@@ -1279,8 +1283,8 @@ header {
 }
 
 .img-full {
-  width: 110%;
-  margin-left: -5%;
+  width: 112%;
+  margin-left: -6%;
   margin-bottom: 30px;
 }
 
@@ -1300,7 +1304,12 @@ header {
 }
 
 .img-ftr-top {
-  margin-bottom: -100px;
+  margin-bottom: -70px;
+}
+@media (min-width: 450px) {
+  .img-ftr-top {
+    margin-bottom: -100px;
+  }
 }
 
 .section-end {
@@ -1555,6 +1564,14 @@ footer {
   transition: all 0.2s ease-in;
   opacity: 0;
   z-index: 2;
+}
+
+/* ============================================= */
+/*	Letter Project Page				 			 */
+/* ============================================= */
+.letters-mod img {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
 }
 
 /* ============================================= */
