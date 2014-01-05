@@ -21,13 +21,14 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<img class="img-full section-end" src="/_img/lululemon-sign-detail-2-jp-boneyard.jpg" alt="Lululemon wall art 2" />
 
 
-					<h3>Commemorative Poster</h3>
-					<p>A cool bonus to this project was the opportunity to make a commemorative poster to celebrate the store's grand opening. I screen printed a short run of posters as a take away for those who made it to the reception. It was fun to first imagine this installation in three dimensions and then simplify it back to something that more closely resembles the original 2D renderings.</p>	
 
 					<img class="img-full" src="/_img/lululemon-poster-full-jp-boneyard.jpg" alt="Lululemon Poster 1" />
 
 					<img class="img-full" src="/_img/lululemon-poster-detail-set-jp-boneyard.jpg" alt="Lululemon Poster 2" />
 					
+					<h3>Commemorative Poster</h3>
+					<p>A cool bonus to this project was the opportunity to make a commemorative poster to celebrate the store's grand opening. I screen printed a short run of posters as a take away for those who made it to the reception. It was fun to first imagine this installation in three dimensions and then simplify it back to something that more closely resembles the original 2D renderings.</p>	
+
 
 				</div> <!-- /project-page-content -->					
 

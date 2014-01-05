@@ -1867,7 +1867,7 @@ footer {
 
 @-webkit-keyframes blimp {
   0% {
-    margin-left: 1250px;
+    margin-left: 1100px;
   }
 
   100% {
@@ -1877,7 +1877,7 @@ footer {
 
 @-moz-keyframes blimp {
   0% {
-    margin-left: 1250px;
+    margin-left: 1100px;
   }
 
   100% {
@@ -1887,7 +1887,7 @@ footer {
 
 @-o-keyframes blimp {
   0% {
-    margin-left: 1250px;
+    margin-left: 1100px;
   }
 
   100% {

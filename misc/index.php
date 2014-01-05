@@ -53,6 +53,13 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 
 
+					<img class="img-full full-m section-start" src="/_img/upstatement-holiday-card.jpg" alt="Upstatement Holiday Card"/>
+
+					<h3>Upstatement Holiday Card</h3>
+					<p>Happy Everything! This is the greeting that marks every Upstatement Holiday Card. This card was illustrated and printed at Upstatement HQ and kicked off what has been a fun Holiday tradition since I joined the team in 2011.</p>
+
+
+
 					<img class="img-full section-start" src="/_img/retrospecitcus-book.jpg" alt="National Poster Retrospecticus Book Cover" />
 
 					<h3>The NPR 2013 Tour Book</h3>

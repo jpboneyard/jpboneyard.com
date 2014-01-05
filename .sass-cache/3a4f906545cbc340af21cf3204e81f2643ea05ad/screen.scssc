@@ -1,5 +1,5 @@
 3.2.7 (Media Mark)
-8e6fd2d7ec3bd39fc5687c67c3ee0fb0889fa74e
+31074a07c96b706a46aa1038e1ed625f782dd299
 o:Sass::Tree::RootNode
 :@template"Z/* ## Bring in all Compass Helpers */ 
 @import "partials/base";
@@ -1341,15 +1341,15 @@ footer {
 }
 
 @-webkit-keyframes blimp {
-	0% {margin-left: 1250px;}
+	0% {margin-left: 1100px;}
 	100% {margin-left: -1000px;}
 }
 @-moz-keyframes blimp {
-	0% {margin-left: 1250px;}
+	0% {margin-left: 1100px;}
 	100% {margin-left: -1000px;}
 }
 @-o-keyframes blimp {
-	0% {margin-left: 1250px;}
+	0% {margin-left: 1100px;}
 	100% {margin-left: -1000px;}
 }
 
@@ -2205,11 +2205,11 @@ swing;@;&;';@;"i ;	[ ;i"o;#; [" -webkit-animation-fill-mode;o;$;;%;
     -webkit-transform-origin:top;*/;@;	[ ;i/;io;;[".blimp-animation;o;;" ;i6;[o;;[o;
 ;0;@K ;o;;{ ;i6;[o;8; ["blimp-animation;@K ;i6;T;@;"i ;	[o;#; ["-webkit-animation;o;$;;%;"blimp 50s linear infinite;@;&;';@;"i ;	[ ;i7o;#; ["-moz-animation;o;$;;%;"blimp 50s linear infinite;@;&;';@;"i ;	[ ;i8o;#; ["-o-animation;o;$;;%;"blimp 50s linear infinite;@;&;';@;"i ;	[ ;i9;i6o;B
 ;T;["@-webkit-keyframes "
-blimp" ;@;	[o;;["0%;o;;" ;i=;[o;;[["0%" ;T;@;"i ;	[o;#; ["margin-left;o;$;;%;"1250px;@;&;';@;"i ;	[ ;i=;i=o;;["	100%;o;;" ;i>;[o;;[["	100%" ;T;@;"i ;	[o;#; ["margin-left;o;$;;%;"-1000px;@;&;';@;"i ;	[ ;i>;i>;i<o;B
+blimp" ;@;	[o;;["0%;o;;" ;i=;[o;;[["0%" ;T;@;"i ;	[o;#; ["margin-left;o;$;;%;"1100px;@;&;';@;"i ;	[ ;i=;i=o;;["	100%;o;;" ;i>;[o;;[["	100%" ;T;@;"i ;	[o;#; ["margin-left;o;$;;%;"-1000px;@;&;';@;"i ;	[ ;i>;i>;i<o;B
 ;T;["@-moz-keyframes "
-blimp" ;@;	[o;;["0%;o;;" ;iA;[o;;[["0%" ;T;@;"i ;	[o;#; ["margin-left;o;$;;%;"1250px;@;&;';@;"i ;	[ ;iA;iAo;;["	100%;o;;" ;iB;[o;;[["	100%" ;T;@;"i ;	[o;#; ["margin-left;o;$;;%;"-1000px;@;&;';@;"i ;	[ ;iB;iB;i@o;B
+blimp" ;@;	[o;;["0%;o;;" ;iA;[o;;[["0%" ;T;@;"i ;	[o;#; ["margin-left;o;$;;%;"1100px;@;&;';@;"i ;	[ ;iA;iAo;;["	100%;o;;" ;iB;[o;;[["	100%" ;T;@;"i ;	[o;#; ["margin-left;o;$;;%;"-1000px;@;&;';@;"i ;	[ ;iB;iB;i@o;B
 ;T;["@-o-keyframes "
-blimp" ;@;	[o;;["0%;o;;" ;iE;[o;;[["0%" ;T;@;"i ;	[o;#; ["margin-left;o;$;;%;"1250px;@;&;';@;"i ;	[ ;iE;iEo;;["	100%;o;;" ;iF;[o;;[["	100%" ;T;@;"i ;	[o;#; ["margin-left;o;$;;%;"-1000px;@;&;';@;"i ;	[ ;iF;iF;iDo;
+blimp" ;@;	[o;;["0%;o;;" ;iE;[o;;[["0%" ;T;@;"i ;	[o;#; ["margin-left;o;$;;%;"1100px;@;&;';@;"i ;	[ ;iE;iEo;;["	100%;o;;" ;iF;[o;;[["	100%" ;T;@;"i ;	[o;#; ["margin-left;o;$;;%;"-1000px;@;&;';@;"i ;	[ ;iF;iF;iDo;
 
 ;;;["8/* ============================================= */;@;	[ ;iJo;
 
