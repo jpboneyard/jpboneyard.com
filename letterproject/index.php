@@ -73,7 +73,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					</div> <!-- /letters-mod -->
 
 					<h3>The Process</h3>
-					<p>After I'd done a few weeks of research and built a new printing setup I narrowed my finds down from 945 to about 118. From here I made a more informed decision about what letters felt right in the series and could also hold their own. Type was then redrawn from reference, from scratch or left as is because it was so unique. I also created several of my own characters inspired by what I had found. From start to finish this project took 200+ hours to complete and I found that once carved out the time to spend experimenting I couldn't put the project down.</p>	
+					<p>After I'd done a few weeks of research and built a new printing setup I narrowed my finds down from 945 to about 118. From here I made a more informed decision about what letters felt right in the series and could also hold their own. Type was then redrawn from reference, from scratch or left as is because it was so unique. I also created several of my own characters inspired by what I had found. From start to finish this project took 200+ hours to complete and I found that once I carved out the time to spend experimenting I couldn't put the project down.</p>	
 
 					<img class="img-sm" src="/_img/letters_project_process_jp_boneyard-2.jpg" alt="Process: Found Letters" />
 
