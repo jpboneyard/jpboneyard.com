@@ -6,7 +6,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="feat-project-mod" id="top">
-				<img class="feat-project-img" src="/_img/diy-topper.jpg" alt="DIY Shows Topper" />
+				<img class="feat-project-img" src="/_img/diy-topper.jpg" alt="DIY Shows Topper photo by April Eve Images" />
 			</div> <!-- /feat-project-mod -->
 
 			<div class="project-page-mod">
@@ -17,7 +17,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>Since 1999 I have helped organize and promote over 275 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international artists. Facilitating these community minded art and music events is something I've always felt passionately about, even as far back as high school. I'm thankful for growing up in a small mill town without a lot to do because this challenged friends and myself to make our own fun and to do something positive in our community. It was through these shows that I got my start designing and printing show posters and album art for bands.</p>
 					
-					<img class="img-full section-end" src="/_img/diy-shows-northampton-wools.jpg" alt="DIY Shows Northampton Wools" />
+					<img class="img-full section-end" src="/_img/diy-shows-northampton-wools.jpg" alt="DIY Shows Northampton Wools photo by April Eve Images" />
 
 
 
@@ -39,7 +39,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>Shows typically happen between Boston and Palmer. Miscellaneous all ages spaces in Boston are home to our shows and Diamond Junction Bowling Lanes in Palmer has become a pretty righteous partnership. Since 2013 shows have been happening all over the country since <a href="/nationalposterretrospecticus">The National Poster Retrospecticus</a> has caught some momentum.</p>
 
-					<img class="img-full img-ftr-top" src="/_img/diy-shows-magik-markers.jpg" alt="Magik Markers in Palmer" />
+					<img class="img-full img-ftr-top" src="/_img/diy-shows-magik-markers.jpg" alt="Magik Markers in Palmer photo by April Eve Images" />
 
 
 				</div> <!-- /project-page-content -->					

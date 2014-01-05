@@ -12,7 +12,7 @@
 		<div class="project-page-content">
 			<div class="overline">Contact</div>
 			<h1>Getting in Touch is Fun and Easy to Do!</h1>
-			<p>Want to discuss your next project? Do you want to book a show or bring <a href="/nationalposterretrospecticus">The National Poster Retrospecticus</a> to your town? Maybe you'd just like to talk basketball or printmaking? That's awesome, because I'd love to do the same!</p>
+			<p>Want to discuss your next project? Do you want to book a show or bring <a href="/nationalposterretrospecticus">The National Poster Retrospecticus</a> to your town? Maybe you'd just like to talk basketball or printmaking? That's awesome, I'd love to do the same!</p>
 
 			<ul class="site-list">
 				<li class="">

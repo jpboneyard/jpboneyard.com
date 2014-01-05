@@ -6,13 +6,15 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>JP Boneyard Design: Graphic Design, Printingmaking  &amp; DIY Shows</title>
-    <meta name="description" content="Graphic Design, Printmaking, &amp; DIY Shows.">
+    <title>JP Boneyard: Design, Front-End Development, Printmaking  &amp; Event Production</title>
+    <meta name="description" content="JP Boneyard: Design, Front-End Development, Printmaking  &amp; Event Production">
     <meta name="author" content="John Boilard, JP Boneyard, JPB">
     <meta name="keywords" content="boston graphic design, graphic design, boston, jamaica plain, john boilard, jp boneyard, the old store, the shed, screen printing, printmaking, gig posters, print design, web design, front-end development, branding, JPB, DIY, punk, loves yerba mate">
 
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
-  <link rel="image_src" href="http://boston.hoopsproject.net/_img/hoops/canonical-hoop.png"> <!-- update this -->
+
+  <!-- Canonical Site Thumb -->
+  <link rel="image_src" href="http://jpboneyard.com/_img/jp-boneyard-logo-topper.jpg">
   
   <!-- Icons -->
   <link rel="shortcut icon" href="favicon.ico">

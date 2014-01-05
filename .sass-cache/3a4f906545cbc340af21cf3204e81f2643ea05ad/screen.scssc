@@ -1,5 +1,5 @@
 3.2.7 (Media Mark)
-31074a07c96b706a46aa1038e1ed625f782dd299
+3365789e41251e4fa055733762feb76a771821c7
 o:Sass::Tree::RootNode
 :@template"ÅZ/* ## Bring in all Compass Helpers */ 
 @import "partials/base";
@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5 {
 
 h1 {
 	margin: 0 auto;
-	font: 400 38px/120% $serif;
+	font: 400 34px/120% $serif;
 	max-width: $standard-width;
 	margin-bottom: 16px;
 	color: #333332;
@@ -1457,7 +1457,7 @@ o;;[o;
 ;0;@ô;o;;{ ;i(;[o;	; ["h5;@ô;!0;i(;T;@;"i ;	[o;#; ["-webkit-font-smoothing;o;$;;%;"antialiased;@;&;';@;"i ;	[ ;i);i(o;;["h1;o;;" ;i,;[o;;[o;
 ;0;@”;o;;{ ;i,;[o;	; ["h1;@”;!0;i,;T;@;"i ;	[o;#; ["margin;o;$;;%;"0 auto;@;&;';@;"i ;	[ ;i-o;#; ["	font;o:Sass::Script::List	:@separator:
 space;[o:Sass::Script::Number:@numerator_units[ :@original"400;iê;@:@denominator_units[ ;i.o:Sass::Script::Operation
-:@operand2o;+;,["%;-"	120%;i};@;.[ ;i.:@operand1o;+;,["px;-"	38px;i+;@;.[ ;i.;@:@operator:div;i.o:Sass::Script::Variable	:@underscored_name"
+:@operand2o;+;,["%;-"	120%;i};@;.[ ;i.:@operand1o;+;,["px;-"	34px;i';@;.[ ;i.;@:@operator:div;i.o:Sass::Script::Variable	:@underscored_name"
 serif; "
 serif;@;i.;@;i.;&;';@;"i ;	[ ;i.o;#; ["max-width;o;4	;5"standard_width; "standard-width;@;i/;&;';@;"i ;	[ ;i/o;#; ["margin-bottom;o;$;;%;"	16px;@;&;';@;"i ;	[ ;i0o;#; ["
 color;o;$;;%;"#333332;@;&;';@;"i ;	[ ;i1o:Sass::Tree::MediaNode;T;" ;@;"i ;	[o;#; ["font-size;o;$;;%;"	45px;@;&;';@;"i ;	[ ;i4:@query[
