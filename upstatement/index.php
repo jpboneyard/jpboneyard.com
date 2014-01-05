@@ -14,7 +14,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">Design & Code</div>
 					<h1>Designer at Upstatement</h1>
-					<p>It feels like the stars aligned when I first met Mike Swartz as my web design teacher during my final semester at Mass Art. Given my interest before I came back to college everyone around me was willing to bet web and interactive work was not in the cards for me. <a href="http://www.upstatement.com" target="_blank">Upstatement</a>, a boutique, cross-diciplinary design firm in Boston was awesome enough to give me a chance and the rest is history! The cool part about this invitation is the fact that I'd get a wealth of new experience working on the web and running client projects but I'd also get to do my fair share of the branding, poster design, packaging and printmaking work that was in my wheelhouse.</p>
+					<p>It feels like the stars aligned when I first met Mike Swartz as my web design teacher during my final semester at Mass Art. Mike runs <a href="http://www.upstatement.com" target="_blank">Upstatement</a>, a boutique, cross-diciplinary web design firm in Boston. Right before the semester wrapped up he extended an invitation to come work with the four-person team. The cool part about this invitation is the fact that I'd get a wealth of new experience working on the web and running client projects but I'd also get to do my fair share of the branding, poster design, packaging and the printmaking work that was in my wheelhouse.</p>
 				
 
 
@@ -26,14 +26,14 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 
 					<h3>Responsive Design for the Web</h3>
-					<p>Upstatement is known for its work on responsive sites like BostonGlobe.com and NPR.org. Solving high-level content and organization problems takes precedence along with writing the best code possible. From time to time I'm able to run, manage, design and own most of the front-end development on a project. <a href="http://www.dailyoragen.com" target="_blank">Dailyorange.com</a> is a great example of putting all of these interests to work via a responsive redesign for one of the country's first independent student newspapers.</p>
+					<p>Upstatement is known for its work on responsive sites like BostonGlobe.com and NPR.org. Solving high-level content and organization problems shares precedence with writing the best code possible. From time to time I'm able to run, manage, design and own most of the front-end development on a project. <a href="http://www.dailyoragen.com" target="_blank">Dailyorange.com</a> is a great example of putting all of these interests to work via a responsive redesign for one of the country's first independent student newspapers.</p>
 				
 
 
 					<img class="img-full full-m section-start" src="/_img/wordcamp-poster-upstatement-jp-boneyard.jpg" alt="Word Camp Poster" />
 
 					<h3>Design for Print</h3>
-					<p>My first love was print design. As much as I love design for the web there's no changing which of the two came first. I'm fortunate that I'm able to use this muscle rather often at Upstatement whether its designing and screenprinting our holiday cards, designing posters for Upstatement events or designing our business cards and stationary.</p>
+					<p>My first love was print design. I love designing for the web there's no changing which of the two came first. I'm fortunate that I'm able to use this muscle rather often at Upstatement. On any given day I could be designing posters for Upstatement events, designing our business cards and stationary or designing and screen printing our holiday cards.</p>
 			
 
 

@@ -14,7 +14,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">Design & Printmaking</div>
 					<h1>Gig Posters</h1>
-					<p>I got my start in design by meticulously crafting flyers and simple two color screenprinted posters while in high school. Posters will always be near and dear to me and I'll never forget that feeling of excitement I'd get after finishing some of my first posters. It felt triumphant and I love the sense of active meditation that would grip me as I became aware of my passion for design. It was through the necessity to promote the DIY shows I was setting up in the late 90's that I made my introduction the world of gig posters.</p>
+					<p>I got my start in design by meticulously crafting flyers and simple two color screen printed posters while in high school. Posters will always be near and dear to me and I'll never forget that feeling of excitement I'd get after finishing some of my first prints. It felt triumphant and I love the sense of active meditation that would grip me as I became aware of my passion for design. It was through the necessity to promote the DIY shows I was setting up in the late 90's that I made my introduction the world of posters.</p>
 										
 
 					<img class="img-full full-m section-start" src="/_img/elephant-six-jp-boneyard.jpg" alt="Elephant Six Poster" />
