@@ -678,6 +678,7 @@ header {
 	}//h4
 }
 
+
 .tile-1 {
 	animation: fadein .9s;	
 	-webkit-animation:fadein .9s;		
@@ -730,6 +731,14 @@ header {
 	@media (min-width: 1100px) {
 		margin-left: 0px;
 	}	
+}//tile-9
+
+
+.tile-1, .tile-2, .tile-3, .tile-4, .tile-5, .tile-6, .tile-7, .tile-8, .tile-9 {
+	@media (min-width: 10px) and (max-width: 1000px) {
+		animation: fadein .1s;	
+		-webkit-animation:fadein .1s;	
+	}//mq
 }
 
 @-webkit-keyframes fadein {
