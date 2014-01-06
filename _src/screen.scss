@@ -992,6 +992,7 @@ footer {
 /*	404 Page				 					 */ 
 /* ============================================= */
 
+
 .error-video-mod {
 	width: 120%;
 	margin: -20%, 0%, 0%, -20%;
@@ -1011,7 +1012,7 @@ footer {
 
 .error-msg {
 	font-size: 50px;
-	color: #fff;
+	color: #eee;
 	text-align: center;
 
 	@media (min-width: 760px) {
@@ -1021,7 +1022,7 @@ footer {
 
 .error-tag {
 	font-size: 20px;
-	color: #fff;
+	color: #ddd;
 	text-align: center;
 }
 

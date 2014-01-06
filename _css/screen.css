@@ -1482,7 +1482,7 @@ footer {
 
 .error-msg {
   font-size: 50px;
-  color: #fff;
+  color: #eee;
   text-align: center;
 }
 @media (min-width: 760px) {
@@ -1493,7 +1493,7 @@ footer {
 
 .error-tag {
   font-size: 20px;
-  color: #fff;
+  color: #ddd;
   text-align: center;
 }
 
