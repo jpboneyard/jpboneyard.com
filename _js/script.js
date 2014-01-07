@@ -39,9 +39,12 @@ $('.letters-mod img').bind('inview', function(event, visible) {
 //Inview Video
 $('.site-video').bind('inview', function(event, visible) {
   if (visible) {
-    $(this).stop().document.getElementsByTagName('video')[0].play();
+    document.getElementsByClassName('site-video')[0].play();
+    $(this).prop('loop', true);
+    // console.log('visible');
   } else {
     $(this).stop().prop('loop', false);
+    // console.log('not visible');
   }
 });
 

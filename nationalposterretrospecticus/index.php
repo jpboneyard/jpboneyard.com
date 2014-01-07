@@ -27,7 +27,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 
 					<a href="http://www.nationalposterretrospecticus.com" target="_blank">
-						<video class="site-video img-med section-start npr-site" autoplay loop>
+						<video class="site-video img-med section-start npr-site"  loop>
 						  	<source src="/_img/video/npr-site-scroll.mp4" type="video/mp4">
 							<source src="/_img/video/npr-site-scroll.ogv" type="video/ogg">
 							Your browser does not support the video tag.

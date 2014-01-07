@@ -26,7 +26,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="spark-camp-web-mod img-med">
 						<a href="http://www.sparkcamp.com" target="_blank">
-							<video class="img-med section-start spark-camp-site" autoplay loop>
+							<video class="site-video img-med section-start spark-camp-site" loop>
 							  	<source src="/_img/video/spark-camp-site.mp4" type="video/mp4">
 								<source src="/_img/video/spark-camp-site-scroll.webm" type="video/webm">
 								<source src="/_img/video/spark-camp-site.ogv" type="video/ogg">
