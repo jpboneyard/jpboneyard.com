@@ -37,11 +37,11 @@ $('.letters-mod img').bind('inview', function(event, visible) {
 });
 
 //Inview Video
-$('video').bind('inview', function(event, visible) {
+$('.site-video').bind('inview', function(event, visible) {
   if (visible) {
-    $(this).stop().prop('autoplay', true);
+    $(this).stop().document.getElementsByTagName('video')[0].play();
   } else {
-    $(this).stop().prop('autoplay', false);
+    $(this).stop().prop('loop', false);
   }
 });
 
