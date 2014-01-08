@@ -28,7 +28,10 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 							</video> 
 						</a>
 					</div> <!-- /boston-hoops-web-mod -->	
-
+					
+					<a href="http://www.hoopsproject.net" target="_blank">
+						<img class="site-video-poster img-sm" src="/_img/boston-hoops-site.jpg" />
+					</a> <!-- /site-video-poster-link -->	
 					<btn class="btn-submit btn-txt"> <a href="http://www.hoopsproject.net" target="_blank">Launch The Site</a></btn>
 
 

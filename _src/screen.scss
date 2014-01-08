@@ -151,6 +151,7 @@ li {
 .npr-list.last {
 	margin-right: 0px;
 }
+
  
 /* ============================================= */
 /*	Header							   			 */ 
@@ -900,6 +901,14 @@ header {
 	margin: 0 auto;
 }
 
+.site-video-poster {
+	display: block;
+
+	@media (min-width: 760px) {
+		display: none;
+		width: 200%;
+	}
+}
 
 /* ============================================= */
 /*	Footer										 */ 
@@ -1031,9 +1040,13 @@ footer {
 /* ============================================= */
 
 .spark-camp-site {
-	background: url(../_img/spark-camp-web-site.jpg) 50% 50% no-repeat;
-	background-size: 86%;
+	display: none;
 
+	@media (min-width: 760px) {
+		display: block;
+		background: url(../_img/spark-camp-web-site.jpg) 50% 50% no-repeat;
+		background-size: 86%;
+	}//mq	
 }
 
 .spark-camp-web-mod {
@@ -1209,9 +1222,15 @@ footer {
 }
 
 .boston-hoops-site {
-	background: url(../_img/boston-hoops-site.jpg) 50% 50% no-repeat;
-	background-size: 100% auto;
+	display: none;
+
+	@media (min-width: 760px) {
+		display: block;
+		background: url(../_img/boston-hoops-site.jpg) 50% 50% no-repeat;
+		background-size: 100% auto;
+	}//mq	
 }
+
 
 
 /* ============================================= */
@@ -1219,8 +1238,13 @@ footer {
 /* ============================================= */
 
 .npr-site {
-	background: url(../_img/national-poster-retrospecticus-web.jpg) 50% 50% no-repeat;
-	background-size: 86%;
+	display: none;
+
+	@media (min-width: 760px) {
+		display: block;
+		background: url(../_img/national-poster-retrospecticus-web.jpg) 50% 50% no-repeat;
+		background-size: 86%;	
+	}//mq
 }
 
 .hdr-img {

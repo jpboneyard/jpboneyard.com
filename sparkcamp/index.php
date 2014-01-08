@@ -33,10 +33,15 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 								Your browser does not support the video tag.
 							</video> 
 						</a>	
+
 						<div class="spark-camp-mobile">
 							<img class="img-small" src="/_img/spark-camp-site-mobile-jp-boneyard.png" alt="Spark Camp Web Site" />
 						</div>	
 					</div> <!-- /spark-camp-web-mod -->	
+
+					<a href="http://www.sparkcamp.com" target="_blank">
+						<img class="site-video-poster img-med section-start" src="/_img/spark-camp-web-site.jpg" />
+					</a> <!-- /site-video-poster-link -->	
 					
 					<h3>Responsive Web Site</h3>
 					<p>Journalists and folks in the media industry are usually on the go. This was one of the reasons we wanted to give mobile users a rich experience. The site effortlessly scales without sacrificing the content or losing the light-hearted vibe of the site you'd normally get on your desktop.</p>

@@ -27,12 +27,16 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 
 					<a href="http://www.nationalposterretrospecticus.com" target="_blank">
-						<video class="site-video img-med section-start npr-site"  loop>
+						<video class="site-video img-med section-start npr-site" loop>
 						  	<source src="/_img/video/npr-site-scroll.mp4" type="video/mp4">
 							<source src="/_img/video/npr-site-scroll.ogv" type="video/ogg">
 							Your browser does not support the video tag.
 						</video> 
 					</a>	
+
+					<a href="http://www.nationalposterretrospecticus.com" target="_blank">
+						<img class="site-video-poster img-med section-start" src="/_img/national-poster-retrospecticus-web.jpg" />
+					</a> <!-- /site-video-poster-link -->	
 
 					<h3>The Web</h3>
 					<p>The design for the website has evolved right along with the needs of the site. My first pass was just something to announce and document the second coming of the show in 2012. The second, third and fourth passes were ways to document the tours, do a little lifting in the marketing department and do a better job of explaining what the heck this crazy show is all about.</p>
