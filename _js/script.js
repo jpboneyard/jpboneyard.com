@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+var windowWidth = $(window).width();
+
+
 //Mobile nav toggling action-action-action
 	$(".m-nav-toggle").click(function(){
 		console.log("clicked");
@@ -7,8 +10,8 @@ $(document).ready(function() {
 	});
 
     $(window).bind("resize",function(){
-        console.log($(this).width())
-        if($(this).width() <760){
+        windowWidth = $(this).width();
+        if (windowWidth <760){
         $(".nav-link-mod").removeClass('hidden')
         }
         else{
@@ -36,17 +39,26 @@ $('.letters-mod img').bind('inview', function(event, visible) {
   }
 });
 
+// Loads website on a mobile device: wWidth: 320... don't run code
+// Loads website on a laptop: wWidth: > 768... run code
+// Loads website on a laptop: wWidth > 768 but then they resize browser < 768
+// Loads website on a laptop: wWidth < 768 but then they resize browser > 768
+
 //Inview Video
-$('.site-video').bind('inview', function(event, visible) {
-  if (visible) {
-    document.getElementsByClassName('site-video')[0].play();
-    $(this).prop('loop', true);
-    // console.log('visible');
-  } else {
-    $(this).stop().prop('loop', false);
-    // console.log('not visible');
-  }
-});
+  $('.site-video').bind('inview', function(event, visible) {
+    if (windowWidth > 770) {
+      if (visible) {
+        document.getElementsByClassName('site-video')[0].play();
+        $(this).prop('loop', true);
+        // console.log('visible');
+      } else {
+        $(this).stop().prop('loop', false);
+        // console.log('not visible');
+      }
+    }
+  });
+
+
 
 
 //Anchor Slide
