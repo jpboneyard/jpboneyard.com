@@ -1363,7 +1363,7 @@ header {
 .site-video-poster {
   display: block;
 }
-@media (min-width: 770px) {
+@media (min-width: 1025px) {
   .site-video-poster {
     display: none;
     width: 200%;
@@ -1519,7 +1519,7 @@ footer {
   -o-transform: translateX(1024px);
   transform: translateX(1024px);
 }
-@media (min-width: 770px) {
+@media (min-width: 1025px) {
   .spark-camp-site {
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
@@ -1543,7 +1543,7 @@ footer {
   right: 40px;
   display: none;
 }
-@media (min-width: 900px) {
+@media (min-width: 1025px) {
   .spark-camp-mobile {
     display: block;
   }
@@ -1715,7 +1715,7 @@ footer {
   -o-transform: translateX(1024px);
   transform: translateX(1024px);
 }
-@media (min-width: 770px) {
+@media (min-width: 1025px) {
   .boston-hoops-site {
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
@@ -1741,7 +1741,7 @@ footer {
   -o-transform: translateX(1024px);
   transform: translateX(1024px);
 }
-@media (min-width: 770px) {
+@media (min-width: 1025px) {
   .npr-site {
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
