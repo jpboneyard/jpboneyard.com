@@ -37,7 +37,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<h3>The Recent Years</h3>
 
-					<p>Shows typically happen between Boston and Palmer. Miscellaneous all ages spaces in Boston are home to our shows and Diamond Junction Bowling Lanes in Palmer has become a pretty righteous partnership. Since 2013 shows have been happening all over the country since <a href="/nationalposterretrospecticus">The National Poster Retrospecticus</a> has caught some momentum.</p>
+					<p>Shows typically happen between Boston and Palmer. Miscellaneous all ages spaces in Boston are home to our shows and Diamond Junction Bowling Lanes has become a pretty righteous partnership in Palmer. Since 2013 shows have been happening all over the country since <a href="/nationalposterretrospecticus">The National Poster Retrospecticus</a> has caught some momentum.</p>
 
 					<img class="img-full img-ftr-top" src="/_img/diy-shows-magik-markers.jpg" alt="Magik Markers in Palmer photo by April Eve Images" />
 

@@ -26,14 +26,14 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 
 					<h3>Responsive Design for the Web</h3>
-					<p>Upstatement is known for its work on responsive sites like BostonGlobe.com and NPR.org. Solving high-level content and organization problems shares precedence with writing the best code possible. From time to time I'm able to run, manage, design and own most of the front-end development on a project. <a href="http://www.dailyoragen.com" target="_blank">Dailyorange.com</a> is a great example of putting all of these interests to work via a responsive redesign for one of the country's first independent student newspapers.</p>
+					<p>Upstatement is known for its work on responsive sites like BostonGlobe.com and NPR.org. Solving high-level content and organization problems shares precedence with writing the best code possible. From time to time I'm able to run, manage, design and own most of the front-end development on a project. Dailyorange.com is a great example of putting all of these interests to work via a responsive redesign for one of the country's first independent student newspapers.</p>
 				
 
 
 					<img class="img-full full-m section-start" src="/_img/wordcamp-poster-upstatement-jp-boneyard.jpg" alt="Word Camp Poster" />
 
 					<h3>Design for Print</h3>
-					<p>My first love was print design. I love designing for the web there's no changing which of the two came first. I'm fortunate that I'm able to use this muscle rather often at Upstatement. On any given day I could be designing posters for Upstatement events, designing our business cards and stationary or designing and screen printing our holiday cards.</p>
+					<p>My first love was print design. I love designing for the web but there's no changing which of the two came first. I'm fortunate that I'm able to use this muscle rather often at Upstatement. On any given day I could be designing posters for Upstatement events, designing our business cards and stationary or designing and screen printing our holiday cards.</p>
 			
 
 
