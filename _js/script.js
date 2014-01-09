@@ -39,10 +39,6 @@ $('.letters-mod img').bind('inview', function(event, visible) {
   }
 });
 
-// Loads website on a mobile device: wWidth: 320... don't run code
-// Loads website on a laptop: wWidth: > 768... run code
-// Loads website on a laptop: wWidth > 768 but then they resize browser < 768
-// Loads website on a laptop: wWidth < 768 but then they resize browser > 768
 
 //Inview Video
   $('.site-video').bind('inview', function(event, visible) {
@@ -57,8 +53,6 @@ $('.letters-mod img').bind('inview', function(event, visible) {
       }
     }
   });
-
-
 
 
 //Anchor Slide

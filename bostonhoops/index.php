@@ -21,7 +21,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					
 					<div class="boston-hoops-web-mod img-sm">
 						<a href="http://www.hoopsproject.net" target="_blank">
-		 					<video class="site-video img-sm section-start boston-hoops-site" loop>
+		 					<video class="site-video img-sm section-start boston-hoops-site">
 							  	<source src="/_img/video/hoops-scroll.mp4" type="video/mp4">
 								<source src="/_img/video/hoops-scroll.ogv" type="video/ogg">
 								Your browser does not support the video tag.

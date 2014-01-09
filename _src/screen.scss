@@ -1041,8 +1041,20 @@ footer {
 
 .spark-camp-site {
 	display: none;
+	visibility: hidden;
+	-webkit-transform: translateX(1024px);
+ 	-moz-transform: translateX(1024px);
+  	-ms-transform: translateX(1024px);
+  	-o-transform: translateX(1024px);
+  	transform: translateX(1024px);
 
 	@media (min-width: 770px) {
+		-webkit-transform: translateX(0px);
+	 	-moz-transform: translateX(0px);
+	  	-ms-transform: translateX(0px);
+	  	-o-transform: translateX(0px);
+	  	transform: translateX(0px);
+		visibility: visible;
 		display: block;
 		background: url(../_img/spark-camp-web-site.jpg) 50% 50% no-repeat;
 		background-size: 86%;
@@ -1223,8 +1235,20 @@ footer {
 
 .boston-hoops-site {
 	display: none;
+	visibility: hidden;
+	-webkit-transform: translateX(1024px);
+ 	-moz-transform: translateX(1024px);
+  	-ms-transform: translateX(1024px);
+  	-o-transform: translateX(1024px);
+  	transform: translateX(1024px);
 
 	@media (min-width: 770px) {
+		-webkit-transform: translateX(0px);
+	 	-moz-transform: translateX(0px);
+	  	-ms-transform: translateX(0px);
+	  	-o-transform: translateX(0px);
+	  	transform: translateX(0px);
+		visibility: visible;
 		display: block;
 		background: url(../_img/boston-hoops-site.jpg) 50% 50% no-repeat;
 		background-size: 100% auto;
