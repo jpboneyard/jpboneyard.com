@@ -375,6 +375,32 @@ header {
 /*	Home										 */ 
 /* ============================================= */
 
+.home-intro-mod {
+	position: relative;
+}
+
+.home-intro:before {
+	content: '\0020';
+	background: url(../_img/home-intro-bite-in.png) 50% 50% repeat;
+	display: none;
+	height: 12px;
+	width: 100%;
+	position: absolute;
+	top: -12px;
+	left: 0px;
+	z-index: 4;	
+
+	@media (min-width: 700px) {
+		display: block;
+	}//mq700
+
+	@media (min-width: 1200px) {
+		display: block;
+		height: 24px;
+		top: -22px;
+	}//mq1200
+}
+
 .home-intro {
 	background-color: #fff;
 	margin: 0 auto;

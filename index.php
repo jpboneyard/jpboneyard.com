@@ -17,6 +17,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				<img class="home-topper" src="_img/home-topper-3.jpg" />
 		</div></a> <!-- /feat-project-mod -->
 
+		<div class="home-intro-mod">
 			<div class="home-intro">
 				<h1 class="nav-title">JP Boneyard</h1>
 				<h2><a href="/nationalposterretrospecticus">The National Poster Retrospecticus</a></h2>
@@ -25,7 +26,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				<div class="intro-overline">Design, Code, Art & Music Events</div> -->
  				<!-- <p>JP Boneyard designs and codes websites, loves hand-printing posters and setting up art and music events that bring people together.</p> -->
 			</div> <!-- /home-intro -->	
-
+		</div> <!-- /home-intro-mod -->	
 			<div class="home-tiles">
 				<?php include($_SERVER["DOCUMENT_ROOT"]."/_includes/project-tiles.php"); ?>
 			</div>	
