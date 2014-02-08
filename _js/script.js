@@ -32,11 +32,13 @@ $('.hdr-sign').bind('inview', function(event, visible) {
 
 //Inview Letter Project
 $('.letters-mod img').bind('inview', function(event, visible) {
-  if (visible) {
-    $(this).stop().animate({ opacity: 1 });
-  } else {
-    
-  }
+  if (windowWidth > 1100) {
+    if (visible) {
+      $(this).stop().animate({ opacity: 1 });
+    } else {
+      
+    }
+  } 
 });
 
 

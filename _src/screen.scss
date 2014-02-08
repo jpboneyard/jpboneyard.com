@@ -1185,7 +1185,11 @@ footer {
 
 .letters-mod {
 	img {
-		@include opacity(0);
+		@include opacity(1);
+
+		@media (min-width: 1100px) {
+			@include opacity(0);
+		}
 	}
 }
 
