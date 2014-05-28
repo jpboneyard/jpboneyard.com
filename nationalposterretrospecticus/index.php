@@ -14,7 +14,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">Event Production & Design</div>
 					<h1>The National Poster Retrospecticus</h1>
-					<p>Over 100 Artists! More than 300 Posters! <a href="http://www.nationalposterretrospecticus.com" target="_blank">The National Poster Retrospecticus</a> is a traveling art show that celebrates the made-by-hand aesthetic and posters. With origins that go back as far as 2006 and a rebirth in 2012, I've put everything I've got into this project in terms of booking the shows, curating work, installing shows, selling and shipping posters, branding, front-end development and all the rest!</p>
+					<p>Over 100 Artists! More than 300 Posters! <a href="http://www.nationalposterretrospecticus.com" target="_blank">The National Poster Retrospecticus</a> is a traveling art show that celebrates the made-by-hand aesthetic through poster design. With origins that go back as far as 2006 and a reboot in 2012, I've put everything I've got into this project in terms of booking the shows, curating work, installing shows, selling and shipping posters, branding, front-end development and all the rest!</p>
 
 					<p>Touring around the country with The NPR has been one of the greatest adventures of my life. It is through this adventure that I am able to combine my design skills, show planning background, love for community based events, enthusiasm for travel and passion for posters into one amazing experience. I am also fortunate enough to meet some of the most genuine and kindest people while on the road—most of whom share the same enthusiasm for posters. This enthusiasm is like fuel that helps keep me going while we make those eleven hour drives through crazy weather and deserted stretches of highway, hang 300 posters and host a packed show for one-night-only in each city.</p>
 					
@@ -71,15 +71,17 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 							<li><a href="http://www.johnpauljimenez.com/" target="_blank">John-Paul Jimenez</a></li>
 							<li><a href="http://www.linkedin.com/pub/andy-kokoszka/8/355/184" target="_blank">Andrew Kokoszka</a></li>
 							<li><a href="http://www.frenchpaper.com/" target="_blank">Brian French</a></li>
+							<li><a href="http://www.thesilentgiants.com/" target="_blank">Christopher Everhart</a></li>
 						</ul>
 
 						<ul class="npr-list last">
-							<li><a href="http://www.thesilentgiants.com/" target="_blank">Christopher Everhart</a></li>
 							<li><a href="http://insidetherockposterframe.blogspot.com/" target="_blank">Gary Spence</a></li>
 							<li><a href="http://www.nickprestileo.com/" target="_blank">Nick Prestileo</a></li>
 							<li><a href="http://www.behance.net/julie_manzi" target="_blank">Julie Manzi</a></li>
 							<li><a href="http://weinbergdesign.com/" target="_blank">James Weinberg</a></li>
 							<li><a href="http://upstatement.com/" target="_blank">Upstatement</a></li>
+							<li><a href="http://vimeo.com/brianbuccaroni" target="_blank">Brian Buccaroni</a></li>
+							<li><a href="https://www.doe-eyed.com/" target="_blank">Eric Nyffeler</a></li>
 						</ul>
 					</div>	
 
