@@ -1,17 +1,6 @@
 
 width: calc(100% - 19px);
 
-document.getElementsByClassName('site-video').play();
-
-//Inview Video
-$('video').bind('inview', function(event, visible) {
-  if (visible) {
-    $(this).stop().prop('autoplay', true);
-  } else {
-    $(this).stop().prop('autoplay', false);
-  }
-});
-
 
 	<p>It feels like the stars aligned when I first met Mike Swartz as my web design teacher in my final semester of Mass Art. Everyone around me was willing to bet that I'd end up doing a lot of branding, poster design, screenprinting and packaging after graduation. Web and interactive work was not in the cards for me. After wrapping up my portfolio site in Mikes Class he asked if I'd be working at <a href="http://www.upstatement.com" target="_blank">Upstatement</a>; a web consultancy here in Boston. The cool part about this invitation is that I'd get a wealth of new experience working on the web and running client projects but I'd also get to do my fair share of the branding, poster, packaging and printmaking work that was in my wheelhouse.</p>
 

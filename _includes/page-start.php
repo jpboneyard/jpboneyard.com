@@ -27,7 +27,7 @@
   <script type="text/javascript" src="/_js/libs/modernizr-2.6.1.min.js"></script>
 
   <!-- Web Fonts -->
-  <script type="text/javascript" src="//use.typekit.net/ryd8oxh.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/ikq7yit.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
 </head>
