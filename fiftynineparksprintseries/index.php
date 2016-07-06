@@ -36,7 +36,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 					<btn class="btn-submit btn-txt"> <a href="http://59parks.net" target="_blank">Launch The Site</a></btn>
 
 
-					<h3>Producing the Series</h3>
+					<h3 class="section-start">Producing the Series</h3>
 					<p>This means everything from funding the project to promoting it. One day you'll find me working with our printers to fine-tune colors. The next I'll be queuing up new artists, working with wholesalers, and creating promotions for the series. One of the most exciting challenges is thinking strategically about what moves to make next. Building a brand takes time. I can picture the finish line with all of the posters created and the show touring around the US. All of those posters can't be made over night though. We're limted by things like working capital and production times. But those limitations are fun to work with—they often lead to some fun creative problem solving. It's exciting to dream up and create new products that we can introduce to diversify the appeal of the brand.</p>
 
 
