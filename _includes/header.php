@@ -10,7 +10,8 @@
 		<ul class="nav-link-mod">
 			<li class="nav-link-item"><a href="/about">About</a></li>
 			<li class="nav-link-item"><a href="/contact">Contact</a></li>
-			<li class="nav-link-item"><a href="http://jpboneyard.tumblr.com/" target="_blank">Blog</a>
+			<li class="nav-link-item"><a href="https://www.instagram.com/jpboneyard/">Instagram</a></li>
+			<!-- <li class="nav-link-item"><a href="http://jpboneyard.tumblr.com/" target="_blank">Blog</a> -->
 		</ul> <!-- /nav-link-mod -->
 		</nav>		
 </header>

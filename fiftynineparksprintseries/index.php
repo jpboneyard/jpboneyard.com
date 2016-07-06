@@ -6,59 +6,42 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 		<div id="main" role="main">
 			<div class="feat-project-mod" id="top">
-				<img class="feat-project-img" src="/_img/national-poster-retrospecticus-topper.gif" alt="Fifty-Nine Parks Print Series Topper" />
+				<img class="feat-project-img" src="/_img/fifty-nine-parks-print-series-topper-2.jpg" alt="Fifty-Nine Parks Print Series Topper" />
 			</div> <!-- /feat-project-mod -->
 
 			<div class="project-page-mod">
 				<div class="project-page-content">
 
-					<div class="overline">Art Direction & Production</div>
-					<h1>The Fifty-Nine Parks Print Series</h1>
-					<p>This brand combines some of my favorite things: National Parks and screen printed posters! <a href="http://www.59parks.com" target="_blank">The Fifty-Nine Parks Print Series</a> is </p>
+					<div class="overline">Creative Direction & Production</div>
+					<h1>Fifty-Nine Parks Print Series</h1>
+					<p>More of my favorite things: The US National Parks and screen printed posters! <a href="http://www.59parks.net" target="_blank">The Fifty-Nine Parks Print Series</a> is falls under the umbrella of The National Poster Retrospecticus. The strength of the series comes from an eclectic mix of artists and the unique beauty of each park. The idea for this one is simple: celebrate the parks and some of our favorite poster artists in the world! Some of our early aspirations for the series included touring the parks with the show (in the works!) and getting the collection into the Library of Congress down the line. It's crazy to think the second aspiration has already come true! It's a total blast to work with so many talented artists and build another brand from scratch.</p>
 
-					<p>Touring around the country with The NPR has been one of the greatest adventures of my life. It is through this adventure that I am able to combine my design skills, show planning background, love for community based events, enthusiasm for travel and passion for posters into one amazing experience. I am also fortunate enough to meet some of the most genuine and kindest people while on the road—most of whom share the same enthusiasm for posters. This enthusiasm is like fuel that helps keep me going while we make those eleven hour drives through crazy weather and deserted stretches of highway, hang 300 posters and host a packed show for one-night-only in each city.</p>
+					<img class="img-full full-m section-start" src="/_img/fifty-nine-parks-print-series-wall.jpg" alt="Fity-Nine Parks Print Series Wall" />
+
+					<h3>Creative Direction</h3>
+					<p>Part of what makes this series exciting is working with so many different artists. I work with each artist through the research phase, concept development, initial sketches, and final art. The goal of each poster is to capture a scene that best represents the park and best suits each artists aesthetic strengths. It's no small task to create a static image that captures the essence of each park. Every artist has a different working style too. It's a fun challenge to adapt to those different styles while bringing in elements of both collaboration and cohesivness to the series.</p>
+
+					<img class="img-full full-m section-start" src="/_img/fifty-nine-parks-print-series-detail-justin-santora-biscayne-national-park.jpg" alt="Fity-Nine Parks Print Series Print Detail" />
+
+					<h3>Building the Brand</h3>
+					<p>One of the challenges of building a brand and maximizing your own output is knowing when to bring others into the fold. That has meant bringing in designers like <a href="http://www.neighborhood-studio.com/" target="_blank">Curtis Jinkins</a> to design the parks branding. We also teamed up with type designer <a href="http://www.rileycran.com/" target="_blank">Riley Cran</a> to design a custom typeface for the series. This meant I was freed up to build the parks website, create and typeset a poster template for the series, and expand upon the beautiful branding that Curtis created for us.</p>
+
 					
-
-					<img class="img-full full-m section-start" src="/_img/national-poster-retrospecticus-poster-jp-boneyard.jpg" alt="National Poster Retrospecticus Poster" />
-
-					<h3>Art Direction</h3>
-					<p>Retrospecticus is a funny word. The translation comes out to something along the lines of "to look forward" and "to look backward". Combine that with imagery from early American lore and we have the all seeing eye of providence. The brand is flexible enough to fit the needs of a 1" button, an extensive website, a poster series or a giant banner.</p>
-
-
-					<a href="http://www.nationalposterretrospecticus.com" target="_blank">
-						<video class="site-video img-med section-start npr-site">
-						  	<source src="/_img/video/npr-site-scroll.mp4" type="video/mp4">
-							<source src="/_img/video/npr-site-scroll.ogv" type="video/ogg">
-							Your browser does not support the video tag.
-						</video> 
-					</a>	
-
-					<a href="http://www.nationalposterretrospecticus.com" target="_blank">
-						<img class="site-video-poster img-med section-start" src="/_img/national-poster-retrospecticus-web.jpg" />
+					<a href="http://www.59parks.net" target="_blank">
+						<img class="img-sm section-start" src="/_img/fifty-nine-parks-print-series-site.jpg" />
 					</a> <!-- /site-video-poster-link -->	
+			
 
-					<h3>Production</h3>
-					<p>The design for the website has evolved right along with the needs of the site. My first pass was just something to announce and document the second coming of the show in 2012. The second, third and fourth passes were ways to document the tours, do a little lifting in the marketing department and do a better job of explaining what the heck this crazy show is all about.</p>
+					<h3>Producing the Series</h3>
+					<p>This means everything from funding the project to promoting it. One day you'll find me working with our printers to fine-tune colors. The next I'll be queuing up new artists, working with wholesalers, and creating promotions for the series. One of the most exciting challenges is thinking strategically about what moves to make next. Building a brand takes time. I can picture the finish line with all of the posters created and the show touring around the US. All of those posters can't be made over night though. We're limted by things like working capital and production times. But those limitations are fun to work with—they often lead to some fun creative problem solving. It's exciting to dream up and create new products that we can introduce to diversify the appeal of the brand.</p>
 
-					<btn class="btn-submit btn-txt"> <a href="http://www.nationalposterretrospecticus.com" target="_blank">Launch The Site</a></btn>
-
-
-
-					<div class="hdr-sign-container section-start">
-						<img class="hdr-pin" src="/_img/hdr-pin-2.png" alt="pin" />
-						<div class="hdr-sign">
-							<img class="hdr-slide-img" src="/_img/hdr-sign-2.png" alt="Tour Sign" />
-						</div> <!-- /hdr-sign -->	
-					</div> <!-- /hdr-sign-container -->	
-
-					<h3>Design</h3>
-					<p>This is where the heavy lifting comes in. Booking a cross-country art tour isn't standard fare—especially for one-night-only events. I've found that my previous experience booking bands came in handy. The logistical puzzle of booking consecutive shows, promoting each event across the interweb and in all of the local news and art publications can get heavy but I love digging into complex problems like this!</p>
+					<btn class="btn-submit btn-txt"> <a href="http://59parks.net" target="_blank">Launch The Site</a></btn>
 
 
-					<img class="img-full section-start" src="/_img/national-poster-retrospecticus-banner-jp-boneyard.jpg" alt="National Poster Retrospecticus Branding" />
+					<!-- I'll really feel like the series has accomplisehd something if we can get parks fans into posters and poster fans in to the parks. That's one of the biggest factors that influences the direction of the series and what moves we make next. -->
 
 
-					<img class="img-full img-ftr-top section-start" src="/_img/national-poster-retrospecticus-crowd.jpg" alt="National Poster Retrospecticus Photo of Boston Show" />
+					<img class="img-full img-ftr-top section-start" src="/_img/fifty-nine-parks-print-series-merch-5.jpg" alt="Fifty-Nine Parks Print Series Merch" />
 					
 				</div> <!-- /project-page-content -->					
 

@@ -15,12 +15,12 @@
 		</div> <!-- /tile-mod -->	
 
 		<div class="tile-2 tile-mod media-block">
-			<a class="tile-item-a" href="/lululemon">
+			<a class="tile-item-a" href="/fiftynineparksprintseries">
 				<div class="tile-item">
-					<img class="show-img-sm" src="/_img/tiles/lululemon.jpg" alt="lululemon"/>
+					<img class="show-img-sm" src="/_img/tiles/fifty-nine-parks-2.jpg" alt="fifty-nine parks"/>
 					<div class="tile-details">
-						<h4>LuluLemon</h4>
-						<div class="overline">Design & Printmaking</div>
+						<h4>Fifty-Nine Parks</h4>
+						<div class="overline">Creative Direction</div>
 					</div> <!-- /tile-details -->
 				</div> <!-- /tile-item -->	
 			</a> <!-- /tile-item-a -->	

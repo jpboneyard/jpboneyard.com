@@ -15,8 +15,12 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<div class="overline">Grab Bag</div>
 					<h1>Misc Projects</h1>
-					<p>Small side projects, freelance jobs or one-off pieces always find there way onto my radar in between working full time at <a href="/upstatement">Upstatement</a> and running <a href="/nationalposterretrospecticus">The National Poster Retrospecticus</a>.</p>
+					<p>Small side projects, freelance jobs or one-off pieces always find there way onto my radar in between running <a href="/nationalposterretrospecticus">The National Poster Retrospecticus</a> and <a href="/fiftynineparksprintseries"> The Fifty-Nine Parks Print Series</a>. Here's a look at a few of my favorites.</p>
 
+					<img class="img-full img-first" src="/_img/lululemon-installation-jp-boneyard.jpg" alt="Lululemon wall art 1" />
+
+					<h3>LuluLemon</h3>
+					<p>I was stoked when Lululemon reached out about creating a unique piece of art for a new store in Boston Mass. The slogan came from lulu's mission statement and the overall aesthetic was inspired by Newbury Street and the new space itself. We worked with Seaport Graphics in Boston to fabricate the final piece. The crew at Seaport did an amazing job scouting out the wood (seriously, this was once an old 9'x9' barn door!), rope and other supplies we had requested to produce the installation. A cool bonus was working with three-dimensional type—Nothing beats the physicality involved with setting 7" pieces of machined type with your hands.</p>
 
 					<img class="img-sm section-start" src="/_img/JP-Boneyard-Springfield-Mass-Been-Everywhere-Project.jpg" alt="Been Everywhere Project" />
 

@@ -13,7 +13,7 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 				<div class="project-page-content">
 
 					<div class="overline">Event Production</div>
-					<h1>15 Years of DIY Shows</h1>
+					<h1>17 Years of DIY Shows</h1>
 
 					<p>Since 1999 I have helped organize and promote over 275 all ages DIY shows in Massachusetts and around the country, with local, regional, national and international artists. Facilitating these community minded art and music events is something I've always felt passionately about, even as far back as high school. I'm thankful for growing up in a small mill town without a lot to do because this challenged friends and myself to make our own fun and to do something positive in our community. It was through these shows that I got my start designing and printing show posters and album art for bands.</p>
 					
@@ -25,8 +25,9 @@ include($_SERVER["DOCUMENT_ROOT"]."/_includes/page-start.php"); ?>
 
 					<p>Long time collaborator and my original design guru Mike Swiatlowski got the ball rolling in Palmer. His family owned a drug store for several generations and when the space went up for lease Mike was able to convince his folks to let the kids of Palmer get together for a show in the now empty space. This single show turned into 38 other events until the space was eventually sold. Amazing bands from all over the country like Converge, Atom and His Package and XBXRX passed through our small town to play The Old Store.</p>	
 				
-					<img class="img-sm section-end" src="/_img/theoldstore.jpg" alt="The Old Store" />
+					<!-- <img class="img-sm section-end" src="/_img/theoldstore.jpg" alt="The Old Store" /> -->
 
+					<iframe class="img-sm section-end" src="https://player.vimeo.com/video/135630499?title=0&byline=0&portrait=0" width="650" height="366" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 					<h3>The Shed</h3>
 
